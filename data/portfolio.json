@@ -1,18 +1,18 @@
 [
   {
-    "title": "My First Test",
+    "title": "Sage",
     "category": "Portraits",
-    "session": "Portrait Study",
+    "session": "Breaking Character",
     "placement": "Homepage & Portfolio",
-    "src": "/images/uploads/screenshot-2026-11-21-164438.png",
+    "src": "/images/uploads/img0542.jpeg",
     "sample": true
   },
   {
-    "title": "The Last Light",
-    "category": "Automotive",
-    "session": "Automotive After Dark",
-    "placement": "Homepage & Portfolio",
-    "src": "images/samples/sample-02.webp",
+    "title": "Rachel",
+    "category": "Portraits",
+    "session": "Tears in a thugs eye",
+    "placement": "Portfolio",
+    "src": "/images/uploads/img0543.jpeg",
     "sample": true
   },
   {
