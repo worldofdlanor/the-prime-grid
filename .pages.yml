@@ -1,0 +1,53 @@
+media:
+  input: images/uploads
+  output: /images/uploads
+  rename: safe
+  extensions: [jpg, jpeg, png, webp]
+
+content:
+  - name: photos
+    label: Website Photos
+    type: file
+    path: data/portfolio.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Photo Title
+        type: string
+        required: true
+      - name: category
+        label: Portfolio Category
+        type: select
+        required: true
+        options:
+          values:
+            - { name: 'Portraits', label: 'Portraits' }
+            - { name: 'Automotive', label: 'Automotive' }
+            - { name: 'Sports', label: 'Sports' }
+            - { name: 'Couples / weddings', label: 'Couples / weddings' }
+            - { name: 'Travel / street', label: 'Travel / street' }
+            - { name: 'Commercial / product', label: 'Commercial / products' }
+            - { name: 'Personal projects', label: 'Personal projects' }
+            - { name: 'Other', label: 'Other' }
+      - name: session
+        label: Session / Collection
+        type: string
+        description: Name of your photo session
+      - name: placement
+        label: Where Should It Show?
+        type: select
+        required: true
+        options:
+          values:
+            - { name: 'Portfolio', label: 'Portfolio Gallery' }
+            - { name: 'Homepage & Portfolio', label: 'Homepage Slideshow and Portfolio' }
+            - { name: 'About', label: 'About Page Portrait' }
+            - { name: 'Magazine', label: 'The Prime Magazine Cover' }
+      - name: src
+        label: Upload Photo
+        type: image
+        required: true
+      - name: sample
+        label: This Is a Sample Image
+        type: boolean
