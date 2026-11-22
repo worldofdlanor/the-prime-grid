@@ -6,7 +6,7 @@ media:
 
 content:
   - name: photos
-    label: Website Photos
+    label: Individual Website Photos
     type: file
     path: data/portfolio.json
     format: json
@@ -51,3 +51,41 @@ content:
       - name: sample
         label: This Is a Sample Image
         type: boolean
+
+  - name: albums
+    label: Session Albums
+    type: file
+    path: data/albums.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Session Name
+        type: string
+        required: true
+        description: To add to an existing session, use its current name and category.
+      - name: category
+        label: Portfolio Category
+        type: select
+        required: true
+        options:
+          values:
+            - { name: 'Portraits', label: 'Portraits' }
+            - { name: 'Automotive', label: 'Automotive' }
+            - { name: 'Sports', label: 'Sports' }
+            - { name: 'Couples / weddings', label: 'Couples / weddings' }
+            - { name: 'Travel / street', label: 'Travel / street' }
+            - { name: 'Commercial / product', label: 'Commercial / products' }
+            - { name: 'Personal projects', label: 'Personal projects' }
+            - { name: 'Other', label: 'Other' }
+      - name: photos
+        label: Album Photos
+        type: image
+        required: true
+        description: Upload or select photos together. The first photo is the album cover for new sessions.
+        options:
+          multiple:
+            min: 1
+          unique: true
+          rename: random
+          extensions: [jpg, jpeg, png, webp]

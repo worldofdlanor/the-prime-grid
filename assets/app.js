@@ -19,24 +19,143 @@ const photos=portfolioPhotos.length?portfolioPhotos:allImages;
 const selectedHero=allImages.filter(p=>p.placement==='Homepage & Portfolio');
 const customHero=selectedHero.filter(p=>!p.sample);
 const heroPhotos=customHero.length?customHero:selectedHero.length?selectedHero:photos;
-let filtered=photos.slice(),categoryFilter='All',sessionFilter='all',viewerIndex=0,heroIndex=0;
+let filtered=[],categoryFilter='All',sessionFilter='',viewerIndex=0,heroIndex=0;
 const toast=message=>{const el=$('#toast');el.textContent=message;el.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.hidden=true,4500)};
 const styleClass=cat=>classes[cat]||'art-personal';
 const photoNode=(p,scope)=>{const holder=document.createElement('div');holder.className=`${scope} ${styleClass(p.category)}`;if(p.src){const img=document.createElement('img');img.src=p.src;img.alt=`${p.title}, ${p.category}`;img.loading=scope==='tile-art'?'lazy':'eager';img.decoding='async';holder.appendChild(img)}if(p.sample){const label=document.createElement('span');label.className='sample-chip';label.textContent='SAMPLE IMAGE';holder.appendChild(label)}return holder};
 // Hero carousel, manual controls only.
-function updateHero(){const chosen=heroPhotos[heroIndex%heroPhotos.length],hero=$('#hero-art');hero.className=`hero-art ${styleClass(chosen.category)}${chosen.src?' has-photo':''}`;hero.style.backgroundImage=chosen.src?`url(${JSON.stringify(chosen.src)})`:'';hero.innerHTML=chosen.src?'':'<div class="art-pattern" aria-hidden="true"><i></i><i></i><i></i><i></i></div>';const label=document.createElement('span');label.className='photo-placeholder-label';label.textContent=chosen.sample?'SAMPLE PHOTOGRAPH / REPLACE WITH YOUR WORK':chosen.title.toUpperCase();hero.appendChild(label);$('#slide-number').textContent=`${String(heroIndex%Math.min(3,heroPhotos.length)+1).padStart(2,'0')} / ${String(Math.min(3,heroPhotos.length)).padStart(2,'0')}`}
-const shiftHero=d=>{heroIndex=(heroIndex+d+Math.min(3,heroPhotos.length))%Math.min(3,heroPhotos.length);updateHero()};$('#hero-prev').addEventListener('click',()=>shiftHero(-1));$('#hero-next').addEventListener('click',()=>shiftHero(1));updateHero();
-// Session-focused portfolio with category filters and full-screen viewer.
-const filterSet=$('#category-filters');['All',...cats].forEach(cat=>{const b=document.createElement('button');b.type='button';b.textContent=cat==='Commercial / product'?'Commercial':cat==='Couples / weddings'?'Couples':cat==='Travel / street'?'Travel':cat==='Personal projects'?'Personal':cat;b.dataset.cat=cat;b.setAttribute('aria-pressed',cat==='All'?'true':'false');b.addEventListener('click',()=>{categoryFilter=cat;filterSet.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.cat===cat)));renderGallery()});filterSet.appendChild(b)});
-const sessionSelect=$('#session-filter');[...new Set(photos.map(p=>p.session))].forEach(s=>{const o=document.createElement('option');o.value=s;o.textContent=s;sessionSelect.appendChild(o)});sessionSelect.addEventListener('change',e=>{sessionFilter=e.target.value;renderGallery()});
-function renderGallery(){filtered=photos.filter(p=>(categoryFilter==='All'||p.category===categoryFilter)&&(sessionFilter==='all'||p.session===sessionFilter));const grid=$('#gallery-grid');grid.replaceChildren();if(!filtered.length){grid.innerHTML='<p class="empty-gallery">Nothing in this collection yet. Try another filter.</p>'}filtered.forEach((p,i)=>{const tile=document.createElement('button');tile.type='button';tile.className='photo-tile '+(i%7===0?'wide':i%7===4?'tall':'');tile.setAttribute('aria-label',`Open ${p.title} in full-screen gallery`);tile.appendChild(photoNode(p,'tile-art'));const info=document.createElement('span');info.className='tile-meta';info.innerHTML=`<span><small>${safe(p.category.toUpperCase())} / ${safe(p.session.toUpperCase())}</small><strong>${safe(p.title)}</strong></span><span class="tile-open" aria-hidden="true">↗</span>`;tile.appendChild(info);tile.addEventListener('click',()=>openViewer(i));grid.appendChild(tile)});$('#gallery-count').textContent=`SHOWING ${filtered.length} ${filtered.length===1?'FRAME':'FRAMES'}${photos.some(p=>p.sample)?' / SAMPLE PHOTOS INCLUDED':''}`}
+function updateHero(){const chosen=heroPhotos[heroIndex%heroPhotos.length],hero=$('#hero-art');if(!chosen)return;hero.className=`hero-art ${styleClass(chosen.category)}${chosen.src?' has-photo':''}`;hero.style.backgroundImage=chosen.src?`url(${JSON.stringify(chosen.src)})`:'';hero.innerHTML=chosen.src?'':'<div class="art-pattern" aria-hidden="true"><i></i><i></i><i></i><i></i></div>';const label=document.createElement('span');label.className='photo-placeholder-label';label.textContent=chosen.sample?'SAMPLE PHOTOGRAPH / REPLACE WITH YOUR WORK':chosen.title.toUpperCase();hero.appendChild(label);$('#slide-number').textContent=`${String(heroIndex%Math.min(3,heroPhotos.length)+1).padStart(2,'0')} / ${String(Math.min(3,heroPhotos.length)).padStart(2,'0')}`}
+const shiftHero=d=>{if(heroPhotos.length<2)return;heroIndex=(heroIndex+d+Math.min(3,heroPhotos.length))%Math.min(3,heroPhotos.length);updateHero()};$('#hero-prev').addEventListener('click',()=>shiftHero(-1));$('#hero-next').addEventListener('click',()=>shiftHero(1));updateHero();
+// Keep existing portfolio entries in their sessions and append CMS album uploads.
+const albums = new Map();
+function getAlbum(category, title) {
+  const key = JSON.stringify([category, title]);
+  if (!albums.has(key)) albums.set(key, { key, category, title, photos: [] });
+  return albums.get(key);
+}
+photos.forEach(photo => getAlbum(photo.category, photo.session).photos.push(photo));
+for (const entry of window.PRIME_ALBUMS || []) {
+  const title = typeof entry?.title === 'string' ? entry.title.trim() : '';
+  if (!title || !Array.isArray(entry.photos)) continue;
+  const category = cats.includes(entry.category) ? entry.category : 'Other';
+  for (const src of entry.photos) {
+    if (typeof src !== 'string' || !src.trim()) continue;
+    const album = getAlbum(category, title);
+    if (album.photos.some(photo => photo.src === src)) continue;
+    album.photos.push({
+      title: `${title} · Frame ${album.photos.length + 1}`,
+      category, session: title, src, sample: false
+    });
+  }
+}
+
+const filterSet = $('#category-filters');
+const sessionSelect = $('#session-filter');
+const albumTitle = $('#album-title');
+const frames = count => `${count} ${count === 1 ? 'frame' : 'frames'}`;
+const categoryAlbums = () => [...albums.values()].filter(album =>
+  categoryFilter === 'All' || album.category === categoryFilter
+);
+const categoryLabels = {
+  'Commercial / product': 'Commercial',
+  'Couples / weddings': 'Couples',
+  'Travel / street': 'Travel',
+  'Personal projects': 'Personal'
+};
+for (const category of ['All', ...cats]) {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.textContent = categoryLabels[category] || category;
+  button.setAttribute('aria-pressed', String(category === 'All'));
+  button.addEventListener('click', () => {
+    categoryFilter = category;
+    sessionFilter = '';
+    for (const control of filterSet.children) {
+      control.setAttribute('aria-pressed', String(control === button));
+    }
+    renderGallery();
+  });
+  filterSet.appendChild(button);
+}
+
+function openAlbum(key) {
+  sessionFilter = key;
+  renderGallery();
+  albumTitle.focus();
+}
+sessionSelect.addEventListener('change', () => {
+  if (sessionSelect.value) openAlbum(sessionSelect.value);
+  else {
+    sessionFilter = '';
+    renderGallery();
+  }
+});
+$('#album-back').addEventListener('click', () => {
+  const previousAlbum = sessionFilter;
+  sessionFilter = '';
+  renderGallery();
+  const cover = [...$('#gallery-grid').children].find(tile => tile.dataset.album === previousAlbum);
+  (cover || sessionSelect).focus();
+});
+
+function galleryTile(photo, index, title, subtitle, label, onClick) {
+  const tile = document.createElement('button');
+  tile.type = 'button';
+  tile.className = 'photo-tile ' + (index % 7 === 0 ? 'wide' : index % 7 === 4 ? 'tall' : '');
+  tile.setAttribute('aria-label', label);
+  tile.appendChild(photoNode(photo, 'tile-art'));
+  const info = document.createElement('span');
+  info.className = 'tile-meta';
+  info.innerHTML = `<span><small>${safe(subtitle.toUpperCase())}</small><strong>${safe(title)}</strong></span><span class="tile-open" aria-hidden="true">↗</span>`;
+  tile.appendChild(info);
+  tile.addEventListener('click', onClick);
+  return tile;
+}
+
+function renderGallery() {
+  const available = categoryAlbums();
+  const selected = albums.get(sessionFilter);
+  sessionSelect.replaceChildren(new Option('All sessions', ''));
+  for (const album of available) {
+    sessionSelect.add(new Option(`${album.title} (${album.category})`, album.key));
+  }
+  sessionSelect.value = sessionFilter;
+  $('#album-heading').hidden = !selected;
+  albumTitle.textContent = selected?.title || '';
+  const grid = $('#gallery-grid');
+  grid.replaceChildren();
+  filtered = selected?.photos || [];
+  if (selected) {
+    filtered.forEach((photo, index) => grid.appendChild(galleryTile(
+      photo, index, photo.title, photo.category,
+      `Open ${photo.title}, photo ${index + 1} of ${filtered.length}`,
+      () => openViewer(index)
+    )));
+  } else {
+    available.forEach((album, index) => {
+      const count = frames(album.photos.length);
+      const cover = album.photos.find(photo => !photo.sample) || album.photos[0];
+      const tile = galleryTile(cover, index, album.title, `${album.category} / ${count}`,
+        `Open ${album.title}, ${album.category}, ${count}`, () => openAlbum(album.key));
+      tile.dataset.album = album.key;
+      grid.appendChild(tile);
+    });
+    if (!available.length) {
+      grid.innerHTML = '<p class="empty-gallery">No albums in this category yet.</p>';
+    }
+  }
+  const count = selected ? frames(filtered.length) : `${available.length} ${available.length === 1 ? 'album' : 'albums'}`;
+  const containsSamples = selected ? filtered.some(photo => photo.sample) :
+    available.some(album => album.photos.some(photo => photo.sample));
+  $('#gallery-count').textContent = `Showing ${count}${containsSamples ? ' / Sample photos included' : ''}`.toUpperCase();
+}
 renderGallery();
 const lightbox=$('#lightbox');function updateViewer(){const p=filtered[viewerIndex];if(!p)return;$('#lightbox-index').textContent=`${String(viewerIndex+1).padStart(2,'0')} / ${String(filtered.length).padStart(2,'0')}`;$('#lightbox-category').textContent=p.category.toUpperCase();$('#lightbox-title').textContent=p.title;$('#lightbox-session').textContent=p.session;$('#lightbox-image').replaceChildren();$('#lightbox-image').appendChild(photoNode(p,'tile-art'));const dl=$('#lightbox-download');dl.hidden=!p.src||p.sample;if(p.src){dl.href=p.src;dl.download=p.src.split('/').pop().split('?')[0]||'the-prime-grid.jpg'}else{const l=document.createElement('span');l.textContent='PHOTO PLACEHOLDER / ADD YOUR IMAGE LATER';l.style.cssText='position:absolute;background:#111a;padding:20px;letter-spacing:.16em;font-size:11px;text-align:center';$('#lightbox-image').appendChild(l)}}
-function openViewer(i){viewerIndex=i;updateViewer();lightbox.showModal();document.body.classList.add('modal-open')}
+function openViewer(i){viewerIndex=i;updateViewer();$('#lightbox-prev').disabled=filtered.length<2;$('#lightbox-next').disabled=filtered.length<2;lightbox.showModal();document.body.classList.add('modal-open')}
 function closeViewer(){lightbox.close();document.body.classList.remove('modal-open')}
-const moveViewer=d=>{if(!filtered.length)return;viewerIndex=(viewerIndex+d+filtered.length)%filtered.length;updateViewer()};$('#lightbox-prev').addEventListener('click',()=>moveViewer(-1));$('#lightbox-next').addEventListener('click',()=>moveViewer(1));$('#lightbox-close').addEventListener('click',closeViewer);lightbox.addEventListener('close',()=>document.body.classList.remove('modal-open'));lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeViewer()});
+const moveViewer=d=>{if(filtered.length<2)return;viewerIndex=(viewerIndex+d+filtered.length)%filtered.length;updateViewer()};$('#lightbox-prev').addEventListener('click',()=>moveViewer(-1));$('#lightbox-next').addEventListener('click',()=>moveViewer(1));$('#lightbox-close').addEventListener('click',closeViewer);lightbox.addEventListener('close',()=>document.body.classList.remove('modal-open'));lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeViewer()});
 $('#lightbox-image').addEventListener('click',e=>{if(e.target.tagName==='IMG')e.target.classList.toggle('zoomed')});
-window.addEventListener('keydown',e=>{if(!lightbox.open)return;if(e.key==='ArrowLeft')moveViewer(-1);if(e.key==='ArrowRight')moveViewer(1)});
+window.addEventListener('keydown',e=>{if(!lightbox.open)return;if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();moveViewer(e.key==='ArrowLeft'?-1:1)}});
 // Photograph for the About page. New uploads take priority over sample imagery.
 const aboutChoices=allImages.filter(p=>p.placement==='About');
 const aboutPhoto=aboutChoices.filter(p=>!p.sample).at(-1)||aboutChoices.at(-1);
@@ -68,7 +187,23 @@ if(!cfg.clientGalleryUrl){$('#client-link').addEventListener('click',e=>{e.preve
 if(cfg.calendarUrl){try{const url=new URL(cfg.calendarUrl);if(url.protocol==='https:'){const panel=$('#calendar-container');panel.classList.add('with-iframe');panel.replaceChildren();const iframe=document.createElement('iframe');iframe.src=url.href;iframe.title='Live booking calendar from scheduling provider';iframe.loading='lazy';panel.appendChild(iframe);const link=document.createElement('a');link.href=url.href;link.target='_blank';link.rel='noopener noreferrer';link.textContent='OPEN BOOKING CALENDAR IN NEW TAB ↗';link.style.cssText='padding:15px;color:white;font-size:11px;letter-spacing:.1em';panel.appendChild(link)}}catch(e){}}
 const form=$('#inquiry-form');form.addEventListener('submit',async e=>{e.preventDefault();if(!form.reportValidity())return;const fd=new FormData(form);const message=`THE PRIME GRID — PHOTOGRAPHY INQUIRY\n\n${[...fd.entries()].map(([key,val])=>`${key.toUpperCase()}: ${val}`).join('\n')}\n\nI understand this request is not a confirmed booking.`;const email=cfg.contactEmail||'';if(/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){location.href=`mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent('The Prime Grid · New photography inquiry')}&body=${encodeURIComponent(message)}`;$('#inquiry-status').textContent='An email draft was opened. Please send it from your mail app to deliver the inquiry.'}else{try{await navigator.clipboard.writeText(message);$('#inquiry-status').textContent='Your inquiry was copied to the clipboard. It has NOT been sent. Save it until contact is connected.';toast('Inquiry copied. No booking request has been sent.')}catch(err){const blob=new Blob([message],{type:'text/plain'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='the-prime-grid-inquiry.txt';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);$('#inquiry-status').textContent='A text file was downloaded. Your inquiry has NOT been sent.'}}});
 // Responsive navigation, scroll indicator, reduced-motion-safe reveal.
-$('#menu-button').addEventListener('click',()=>{const nav=$('#mobile-navigation');nav.hidden=!nav.hidden;$('#menu-button').setAttribute('aria-expanded',String(!nav.hidden))});$$('#mobile-navigation a').forEach(a=>a.addEventListener('click',()=>{$('#mobile-navigation').hidden=true;$('#menu-button').setAttribute('aria-expanded','false')}));
+const menuButton = $('#menu-button');
+const mobileNav = $('#mobile-navigation');
+function setMenu(open) {
+  mobileNav.hidden = !open;
+  menuButton.setAttribute('aria-expanded', String(open));
+}
+menuButton.addEventListener('click', () => setMenu(mobileNav.hidden));
+$$('#mobile-navigation a').forEach(link => link.addEventListener('click', () => setMenu(false)));
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && !mobileNav.hidden && !lightbox.open && !articleModal.open) {
+    setMenu(false);
+    menuButton.focus();
+  }
+});
+matchMedia('(max-width: 1150px)').addEventListener('change', event => {
+  if (!event.matches) setMenu(false);
+});
 $('#copyright-year').textContent=new Date().getFullYear();
 const updateScroll=()=>{let max=document.documentElement.scrollHeight-innerHeight;$('#scroll-progress').style.width=(max>0?window.scrollY/max*100:0)+'%'};window.addEventListener('scroll',updateScroll,{passive:true});updateScroll();
 if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.10});$$('.section-head,.service-row,.package-card,.mag-card,.intro-strip,.review-placeholder').forEach(x=>{x.classList.add('reveal');io.observe(x)})}
