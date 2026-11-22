@@ -1,32 +1,32 @@
 [
   {
-    "title": "Test photo 1",
+    "title": "Opening Portrait",
     "category": "Portraits",
-    "session": "Test Photoshoot",
+    "session": "After Hours Portrait Session",
     "placement": "Homepage & Portfolio",
     "src": "images/samples/sample-01.webp",
     "sample": true
   },
   {
-    "title": "Test photo 2",
+    "title": "Close Portrait",
     "category": "Portraits",
-    "session": "Test Photoshoot",
+    "session": "After Hours Portrait Session",
     "placement": "Portfolio",
     "src": "images/samples/sample-08.webp",
     "sample": true
   },
   {
-    "title": "Test photo 3",
+    "title": "Soft Light",
     "category": "Portraits",
-    "session": "Test Photoshoot",
+    "session": "After Hours Portrait Session",
     "placement": "Portfolio",
     "src": "images/samples/sample-10.webp",
     "sample": true
   },
   {
-    "title": "Test photo 4",
+    "title": "Final Portrait",
     "category": "Portraits",
-    "session": "Test Photoshoot",
+    "session": "After Hours Portrait Session",
     "placement": "Portfolio",
     "src": "images/samples/sample-17.webp",
     "sample": true
