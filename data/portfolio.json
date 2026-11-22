@@ -1,18 +1,34 @@
 [
   {
-    "title": "Sage",
+    "title": "Test photo 1",
     "category": "Portraits",
-    "session": "Breaking Character",
+    "session": "Test Photoshoot",
     "placement": "Homepage & Portfolio",
-    "src": "/images/uploads/img0542.jpeg",
+    "src": "images/samples/sample-01.webp",
     "sample": true
   },
   {
-    "title": "Rachel",
+    "title": "Test photo 2",
     "category": "Portraits",
-    "session": "Tears in a thugs eye",
+    "session": "Test Photoshoot",
     "placement": "Portfolio",
-    "src": "/images/uploads/img0543.jpeg",
+    "src": "images/samples/sample-08.webp",
+    "sample": true
+  },
+  {
+    "title": "Test photo 3",
+    "category": "Portraits",
+    "session": "Test Photoshoot",
+    "placement": "Portfolio",
+    "src": "images/samples/sample-10.webp",
+    "sample": true
+  },
+  {
+    "title": "Test photo 4",
+    "category": "Portraits",
+    "session": "Test Photoshoot",
+    "placement": "Portfolio",
+    "src": "images/samples/sample-17.webp",
     "sample": true
   },
   {
