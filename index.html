@@ -27,7 +27,7 @@
       <a href="#work">Work</a><a href="#about">About</a><a href="#services">Services</a><a href="#magazine">Magazine</a><a href="#clients">Client access</a>
     </nav>
     <a class="nav-book" href="#booking">BOOK A SESSION <span aria-hidden="true">↗</span></a>
-    <button id="menu-button" class="menu-button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-navigation"><span></span><span></span></button>
+    <button id="menu-button" class="menu-button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-navigation"><span></span><span></span></button>
   </header>
   <nav id="mobile-navigation" class="mobile-nav" aria-label="Mobile navigation" hidden>
     <a href="#work">The work</a><a href="#about">About</a><a href="#services">Services</a><a href="#magazine">The Prime Magazine</a><a href="#clients">Client access</a><a href="#booking">Book a session ↗</a>
@@ -55,13 +55,17 @@
     </section>
 
     <section class="work-section dark-section" id="work" aria-labelledby="work-heading">
-      <div class="section-head section-pad"><div><p class="eyebrow">01 / SELECTED PORTFOLIO</p><h2 id="work-heading">The <em>Work.</em></h2></div><div class="head-side"><p>A preview of your future portfolio, with clearly labeled sample images until your original work is added.</p><span class="tiny-meta">HOVER TO DISCOVER / TAP TO OPEN</span></div></div>
+      <div class="section-head section-pad"><div><p class="eyebrow">01 / SELECTED PORTFOLIO</p><h2 id="work-heading">The <em>Work.</em></h2></div><div class="head-side"><p>A preview of your future portfolio, with clearly labeled sample images until your original work is added.</p><span class="tiny-meta">OPEN AN ALBUM TO EXPLORE THE SESSION</span></div></div>
       <div class="portfolio-toolbar section-pad">
         <div class="filter-set" id="category-filters" aria-label="Filter portfolio by category"></div>
-        <label class="session-picker">SESSION <select id="session-filter"><option value="all">All sessions</option></select></label>
+        <label class="session-picker">SESSION <select id="session-filter"><option value="">All sessions</option></select></label>
       </div>
-      <div id="gallery-grid" class="gallery-grid" aria-live="polite"></div>
-      <div class="portfolio-foot section-pad"><span id="gallery-count">SHOWING 12 FRAMES</span><a href="#booking" class="under-link under-light">HAVE A PROJECT IN MIND? <span>↗</span></a></div>
+      <div id="album-heading" class="album-heading section-pad" hidden>
+        <button id="album-back" type="button">← All albums</button>
+        <h3 id="album-title" tabindex="-1"></h3>
+      </div>
+      <div id="gallery-grid" class="gallery-grid"></div>
+      <div class="portfolio-foot section-pad"><span id="gallery-count" role="status"></span><a href="#booking" class="under-link under-light">HAVE A PROJECT IN MIND? <span>↗</span></a></div>
     </section>
 
     <section class="statement-section section-pad"><p class="eyebrow black-eyebrow">AN APPROACH, NOT A FILTER</p><blockquote>“A strong photograph doesn't just show you what happened. It gives you something <em>to feel.</em>”</blockquote><div class="statement-foot"><span>THE PRIME GRID / CREATIVE PHILOSOPHY</span><svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="37" stroke="currentColor" fill="none" stroke-width="1"/><path d="M40 6V74M6 40H74" stroke="currentColor" stroke-width=".8"/><circle cx="40" cy="40" r="7" fill="currentColor"/></svg></div></section>
@@ -85,7 +89,7 @@
     </section>
   </main>
   <footer class="site-footer"><div class="footer-top"><div><div class="footer-brand">THE PRIME <em>GRID.</em></div><p>Stories worth framing.<br>Moments worth remembering.</p></div><div class="footer-nav"><div><span>EXPLORE</span><a href="#work">Portfolio</a><a href="#about">About</a><a href="#services">Services</a><a href="#magazine">Magazine</a></div><div><span>CONNECT</span><a href="#booking">Booking</a><a id="social-instagram" href="https://www.instagram.com/theprimegrid/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a id="social-facebook" hidden target="_blank" rel="noopener noreferrer">Facebook ↗</a><a id="social-tiktok" hidden target="_blank" rel="noopener noreferrer">TikTok ↗</a><a id="social-youtube" hidden target="_blank" rel="noopener noreferrer">YouTube ↗</a><a id="social-pinterest" hidden target="_blank" rel="noopener noreferrer">Pinterest ↗</a></div></div></div><div class="footer-bottom"><span>© <span id="copyright-year"></span> THE PRIME GRID. ALL RIGHTS RESERVED.</span><span>TEXAS / EVERYWHERE THE STORY TAKES US</span><a href="privacy.html">PRIVACY & POLICIES</a><a href="#top">BACK TO TOP ↑</a></div></footer>
-  <dialog id="lightbox" class="lightbox" aria-label="Portfolio image viewer"><div class="lightbox-head"><span id="lightbox-index">01 / 12</span><span id="lightbox-category">THE PRIME GRID</span><button id="lightbox-close" aria-label="Close image viewer">✕</button></div><div id="lightbox-image" class="lightbox-image" aria-label="Selected portfolio photo"></div><div class="lightbox-bottom"><div><strong id="lightbox-title">SESSION</strong><span id="lightbox-session"></span></div><div class="lightbox-buttons"><a id="lightbox-download" hidden download aria-label="Download original photo">↓ DOWNLOAD</a><button id="lightbox-prev" aria-label="Previous photo">←</button><button id="lightbox-next" aria-label="Next photo">→</button></div></div></dialog>
+  <dialog id="lightbox" class="lightbox" aria-label="Portfolio image viewer"><div class="lightbox-head"><span id="lightbox-index">01 / 12</span><span id="lightbox-category">THE PRIME GRID</span><button id="lightbox-close" autofocus aria-label="Close image viewer">✕</button></div><div id="lightbox-image" class="lightbox-image" aria-label="Selected portfolio photo"></div><div class="lightbox-bottom"><div><strong id="lightbox-title">SESSION</strong><span id="lightbox-session"></span></div><div class="lightbox-buttons"><a id="lightbox-download" hidden download aria-label="Download original photo">↓ DOWNLOAD</a><button id="lightbox-prev" aria-label="Previous photo">←</button><button id="lightbox-next" aria-label="Next photo">→</button></div></div></dialog>
   <dialog id="article-modal" class="article-modal" aria-label="Magazine article"><button id="article-close" class="article-close" aria-label="Close article">✕ CLOSE</button><div class="article-modal-body" id="article-body"></div></dialog>
   <div id="toast" class="toast" aria-live="polite" hidden></div>
 </body>
