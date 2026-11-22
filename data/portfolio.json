@@ -1,162 +1,434 @@
 [
   {
-    "title": "Opening Portrait",
+    "title": "Breaking Character · 01",
     "category": "Portraits",
-    "session": "After Hours Portrait Session",
+    "session": "Breaking Character",
     "placement": "Homepage & Portfolio",
-    "src": "images/samples/sample-01.webp",
-    "sample": true
+    "src": "/images/uploads/breaking-character-01.webp",
+    "sample": false
   },
   {
-    "title": "Close Portrait",
+    "title": "Breaking Character · 02",
     "category": "Portraits",
-    "session": "After Hours Portrait Session",
+    "session": "Breaking Character",
     "placement": "Portfolio",
-    "src": "images/samples/sample-08.webp",
-    "sample": true
+    "src": "/images/uploads/breaking-character-02.webp",
+    "sample": false
   },
   {
-    "title": "Soft Light",
+    "title": "Breaking Character · 03",
     "category": "Portraits",
-    "session": "After Hours Portrait Session",
+    "session": "Breaking Character",
     "placement": "Portfolio",
-    "src": "images/samples/sample-10.webp",
-    "sample": true
+    "src": "/images/uploads/breaking-character-03.webp",
+    "sample": false
   },
   {
-    "title": "Final Portrait",
+    "title": "Breaking Character · 04",
     "category": "Portraits",
-    "session": "After Hours Portrait Session",
+    "session": "Breaking Character",
     "placement": "Portfolio",
-    "src": "images/samples/sample-17.webp",
-    "sample": true
+    "src": "/images/uploads/breaking-character-04.webp",
+    "sample": false
   },
   {
-    "title": "Under the Lights",
-    "category": "Sports",
-    "session": "Game Night",
+    "title": "Breaking Character · 05",
+    "category": "Portraits",
+    "session": "Breaking Character",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-character-05.webp",
+    "sample": false
+  },
+  {
+    "title": "Breaking Character · 06",
+    "category": "Portraits",
+    "session": "Breaking Character",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-character-06.webp",
+    "sample": false
+  },
+  {
+    "title": "Breaking Character · 07",
+    "category": "Portraits",
+    "session": "Breaking Character",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-character-07.webp",
+    "sample": false
+  },
+  {
+    "title": "Breaking Character · 08",
+    "category": "Portraits",
+    "session": "Breaking Character",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-character-08.webp",
+    "sample": false
+  },
+  {
+    "title": "Breaking Character · 09",
+    "category": "Portraits",
+    "session": "Breaking Character",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-character-09.webp",
+    "sample": false
+  },
+  {
+    "title": "Breaking Character · 10",
+    "category": "Portraits",
+    "session": "Breaking Character",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-character-10.webp",
+    "sample": false
+  },
+  {
+    "title": "Breaking Character · 11",
+    "category": "Portraits",
+    "session": "Breaking Character",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-character-11.webp",
+    "sample": false
+  },
+  {
+    "title": "Presence · 01",
+    "category": "Portraits",
+    "session": "Presence",
     "placement": "Homepage & Portfolio",
-    "src": "images/samples/sample-03.webp",
-    "sample": true
+    "src": "/images/uploads/presence-01.webp",
+    "sample": false
   },
   {
-    "title": "Golden Hour",
-    "category": "Couples / weddings",
-    "session": "A Story in Two",
-    "placement": "Portfolio",
-    "src": "images/samples/sample-04.webp",
-    "sample": true
-  },
-  {
-    "title": "Crossing the City",
-    "category": "Travel / street",
-    "session": "City Walks",
-    "placement": "Portfolio",
-    "src": "images/samples/sample-05.webp",
-    "sample": true
-  },
-  {
-    "title": "The Details",
-    "category": "Commercial / product",
-    "session": "Studio Objects",
-    "placement": "Portfolio",
-    "src": "images/samples/sample-06.webp",
-    "sample": true
-  },
-  {
-    "title": "Above the Clouds",
-    "category": "Travel / street",
-    "session": "On the Road",
-    "placement": "Portfolio",
-    "src": "images/samples/sample-07.webp",
-    "sample": true
-  },
-  {
-    "title": "Close Focus",
+    "title": "Presence · 02",
     "category": "Portraits",
-    "session": "Faces & Stories",
+    "session": "Presence",
     "placement": "Portfolio",
-    "src": "images/samples/sample-08.webp",
-    "sample": true
+    "src": "/images/uploads/presence-02.webp",
+    "sample": false
   },
   {
-    "title": "Coast to Coast",
-    "category": "Automotive",
-    "session": "The Open Road",
-    "placement": "Portfolio",
-    "src": "images/samples/sample-09.webp",
-    "sample": true
-  },
-  {
-    "title": "Soft Focus",
+    "title": "Presence · 03",
     "category": "Portraits",
-    "session": "Portrait Study",
-    "placement": "Magazine",
-    "src": "images/samples/sample-10.webp",
-    "sample": true
-  },
-  {
-    "title": "The Shape of Light",
-    "category": "Personal projects",
-    "session": "Form Studies",
+    "session": "Presence",
     "placement": "Portfolio",
-    "src": "images/samples/sample-11.webp",
-    "sample": true
+    "src": "/images/uploads/presence-03.webp",
+    "sample": false
   },
   {
-    "title": "Off the Ground",
-    "category": "Sports",
-    "session": "Outdoor Sessions",
-    "placement": "Portfolio",
-    "src": "images/samples/sample-12.webp",
-    "sample": true
-  },
-  {
-    "title": "Above the Valley",
-    "category": "Travel / street",
-    "session": "Field Notes",
-    "placement": "Portfolio",
-    "src": "images/samples/sample-13.webp",
-    "sample": true
-  },
-  {
-    "title": "After Hours",
-    "category": "Travel / street",
-    "session": "City Walks",
-    "placement": "Magazine",
-    "src": "images/samples/sample-14.webp",
-    "sample": true
-  },
-  {
-    "title": "Still Life",
-    "category": "Commercial / product",
-    "session": "Studio Objects",
-    "placement": "Portfolio",
-    "src": "images/samples/sample-15.webp",
-    "sample": true
-  },
-  {
-    "title": "Fine Detail",
-    "category": "Automotive",
-    "session": "Automotive After Dark",
-    "placement": "Portfolio",
-    "src": "images/samples/sample-16.webp",
-    "sample": true
-  },
-  {
-    "title": "Behind the Frame",
+    "title": "Winter with a Pulse · 01",
     "category": "Portraits",
-    "session": "Portrait Study",
-    "placement": "About",
-    "src": "images/samples/sample-17.webp",
+    "session": "Winter with a Pulse",
+    "placement": "Homepage & Portfolio",
+    "src": "/images/uploads/winter-with-a-pulse-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Winter with a Pulse · 02",
+    "category": "Portraits",
+    "session": "Winter with a Pulse",
+    "placement": "Portfolio",
+    "src": "/images/uploads/winter-with-a-pulse-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Winter with a Pulse · 03",
+    "category": "Portraits",
+    "session": "Winter with a Pulse",
+    "placement": "Portfolio",
+    "src": "/images/uploads/winter-with-a-pulse-03.webp",
+    "sample": false
+  },
+  {
+    "title": "Winter with a Pulse · 04",
+    "category": "Portraits",
+    "session": "Winter with a Pulse",
+    "placement": "Portfolio",
+    "src": "/images/uploads/winter-with-a-pulse-04.webp",
+    "sample": false
+  },
+  {
+    "title": "Winter with a Pulse · 05",
+    "category": "Portraits",
+    "session": "Winter with a Pulse",
+    "placement": "Portfolio",
+    "src": "/images/uploads/winter-with-a-pulse-05.webp",
+    "sample": false
+  },
+  {
+    "title": "Winter with a Pulse · 06",
+    "category": "Portraits",
+    "session": "Winter with a Pulse",
+    "placement": "Portfolio",
+    "src": "/images/uploads/winter-with-a-pulse-06.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 01",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 02",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 03",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-03.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 04",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-04.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 05",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-05.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 06",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-06.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 07",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-07.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 08",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-08.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 09",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-09.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 10",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-10.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 11",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-11.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 12",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-12.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 13",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-13.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 14",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-14.webp",
+    "sample": false
+  },
+  {
+    "title": "Yuletide Family Affair · 15",
+    "category": "Portraits",
+    "session": "Yuletide Family Affair",
+    "placement": "Portfolio",
+    "src": "/images/uploads/yuletide-family-affair-15.webp",
+    "sample": false
+  },
+  {
+    "title": "The Weight of the Calm, Vol. I · 01",
+    "category": "Portraits",
+    "session": "The Weight of the Calm, Vol. I",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-weight-of-the-calm-01.webp",
+    "sample": false
+  },
+  {
+    "title": "The Weight of the Calm, Vol. I · 02",
+    "category": "Portraits",
+    "session": "The Weight of the Calm, Vol. I",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-weight-of-the-calm-02.webp",
+    "sample": false
+  },
+  {
+    "title": "The Weight of the Calm, Vol. I · 03",
+    "category": "Portraits",
+    "session": "The Weight of the Calm, Vol. I",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-weight-of-the-calm-03.webp",
+    "sample": false
+  },
+  {
+    "title": "The Weight of the Calm, Vol. I · 04",
+    "category": "Portraits",
+    "session": "The Weight of the Calm, Vol. I",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-weight-of-the-calm-04.webp",
+    "sample": false
+  },
+  {
+    "title": "The Weight of the Calm, Vol. I · 05",
+    "category": "Portraits",
+    "session": "The Weight of the Calm, Vol. I",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-weight-of-the-calm-05.webp",
+    "sample": false
+  },
+  {
+    "title": "The Weight of the Calm, Vol. I · 06",
+    "category": "Portraits",
+    "session": "The Weight of the Calm, Vol. I",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-weight-of-the-calm-06.webp",
+    "sample": false
+  },
+  {
+    "title": "The Weight of the Calm, Vol. I · 07",
+    "category": "Portraits",
+    "session": "The Weight of the Calm, Vol. I",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-weight-of-the-calm-07.webp",
+    "sample": false
+  },
+  {
+    "title": "The Weight of the Calm, Vol. I · 08",
+    "category": "Portraits",
+    "session": "The Weight of the Calm, Vol. I",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-weight-of-the-calm-08.webp",
+    "sample": false
+  },
+  {
+    "title": "All Focus, No Mercy! · 01",
+    "category": "Portraits",
+    "session": "All Focus, No Mercy!",
+    "placement": "Portfolio",
+    "src": "/images/uploads/all-focus-no-mercy-01.webp",
+    "sample": false
+  },
+  {
+    "title": "All Focus, No Mercy! · 02",
+    "category": "Portraits",
+    "session": "All Focus, No Mercy!",
+    "placement": "Portfolio",
+    "src": "/images/uploads/all-focus-no-mercy-02.webp",
+    "sample": false
+  },
+  {
+    "title": "All Focus, No Mercy! · 03",
+    "category": "Portraits",
+    "session": "All Focus, No Mercy!",
+    "placement": "Portfolio",
+    "src": "/images/uploads/all-focus-no-mercy-03.webp",
+    "sample": false
+  },
+  {
+    "title": "All Focus, No Mercy! · 04",
+    "category": "Portraits",
+    "session": "All Focus, No Mercy!",
+    "placement": "Portfolio",
+    "src": "/images/uploads/all-focus-no-mercy-04.webp",
+    "sample": false
+  },
+  {
+    "title": "All Focus, No Mercy! · 05",
+    "category": "Portraits",
+    "session": "All Focus, No Mercy!",
+    "placement": "Portfolio",
+    "src": "/images/uploads/all-focus-no-mercy-05.webp",
+    "sample": false
+  },
+  {
+    "title": "All Focus, No Mercy! · 06",
+    "category": "Portraits",
+    "session": "All Focus, No Mercy!",
+    "placement": "Portfolio",
+    "src": "/images/uploads/all-focus-no-mercy-06.webp",
+    "sample": false
+  },
+  {
+    "title": "All Focus, No Mercy! · 07",
+    "category": "Portraits",
+    "session": "All Focus, No Mercy!",
+    "placement": "Portfolio",
+    "src": "/images/uploads/all-focus-no-mercy-07.webp",
+    "sample": false
+  },
+  {
+    "title": "All Focus, No Mercy! · 08",
+    "category": "Portraits",
+    "session": "All Focus, No Mercy!",
+    "placement": "Portfolio",
+    "src": "/images/uploads/all-focus-no-mercy-08.webp",
+    "sample": false
+  },
+  {
+    "title": "All Focus, No Mercy! · 09",
+    "category": "Portraits",
+    "session": "All Focus, No Mercy!",
+    "placement": "Portfolio",
+    "src": "/images/uploads/all-focus-no-mercy-09.webp",
+    "sample": false
+  },
+  {
+    "title": "Sage",
+    "category": "Portraits",
+    "session": "Breaking Character",
+    "placement": "Homepage & Portfolio",
+    "src": "/images/uploads/img0542.jpeg",
     "sample": true
   },
   {
-    "title": "Coastal Silence",
-    "category": "Personal projects",
-    "session": "The Prime Magazine",
-    "placement": "Magazine",
-    "src": "images/samples/sample-18.webp",
+    "title": "Rachel",
+    "category": "Portraits",
+    "session": "Tears in a thugs eye",
+    "placement": "Portfolio",
+    "src": "/images/uploads/img0543.jpeg",
     "sample": true
   }
 ]
