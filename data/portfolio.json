@@ -430,5 +430,573 @@
     "placement": "Portfolio",
     "src": "/images/uploads/img0543.jpeg",
     "sample": true
+  },
+  {
+    "title": "Ronald Olufemi",
+    "category": "Portraits",
+    "session": "Behind the Lens",
+    "placement": "About",
+    "src": "/images/uploads/ronald-olufemi.webp",
+    "sample": false
+  },
+  {
+    "title": "Frost in the Marrow · 01",
+    "category": "Portraits",
+    "session": "Frost in the Marrow",
+    "placement": "Portfolio",
+    "src": "/images/uploads/frost-in-the-marrow-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Frost in the Marrow · 02",
+    "category": "Portraits",
+    "session": "Frost in the Marrow",
+    "placement": "Portfolio",
+    "src": "/images/uploads/frost-in-the-marrow-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Frost in the Marrow · 03",
+    "category": "Portraits",
+    "session": "Frost in the Marrow",
+    "placement": "Portfolio",
+    "src": "/images/uploads/frost-in-the-marrow-03.webp",
+    "sample": false
+  },
+  {
+    "title": "The Crown Fits · 01",
+    "category": "Personal projects",
+    "session": "The Crown Fits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-crown-fits-01.webp",
+    "sample": false
+  },
+  {
+    "title": "The Crown Fits · 02",
+    "category": "Personal projects",
+    "session": "The Crown Fits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-crown-fits-02.webp",
+    "sample": false
+  },
+  {
+    "title": "The Crown Fits · 03",
+    "category": "Personal projects",
+    "session": "The Crown Fits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-crown-fits-03.webp",
+    "sample": false
+  },
+  {
+    "title": "Classified, but Make It Fashion · 01",
+    "category": "Portraits",
+    "session": "Classified, but Make It Fashion",
+    "placement": "Portfolio",
+    "src": "/images/uploads/classified-but-make-it-fashion-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Classified, but Make It Fashion · 02",
+    "category": "Portraits",
+    "session": "Classified, but Make It Fashion",
+    "placement": "Portfolio",
+    "src": "/images/uploads/classified-but-make-it-fashion-02.webp",
+    "sample": false
+  },
+  {
+    "title": "The Art of Colour Grading · 01",
+    "category": "Portraits",
+    "session": "The Art of Colour Grading",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-art-of-colour-grading-01.webp",
+    "sample": false
+  },
+  {
+    "title": "The Art of Colour Grading · 02",
+    "category": "Portraits",
+    "session": "The Art of Colour Grading",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-art-of-colour-grading-02.webp",
+    "sample": false
+  },
+  {
+    "title": "The Art of Colour Grading · 03",
+    "category": "Portraits",
+    "session": "The Art of Colour Grading",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-art-of-colour-grading-03.webp",
+    "sample": false
+  },
+  {
+    "title": "The Art of Colour Grading · 04",
+    "category": "Portraits",
+    "session": "The Art of Colour Grading",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-art-of-colour-grading-04.webp",
+    "sample": false
+  },
+  {
+    "title": "Distorted Reality · 01",
+    "category": "Portraits",
+    "session": "Distorted Reality",
+    "placement": "Portfolio",
+    "src": "/images/uploads/distorted-reality-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Distorted Reality · 02",
+    "category": "Portraits",
+    "session": "Distorted Reality",
+    "placement": "Portfolio",
+    "src": "/images/uploads/distorted-reality-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Distorted Reality · 03",
+    "category": "Portraits",
+    "session": "Distorted Reality",
+    "placement": "Portfolio",
+    "src": "/images/uploads/distorted-reality-03.webp",
+    "sample": false
+  },
+  {
+    "title": "Distorted Reality · 04",
+    "category": "Portraits",
+    "session": "Distorted Reality",
+    "placement": "Portfolio",
+    "src": "/images/uploads/distorted-reality-04.webp",
+    "sample": false
+  },
+  {
+    "title": "Distorted Reality · 05",
+    "category": "Portraits",
+    "session": "Distorted Reality",
+    "placement": "Portfolio",
+    "src": "/images/uploads/distorted-reality-05.webp",
+    "sample": false
+  },
+  {
+    "title": "Distorted Reality · 06",
+    "category": "Portraits",
+    "session": "Distorted Reality",
+    "placement": "Portfolio",
+    "src": "/images/uploads/distorted-reality-06.webp",
+    "sample": false
+  },
+  {
+    "title": "February Portrait Session · 01",
+    "category": "Portraits",
+    "session": "February Portrait Session",
+    "placement": "Portfolio",
+    "src": "/images/uploads/february-portrait-session-01.webp",
+    "sample": false
+  },
+  {
+    "title": "February Portrait Session · 02",
+    "category": "Portraits",
+    "session": "February Portrait Session",
+    "placement": "Portfolio",
+    "src": "/images/uploads/february-portrait-session-02.webp",
+    "sample": false
+  },
+  {
+    "title": "February Portrait Session · 03",
+    "category": "Portraits",
+    "session": "February Portrait Session",
+    "placement": "Portfolio",
+    "src": "/images/uploads/february-portrait-session-03.webp",
+    "sample": false
+  },
+  {
+    "title": "February Portrait Session · 04",
+    "category": "Portraits",
+    "session": "February Portrait Session",
+    "placement": "Portfolio",
+    "src": "/images/uploads/february-portrait-session-04.webp",
+    "sample": false
+  },
+  {
+    "title": "February Portrait Session · 05",
+    "category": "Portraits",
+    "session": "February Portrait Session",
+    "placement": "Portfolio",
+    "src": "/images/uploads/february-portrait-session-05.webp",
+    "sample": false
+  },
+  {
+    "title": "February Portrait Session · 06",
+    "category": "Portraits",
+    "session": "February Portrait Session",
+    "placement": "Portfolio",
+    "src": "/images/uploads/february-portrait-session-06.webp",
+    "sample": false
+  },
+  {
+    "title": "Cradled by the Stars · 01",
+    "category": "Portraits",
+    "session": "Cradled by the Stars",
+    "placement": "Portfolio",
+    "src": "/images/uploads/cradled-by-the-stars-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Cradled by the Stars · 02",
+    "category": "Portraits",
+    "session": "Cradled by the Stars",
+    "placement": "Portfolio",
+    "src": "/images/uploads/cradled-by-the-stars-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Cradled by the Stars · 03",
+    "category": "Portraits",
+    "session": "Cradled by the Stars",
+    "placement": "Portfolio",
+    "src": "/images/uploads/cradled-by-the-stars-03.webp",
+    "sample": false
+  },
+  {
+    "title": "Take Notes · 01",
+    "category": "Portraits",
+    "session": "Take Notes",
+    "placement": "Portfolio",
+    "src": "/images/uploads/take-notes-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Take Notes · 02",
+    "category": "Portraits",
+    "session": "Take Notes",
+    "placement": "Portfolio",
+    "src": "/images/uploads/take-notes-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Take Notes · 03",
+    "category": "Portraits",
+    "session": "Take Notes",
+    "placement": "Portfolio",
+    "src": "/images/uploads/take-notes-03.webp",
+    "sample": false
+  },
+  {
+    "title": "Take Notes · 04",
+    "category": "Portraits",
+    "session": "Take Notes",
+    "placement": "Portfolio",
+    "src": "/images/uploads/take-notes-04.webp",
+    "sample": false
+  },
+  {
+    "title": "Take Notes · 05",
+    "category": "Portraits",
+    "session": "Take Notes",
+    "placement": "Portfolio",
+    "src": "/images/uploads/take-notes-05.webp",
+    "sample": false
+  },
+  {
+    "title": "Take Notes · 06",
+    "category": "Portraits",
+    "session": "Take Notes",
+    "placement": "Portfolio",
+    "src": "/images/uploads/take-notes-06.webp",
+    "sample": false
+  },
+  {
+    "title": "Take Notes · 07",
+    "category": "Portraits",
+    "session": "Take Notes",
+    "placement": "Portfolio",
+    "src": "/images/uploads/take-notes-07.webp",
+    "sample": false
+  },
+  {
+    "title": "Take Notes · 08",
+    "category": "Portraits",
+    "session": "Take Notes",
+    "placement": "Portfolio",
+    "src": "/images/uploads/take-notes-08.webp",
+    "sample": false
+  },
+  {
+    "title": "Ishola Ekun · 01",
+    "category": "Portraits",
+    "session": "Ishola Ekun",
+    "placement": "Portfolio",
+    "src": "/images/uploads/ishola-ekun-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Ishola Ekun · 02",
+    "category": "Portraits",
+    "session": "Ishola Ekun",
+    "placement": "Portfolio",
+    "src": "/images/uploads/ishola-ekun-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Ishola Ekun · 03",
+    "category": "Portraits",
+    "session": "Ishola Ekun",
+    "placement": "Portfolio",
+    "src": "/images/uploads/ishola-ekun-03.webp",
+    "sample": false
+  },
+  {
+    "title": "Ishola Ekun · 04",
+    "category": "Portraits",
+    "session": "Ishola Ekun",
+    "placement": "Portfolio",
+    "src": "/images/uploads/ishola-ekun-04.webp",
+    "sample": false
+  },
+  {
+    "title": "Ishola Ekun · 05",
+    "category": "Portraits",
+    "session": "Ishola Ekun",
+    "placement": "Portfolio",
+    "src": "/images/uploads/ishola-ekun-05.webp",
+    "sample": false
+  },
+  {
+    "title": "Strength Without Compromise · 01",
+    "category": "Sports",
+    "session": "Strength Without Compromise",
+    "placement": "Portfolio",
+    "src": "/images/uploads/strength-without-compromise-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Strength Without Compromise · 02",
+    "category": "Sports",
+    "session": "Strength Without Compromise",
+    "placement": "Portfolio",
+    "src": "/images/uploads/strength-without-compromise-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Leave It All on the Court · 01",
+    "category": "Sports",
+    "session": "Leave It All on the Court",
+    "placement": "Portfolio",
+    "src": "/images/uploads/leave-it-all-on-the-court-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Leave It All on the Court · 02",
+    "category": "Sports",
+    "session": "Leave It All on the Court",
+    "placement": "Portfolio",
+    "src": "/images/uploads/leave-it-all-on-the-court-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Leave It All on the Court · 03",
+    "category": "Sports",
+    "session": "Leave It All on the Court",
+    "placement": "Portfolio",
+    "src": "/images/uploads/leave-it-all-on-the-court-03.webp",
+    "sample": false
+  },
+  {
+    "title": "Urban Grit · 01",
+    "category": "Portraits",
+    "session": "Urban Grit",
+    "placement": "Portfolio",
+    "src": "/images/uploads/urban-grit-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Urban Grit · 02",
+    "category": "Portraits",
+    "session": "Urban Grit",
+    "placement": "Portfolio",
+    "src": "/images/uploads/urban-grit-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Urban Grit · 03",
+    "category": "Portraits",
+    "session": "Urban Grit",
+    "placement": "Portfolio",
+    "src": "/images/uploads/urban-grit-03.webp",
+    "sample": false
+  },
+  {
+    "title": "Urban Grit · 04",
+    "category": "Portraits",
+    "session": "Urban Grit",
+    "placement": "Portfolio",
+    "src": "/images/uploads/urban-grit-04.webp",
+    "sample": false
+  },
+  {
+    "title": "Urban Grit · 05",
+    "category": "Portraits",
+    "session": "Urban Grit",
+    "placement": "Portfolio",
+    "src": "/images/uploads/urban-grit-05.webp",
+    "sample": false
+  },
+  {
+    "title": "Urban Grit · 06",
+    "category": "Portraits",
+    "session": "Urban Grit",
+    "placement": "Portfolio",
+    "src": "/images/uploads/urban-grit-06.webp",
+    "sample": false
+  },
+  {
+    "title": "Space Cowboy · 01",
+    "category": "Portraits",
+    "session": "Space Cowboy",
+    "placement": "Portfolio",
+    "src": "/images/uploads/space-cowboy-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Space Cowboy · 02",
+    "category": "Portraits",
+    "session": "Space Cowboy",
+    "placement": "Portfolio",
+    "src": "/images/uploads/space-cowboy-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Space Cowboy · 03",
+    "category": "Portraits",
+    "session": "Space Cowboy",
+    "placement": "Portfolio",
+    "src": "/images/uploads/space-cowboy-03.webp",
+    "sample": false
+  },
+  {
+    "title": "Space Cowboy · 04",
+    "category": "Portraits",
+    "session": "Space Cowboy",
+    "placement": "Portfolio",
+    "src": "/images/uploads/space-cowboy-04.webp",
+    "sample": false
+  },
+  {
+    "title": "Space Cowboy · 05",
+    "category": "Portraits",
+    "session": "Space Cowboy",
+    "placement": "Portfolio",
+    "src": "/images/uploads/space-cowboy-05.webp",
+    "sample": false
+  },
+  {
+    "title": "Space Cowboy · 06",
+    "category": "Portraits",
+    "session": "Space Cowboy",
+    "placement": "Portfolio",
+    "src": "/images/uploads/space-cowboy-06.webp",
+    "sample": false
+  },
+  {
+    "title": "Built to Conquer · 01",
+    "category": "Sports",
+    "session": "Built to Conquer",
+    "placement": "Portfolio",
+    "src": "/images/uploads/built-to-conquer-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Built to Conquer · 02",
+    "category": "Sports",
+    "session": "Built to Conquer",
+    "placement": "Portfolio",
+    "src": "/images/uploads/built-to-conquer-02.webp",
+    "sample": false
+  },
+  {
+    "title": "Built to Conquer · 03",
+    "category": "Sports",
+    "session": "Built to Conquer",
+    "placement": "Portfolio",
+    "src": "/images/uploads/built-to-conquer-03.webp",
+    "sample": false
+  },
+  {
+    "title": "Built to Conquer · 04",
+    "category": "Sports",
+    "session": "Built to Conquer",
+    "placement": "Portfolio",
+    "src": "/images/uploads/built-to-conquer-04.webp",
+    "sample": false
+  },
+  {
+    "title": "Built to Conquer · 05",
+    "category": "Sports",
+    "session": "Built to Conquer",
+    "placement": "Portfolio",
+    "src": "/images/uploads/built-to-conquer-05.webp",
+    "sample": false
+  },
+  {
+    "title": "Built to Conquer · 06",
+    "category": "Sports",
+    "session": "Built to Conquer",
+    "placement": "Portfolio",
+    "src": "/images/uploads/built-to-conquer-06.webp",
+    "sample": false
+  },
+  {
+    "title": "Built to Conquer · 07",
+    "category": "Sports",
+    "session": "Built to Conquer",
+    "placement": "Portfolio",
+    "src": "/images/uploads/built-to-conquer-07.webp",
+    "sample": false
+  },
+  {
+    "title": "The Grind · 01",
+    "category": "Sports",
+    "session": "The Grind",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-grind-01.webp",
+    "sample": false
+  },
+  {
+    "title": "The Grind · 02",
+    "category": "Sports",
+    "session": "The Grind",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-grind-02.webp",
+    "sample": false
+  },
+  {
+    "title": "The Grind · 03",
+    "category": "Sports",
+    "session": "The Grind",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-grind-03.webp",
+    "sample": false
+  },
+  {
+    "title": "The Grind · 04",
+    "category": "Sports",
+    "session": "The Grind",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-grind-04.webp",
+    "sample": false
+  },
+  {
+    "title": "Beauty Is a Light · 01",
+    "category": "Portraits",
+    "session": "Beauty Is a Light",
+    "placement": "Portfolio",
+    "src": "/images/uploads/beauty-is-a-light-01.webp",
+    "sample": false
+  },
+  {
+    "title": "Beauty Is a Light · 02",
+    "category": "Portraits",
+    "session": "Beauty Is a Light",
+    "placement": "Portfolio",
+    "src": "/images/uploads/beauty-is-a-light-02.webp",
+    "sample": false
   }
 ]
