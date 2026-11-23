@@ -202,3 +202,12 @@
  .session-picker {width:100%;min-width:0}
  .session-picker select {max-width:100%}
 }
+
+.work-more {display:flex;justify-content:center;margin-top:30px}
+.pricing-invitation {margin-top:40px;max-width:760px}
+.pricing-invitation p {font-size:17px;line-height:1.8;color:#c3c1bc;margin-bottom:26px}
+.pricing-page {padding-top:160px;padding-bottom:90px}
+.pricing-page h1 {font:400 clamp(52px,7vw,110px)/1.05 var(--serif);margin:20px 0}
+.pricing-page .session-package h2 {font:400 30px/1.15 var(--serif);margin:0 0 20px}
+.pricing-page .session-package a {margin-top:auto;width:100%;justify-content:center;letter-spacing:.04em;font-size:13px;padding:16px}
+@media(max-width:760px){.pricing-page{padding-top:115px}.pricing-page .package-grid{grid-template-columns:1fr}}

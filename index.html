@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="assets/styles.css">
   <script defer src="assets/config.js"></script>
   <script defer src="assets/media.js"></script>
+  <script defer src="assets/session-menu.js"></script>
   <script defer src="assets/loader.js"></script>
 </head>
 <body>
@@ -24,13 +25,13 @@
       <span class="brand-words">THE PRIME <span>GRID</span><small>PHOTOGRAPHY & VISUAL STORIES</small></span>
     </a>
     <nav class="desktop-nav" aria-label="Main navigation">
-      <a href="#work">Work</a><a href="#about">About</a><a href="#video">Video</a><a href="#services">Services</a><a href="#magazine">The Prime Mag</a><a href="#clients" hidden>Client access</a>
+      <a href="#work">Work</a><a href="#about">About</a><a href="#video">Video</a><a href="#services">Services</a><a href="pricing.html">Pricing</a><a href="#clients" hidden>Client access</a>
     </nav>
     <a class="nav-book" href="#booking">BOOK A SESSION <span aria-hidden="true">↗</span></a>
     <button id="menu-button" class="menu-button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-navigation"><span></span><span></span></button>
   </header>
   <nav id="mobile-navigation" class="mobile-nav" aria-label="Mobile navigation" hidden>
-    <a href="#work">The work</a><a href="#about">About</a><a href="#video">Video</a><a href="#services">Services</a><a href="#magazine">The Prime Mag</a><a href="#clients" hidden>Client access</a><a href="#booking">Book a session ↗</a>
+    <a href="#work">The work</a><a href="#about">About</a><a href="#video">Video</a><a href="#services">Services</a><a href="pricing.html">Pricing</a><a href="#clients" hidden>Client access</a><a href="#booking">Book a session ↗</a>
   </nav>
   <main id="main">
     <section class="hero" id="home" aria-labelledby="hero-title">
@@ -59,6 +60,7 @@
         <h3 id="album-title" tabindex="-1"></h3>
       </div>
       <div id="gallery-grid" class="gallery-grid section-pad"></div>
+      <div class="work-more section-pad"><button id="work-toggle" class="button button-light" type="button" aria-expanded="false" aria-controls="gallery-grid">VIEW ALL SESSIONS</button></div>
       <div id="gallery-pages" class="gallery-pages section-pad" aria-label="Portfolio pages" hidden>
         <button id="gallery-prev" type="button">← Previous</button>
         <span id="gallery-page"></span>
@@ -80,16 +82,9 @@
     </section>
 
     <section class="services-section section-pad dark-section" id="services" aria-labelledby="services-heading"><div class="section-head"><div><p class="eyebrow">03 / WHAT I OFFER</p><h2 id="services-heading">Made for <em>your moment.</em></h2></div><p class="head-side">Photography and video for individuals, families, and creative teams.</p></div>
-      <div class="session-catalog">
-        <label for="session-category">What are we celebrating?</label>
-        <select id="session-category" aria-controls="session-description package-grid"></select>
-        <p id="session-description" class="session-description"></p>
-        <div class="package-grid" id="package-grid"></div>
-        <p class="session-terms">Prices in USD. Studio rental, special sets, permits, and travel outside the local area are quoted separately when needed. Final availability and total are confirmed before booking.</p>
-      </div>
+      <div class="pricing-invitation"><p>Graduation, senior photos, portraits, families, holidays, and more. Find a session that fits your plans, with clear prices and what’s included.</p><a class="button button-light" href="pricing.html">EXPLORE SESSIONS & PRICING</a></div>
     </section>
 
-    <section class="magazine-section section-pad" id="magazine" aria-labelledby="mag-heading"><div class="section-head"><div><p class="eyebrow black-eyebrow">04 / The Prime Mag</p><h2 id="mag-heading">Stories <em>between frames.</em></h2></div><div class="head-side">A place for ideas, process, inspiration, and the small details that deserve a closer look.</div></div><div id="magazine-grid" class="magazine-grid"></div></section>
 
     <section class="client-section section-pad dark-section" id="clients" hidden><div><p class="eyebrow">05 / PRIVATE DELIVERY</p><h2>For your <em>eyes only.</em></h2><a id="client-link" class="button button-light" href="#booking">CLIENT GALLERY ACCESS <span aria-hidden="true">↗</span></a></div><div class="client-art" aria-hidden="true"><span class="client-lock">✳</span><div class="outlined-frame frame-a"></div><div class="outlined-frame frame-b"></div><span class="client-art-label">THE PRIVATE COLLECTION / 001</span></div></section>
 
@@ -115,9 +110,9 @@
         <aside class="booking-aside"><div id="calendar-container" class="calendar-panel" hidden></div><div class="booking-contact"><div><small>AVAILABILITY</small><strong>By appointment</strong></div><div><small>TRAVEL</small><strong>Texas and worldwide by quote</strong></div><div id="contact-container" hidden><small>CONTACT</small><a id="contact-display"></a></div><div id="phone-container" hidden><small>PHONE</small><strong id="phone-display"></strong></div></div></aside></div>
     </section>
   </main>
-  <footer class="site-footer"><div class="footer-top"><div><div class="footer-brand">THE PRIME <em>GRID.</em></div><p>Stories worth framing.<br>Moments worth remembering.</p></div><div class="footer-nav"><div><span>EXPLORE</span><a href="#work">Portfolio</a><a href="#about">About</a><a href="#video">Video</a><a href="#services">Services</a><a href="#magazine">The Prime Mag</a></div><div><span>CONNECT</span><a href="#booking">Booking</a><a id="social-instagram" href="https://www.instagram.com/theprimegrid/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a id="social-facebook" hidden target="_blank" rel="noopener noreferrer">Facebook ↗</a><a id="social-tiktok" hidden target="_blank" rel="noopener noreferrer">TikTok ↗</a><a id="social-youtube" hidden target="_blank" rel="noopener noreferrer">YouTube ↗</a><a id="social-pinterest" hidden target="_blank" rel="noopener noreferrer">Pinterest ↗</a></div></div></div><div class="footer-bottom"><span>© <span id="copyright-year"></span> THE PRIME GRID. ALL RIGHTS RESERVED.</span><span>TEXAS / EVERYWHERE THE STORY TAKES US</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+  <footer class="site-footer"><div class="footer-top"><div><div class="footer-brand">THE PRIME <em>GRID.</em></div><p>Stories worth framing.<br>Moments worth remembering.</p></div><div class="footer-nav"><div><span>EXPLORE</span><a href="#work">Portfolio</a><a href="#about">About</a><a href="#video">Video</a><a href="#services">Services</a><a href="pricing.html">Pricing</a></div><div><span>CONNECT</span><a href="#booking">Booking</a><a id="social-instagram" href="https://www.instagram.com/theprimegrid/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a id="social-facebook" hidden target="_blank" rel="noopener noreferrer">Facebook ↗</a><a id="social-tiktok" hidden target="_blank" rel="noopener noreferrer">TikTok ↗</a><a id="social-youtube" hidden target="_blank" rel="noopener noreferrer">YouTube ↗</a><a id="social-pinterest" hidden target="_blank" rel="noopener noreferrer">Pinterest ↗</a></div></div></div><div class="footer-bottom"><span>© <span id="copyright-year"></span> THE PRIME GRID. ALL RIGHTS RESERVED.</span><span>TEXAS / EVERYWHERE THE STORY TAKES US</span><a href="#top">BACK TO TOP ↑</a></div></footer>
   <dialog id="lightbox" class="lightbox" aria-label="Portfolio image viewer"><div class="lightbox-head"><span id="lightbox-index">01 / 12</span><strong id="lightbox-session"></strong><button id="lightbox-close" autofocus aria-label="Close image viewer">✕</button></div><div id="lightbox-image" class="lightbox-image" aria-label="Selected portfolio photo"></div><div class="lightbox-bottom"><div class="lightbox-buttons"><a id="lightbox-download" hidden download aria-label="Download original photo">↓ DOWNLOAD</a><button id="lightbox-prev" aria-label="Previous photo">←</button><button id="lightbox-next" aria-label="Next photo">→</button></div></div></dialog>
-  <dialog id="article-modal" class="article-modal" aria-label="The Prime Mag article"><button id="article-close" class="article-close" aria-label="Close article">✕ CLOSE</button><div class="article-modal-body" id="article-body"></div></dialog>
+
   <div id="toast" class="toast" aria-live="polite" hidden></div>
 </body>
 </html>
