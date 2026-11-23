@@ -222,12 +222,27 @@ if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
   contact.href = `mailto:${email}`;
   $('#contact-container').hidden = false;
   form.hidden = false;
+  const dateField = $('#inquiry-date');
+  const today = new Date();
+  const localDate = new Date(today.getTime() - today.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+  dateField.min = localDate;
+  const requestText = () => [...new FormData(form)]
+    .map(([key, value]) => `${key}: ${String(value).trim() || 'Not specified'}`).join('\n');
   form.addEventListener('submit', event => {
     event.preventDefault();
-    const details = [...new FormData(form)].map(([key, value]) => `${key.toUpperCase()}: ${value}`);
-    const subject = encodeURIComponent('The Prime Grid · Photography inquiry');
-    location.href = `mailto:${encodeURIComponent(email)}?subject=${subject}&body=${encodeURIComponent(details.join('\n'))}`;
-    $('#inquiry-status').textContent = 'Send the draft from your email app to submit your inquiry.';
+    if (!form.reportValidity()) return;
+    const subject = encodeURIComponent(`Session request: ${inquiryType.value}`);
+    location.href = `mailto:${encodeURIComponent(email)}?subject=${subject}&body=${encodeURIComponent(requestText())}`;
+    $('#inquiry-status').textContent = `Send the draft from your email app to request your session. If it didn’t open, copy your request and email it to ${email}.`;
+    $('#copy-inquiry').hidden = false;
+  });
+  $('#copy-inquiry').addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(requestText());
+      $('#inquiry-status').textContent = `Request copied. Paste it into an email to ${email}.`;
+    } catch (_error) {
+      $('#inquiry-status').textContent = `Copy isn’t available in this browser. Email your session details to ${email}.`;
+    }
   });
 }
 if(cfg.phone){$('#phone-container').hidden=false;$('#phone-display').textContent=cfg.phone}
