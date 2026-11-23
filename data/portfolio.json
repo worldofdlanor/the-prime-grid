@@ -3,9 +3,11 @@
     "title": "Breaking Character",
     "category": "Personal projects",
     "session": "Breaking Character",
-    "placement": "Portfolio",
+    "placement": "Homepage & Portfolio",
     "src": "/images/uploads/breaking-character-01.webp",
-    "sample": false
+    "sample": false,
+    "cover": true,
+    "position": "50% 34%"
   },
   {
     "title": "Breaking Character",
@@ -19,10 +21,9 @@
     "title": "Breaking Character",
     "category": "Personal projects",
     "session": "Breaking Character",
-    "placement": "Homepage & Portfolio",
+    "placement": "Portfolio",
     "src": "/images/uploads/breaking-character-03.webp",
     "sample": false,
-    "cover": true,
     "position": "50% 34%"
   },
   {
@@ -426,16 +427,6 @@
     "placement": "Portfolio",
     "src": "/images/uploads/all-focus-no-mercy-09.webp",
     "sample": false
-  },
-  {
-    "title": "Rachel",
-    "category": "Portraits",
-    "session": "Tears in a thugs eye",
-    "placement": "Portfolio",
-    "src": "/images/uploads/img0543.jpeg",
-    "sample": true,
-    "cover": true,
-    "position": "50% 25%"
   },
   {
     "title": "Ronald Olufemi",

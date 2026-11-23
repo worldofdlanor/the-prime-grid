@@ -101,7 +101,7 @@
           <label for="inquiry-package">Session option</label><select id="inquiry-package" name="Session option" required disabled><option value="">Choose a session type first</option></select>
           <p id="booking-package-summary" class="booking-note" aria-live="polite"></p>
           <div class="two-fields"><div><label for="inquiry-name">Your name</label><input type="text" id="inquiry-name" name="Name" required maxlength="100" autocomplete="name"></div><div><label for="inquiry-email">Email address</label><input type="email" id="inquiry-email" name="Email" required maxlength="200" autocomplete="email"></div></div>
-          <div class="two-fields"><div><label for="inquiry-date">Preferred date (optional)</label><input type="date" id="inquiry-date" name="Preferred date"></div><div><label for="inquiry-phone">Phone (optional)</label><input type="tel" id="inquiry-phone" name="Phone" maxlength="40" autocomplete="tel"></div></div>
+          <div class="two-fields"><div><label for="inquiry-date">Preferred date</label><input type="date" id="inquiry-date" name="Preferred date" required></div><div><label for="inquiry-phone">Phone</label><input type="tel" id="inquiry-phone" name="Phone" required maxlength="40" autocomplete="tel"></div></div>
           <label for="inquiry-location">Location</label><input id="inquiry-location" name="Location" required maxlength="200" placeholder="City or venue">
           <label for="inquiry-message">Your plans</label><textarea id="inquiry-message" name="Details" rows="4" required maxlength="1500" placeholder="Tell me about the occasion, who’s joining, and what you have in mind."></textarea>
           <button class="button button-light submit-btn" type="submit">CONTINUE TO EMAIL</button>
