@@ -11,6 +11,8 @@ const allImages=fromManifest.map(x=>({
  session:String(x.session||'New session'),
  src:String(x.src||''),
  placement:String(x.placement||'Portfolio'),
+ cover:x.cover===true,
+ position:/^\d{1,3}% \d{1,3}%$/.test(x.position)?x.position:'50% 25%',
  sample:!!x.sample
 })).filter(p=>p.src);
 const portfolioPhotos=allImages.filter(p=>p.placement==='Portfolio'||p.placement==='Homepage & Portfolio');
@@ -18,12 +20,12 @@ const photos=portfolioPhotos.length?portfolioPhotos:allImages;
 const selectedHero=allImages.filter(p=>p.placement==='Homepage & Portfolio');
 const customHero=selectedHero.filter(p=>!p.sample);
 const heroPhotos=customHero.length?customHero:selectedHero.length?selectedHero:photos;
-let filtered=[],categoryFilter='All',sessionFilter='',viewerIndex=0,heroIndex=0;
+let filtered=[],categoryFilter='',sessionFilter='',viewerIndex=0,heroIndex=0;
 const toast=message=>{const el=$('#toast');el.textContent=message;el.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.hidden=true,4500)};
 const styleClass=cat=>classes[cat]||'art-personal';
-const photoNode=(p,scope)=>{const holder=document.createElement('div');holder.className=`${scope} ${styleClass(p.category)}`;if(p.src){const img=document.createElement('img');img.src=p.src;img.alt=`${p.title}, ${p.category}`;img.loading=scope==='tile-art'?'lazy':'eager';img.decoding='async';holder.appendChild(img)}return holder};
+const photoNode=(p,scope)=>{const holder=document.createElement('div');holder.className=`${scope} ${styleClass(p.category)}`;if(p.src){const img=document.createElement('img');img.src=p.src;img.alt=p.title;img.loading=scope==='tile-art'?'lazy':'eager';img.decoding='async';holder.appendChild(img)}return holder};
 // Hero carousel, manual controls only.
-function updateHero(){const chosen=heroPhotos[heroIndex%heroPhotos.length],hero=$('#hero-art');if(!chosen)return;hero.className=`hero-art ${styleClass(chosen.category)}${chosen.src?' has-photo':''}`;hero.style.backgroundImage=chosen.src?`url(${JSON.stringify(chosen.src)})`:'';hero.innerHTML=chosen.src?'':'<div class="art-pattern" aria-hidden="true"><i></i><i></i><i></i><i></i></div>';const label=document.createElement('span');label.className='photo-placeholder-label';label.textContent=chosen.title.toUpperCase();hero.appendChild(label);$('#slide-number').textContent=`${String(heroIndex%Math.min(3,heroPhotos.length)+1).padStart(2,'0')} / ${String(Math.min(3,heroPhotos.length)).padStart(2,'0')}`}
+function updateHero(){const chosen=heroPhotos[heroIndex%heroPhotos.length],hero=$('#hero-art');if(!chosen)return;hero.className=`hero-art ${styleClass(chosen.category)}${chosen.src?' has-photo':''}`;hero.style.backgroundImage=chosen.src?`url(${JSON.stringify(chosen.src)})`:'';hero.style.backgroundPosition=chosen.position;hero.innerHTML=chosen.src?'':'<div class="art-pattern" aria-hidden="true"><i></i><i></i><i></i><i></i></div>';const label=document.createElement('span');label.className='photo-placeholder-label';label.textContent=chosen.session.toUpperCase();hero.appendChild(label);$('#slide-number').textContent=`${String(heroIndex%Math.min(3,heroPhotos.length)+1).padStart(2,'0')} / ${String(Math.min(3,heroPhotos.length)).padStart(2,'0')}`}
 const shiftHero=d=>{if(heroPhotos.length<2)return;heroIndex=(heroIndex+d+Math.min(3,heroPhotos.length))%Math.min(3,heroPhotos.length);updateHero()};$('#hero-prev').addEventListener('click',()=>shiftHero(-1));$('#hero-next').addEventListener('click',()=>shiftHero(1));updateHero();
 // Keep existing portfolio entries in their sessions and append CMS album uploads.
 const albums = new Map();
@@ -42,34 +44,32 @@ for (const entry of window.PRIME_ALBUMS || []) {
     const album = getAlbum(category, title);
     if (album.photos.some(photo => photo.src === src)) continue;
     album.photos.push({
-      title: `${title} · Frame ${album.photos.length + 1}`,
+      title,
       category, session: title, src, sample: false
     });
   }
 }
 
 const filterSet = $('#category-filters');
-const sessionSelect = $('#session-filter');
 const albumTitle = $('#album-title');
-const frames = count => `${count} ${count === 1 ? 'frame' : 'frames'}`;
-const categoryAlbums = () => [...albums.values()].filter(album =>
-  categoryFilter === 'All' || album.category === categoryFilter
-);
+const grid = $('#gallery-grid');
+const pageSize = 6;
+let pageIndex = 0;
 const categoryLabels = {
   'Commercial / product': 'Commercial',
-  'Couples / weddings': 'Couples',
+  'Couples / weddings': 'Families & Couples',
   'Travel / street': 'Travel',
-  'Personal projects': 'Personal'
+  'Personal projects': 'Creative & Editorial'
 };
 const albumCategories = cats.filter(category => [...albums.values()].some(album => album.category === category));
-filterSet.hidden = albumCategories.length < 2;
-for (const category of ['All', ...albumCategories]) {
+for (const category of ['', ...albumCategories]) {
   const button = document.createElement('button');
   button.type = 'button';
-  button.textContent = categoryLabels[category] || category;
-  button.setAttribute('aria-pressed', String(category === 'All'));
+  button.textContent = categoryLabels[category] || category || 'Selected Work';
+  button.setAttribute('aria-pressed', String(!category));
   button.addEventListener('click', () => {
     categoryFilter = category;
+    pageIndex = 0;
     sessionFilter = '';
     for (const control of filterSet.children) {
       control.setAttribute('aria-pressed', String(control === button));
@@ -82,74 +82,90 @@ for (const category of ['All', ...albumCategories]) {
 function openAlbum(key) {
   sessionFilter = key;
   renderGallery();
-  albumTitle.focus();
+  albumTitle.focus({ preventScroll: true });
+  $('#album-heading').scrollIntoView({ block: 'start' });
 }
-sessionSelect.addEventListener('change', () => {
-  if (sessionSelect.value) openAlbum(sessionSelect.value);
-  else {
-    sessionFilter = '';
-    renderGallery();
-  }
-});
 $('#album-back').addEventListener('click', () => {
   const previousAlbum = sessionFilter;
   sessionFilter = '';
   renderGallery();
-  const cover = [...$('#gallery-grid').children].find(tile => tile.dataset.album === previousAlbum);
-  (cover || sessionSelect).focus();
+  const cover = [...grid.children].find(tile => tile.dataset.album === previousAlbum);
+  (cover || filterSet.querySelector('[aria-pressed="true"]')).focus();
 });
 
-function galleryTile(photo, index, title, subtitle, label, onClick) {
+function galleryTile(photo, label, onClick) {
   const tile = document.createElement('button');
   tile.type = 'button';
-  tile.className = 'photo-tile ' + (index % 7 === 0 ? 'wide' : index % 7 === 4 ? 'tall' : '');
+  tile.className = 'photo-tile';
   tile.setAttribute('aria-label', label);
   tile.appendChild(photoNode(photo, 'tile-art'));
-  const info = document.createElement('span');
-  info.className = 'tile-meta';
-  info.innerHTML = `<span><small>${safe(subtitle.toUpperCase())}</small><strong>${safe(title)}</strong></span><span class="tile-open" aria-hidden="true">↗</span>`;
-  tile.appendChild(info);
   tile.addEventListener('click', onClick);
   return tile;
 }
 
+function albumCover(album) {
+  const photo = album.photos.find(photo => photo.cover) ||
+    album.photos.find(photo => !photo.sample) || album.photos[0];
+  const count = `${album.photos.length} ${album.photos.length === 1 ? 'photo' : 'photos'}`;
+  const tile = galleryTile(photo, `Open ${album.title}, ${count}`, () => openAlbum(album.key));
+  tile.dataset.album = album.key;
+  tile.querySelector('img').style.objectPosition = photo.position || '50% 25%';
+  const info = document.createElement('span');
+  info.className = 'tile-meta';
+  info.innerHTML = `<strong>${safe(album.title)}</strong><small>${count}</small>`;
+  tile.appendChild(info);
+  return tile;
+}
+
+function changePage(direction) {
+  pageIndex += direction;
+  renderGallery();
+  grid.querySelector('button')?.focus({ preventScroll: true });
+  grid.scrollIntoView({ block: 'start' });
+}
+$('#gallery-prev').addEventListener('click', () => changePage(-1));
+$('#gallery-next').addEventListener('click', () => changePage(1));
+
 function renderGallery() {
-  const available = categoryAlbums();
   const selected = albums.get(sessionFilter);
-  sessionSelect.replaceChildren(new Option('All sessions', ''));
-  for (const album of available) {
-    sessionSelect.add(new Option(`${album.title} (${album.category})`, album.key));
-  }
-  sessionSelect.value = sessionFilter;
+  const available = [...albums.values()].filter(album => !categoryFilter || album.category === categoryFilter);
+  const pageCount = Math.ceil(available.length / pageSize);
+  filterSet.hidden = !!selected;
+  filterSet.parentElement.hidden = !!selected;
   $('#album-heading').hidden = !selected;
   albumTitle.textContent = selected?.title || '';
-  const grid = $('#gallery-grid');
+  grid.classList.toggle('session-photos', !!selected);
   grid.replaceChildren();
   filtered = selected?.photos || [];
   if (selected) {
     filtered.forEach((photo, index) => grid.appendChild(galleryTile(
-      photo, index, photo.title, photo.category,
-      `Open ${photo.title}, photo ${index + 1} of ${filtered.length}`,
-      () => openViewer(index)
+      photo, `Open photo ${index + 1} of ${filtered.length}`, () => openViewer(index)
     )));
   } else {
-    available.forEach((album, index) => {
-      const count = frames(album.photos.length);
-      const cover = album.photos.find(photo => !photo.sample) || album.photos[0];
-      const tile = galleryTile(cover, index, album.title, `${album.category} / ${count}`,
-        `Open ${album.title}, ${album.category}, ${count}`, () => openAlbum(album.key));
-      tile.dataset.album = album.key;
-      grid.appendChild(tile);
-    });
-    if (!available.length) {
-      grid.innerHTML = '<p class="empty-gallery">No albums in this category yet.</p>';
-    }
+    available.slice(pageIndex * pageSize, (pageIndex + 1) * pageSize)
+      .forEach(album => grid.appendChild(albumCover(album)));
   }
-  const count = selected ? frames(filtered.length) : `${available.length} ${available.length === 1 ? 'album' : 'albums'}`;
-  $('#gallery-count').textContent = `Showing ${count}`.toUpperCase();
+  $('#gallery-pages').hidden = !!selected || pageCount < 2;
+  $('#gallery-prev').disabled = pageIndex === 0;
+  $('#gallery-next').disabled = pageIndex + 1 >= pageCount;
+  $('#gallery-page').textContent = `${pageIndex + 1} / ${pageCount}`;
+  const count = selected ? filtered.length : available.length;
+  const item = selected ? 'photo' : 'session';
+  $('#gallery-count').textContent = `${count} ${item}${count === 1 ? '' : 's'}`;
 }
 renderGallery();
-const lightbox=$('#lightbox');function updateViewer(){const p=filtered[viewerIndex];if(!p)return;$('#lightbox-index').textContent=`${String(viewerIndex+1).padStart(2,'0')} / ${String(filtered.length).padStart(2,'0')}`;$('#lightbox-category').textContent=p.category.toUpperCase();$('#lightbox-title').textContent=p.title;$('#lightbox-session').textContent=p.session;$('#lightbox-image').replaceChildren();$('#lightbox-image').appendChild(photoNode(p,'tile-art'));const dl=$('#lightbox-download');dl.hidden=!p.src||p.sample;if(p.src){dl.href=p.src;dl.download=p.src.split('/').pop().split('?')[0]||'the-prime-grid.jpg'}}
+const lightbox = $('#lightbox');
+function updateViewer() {
+  const photo = filtered[viewerIndex];
+  if (!photo) return;
+  $('#lightbox-index').textContent = `${viewerIndex + 1} / ${filtered.length}`;
+  $('#lightbox-session').textContent = photo.session;
+  $('#lightbox-image').replaceChildren(photoNode(photo, 'tile-art'));
+  const download = $('#lightbox-download');
+  download.hidden = photo.sample;
+  download.href = photo.src;
+  download.download = photo.src.split('/').pop().split('?')[0];
+}
 function openViewer(i){viewerIndex=i;updateViewer();$('#lightbox-prev').disabled=filtered.length<2;$('#lightbox-next').disabled=filtered.length<2;lightbox.showModal();document.body.classList.add('modal-open')}
 function closeViewer(){lightbox.close();document.body.classList.remove('modal-open')}
 const moveViewer=d=>{if(filtered.length<2)return;viewerIndex=(viewerIndex+d+filtered.length)%filtered.length;updateViewer()};$('#lightbox-prev').addEventListener('click',()=>moveViewer(-1));$('#lightbox-next').addEventListener('click',()=>moveViewer(1));$('#lightbox-close').addEventListener('click',closeViewer);lightbox.addEventListener('close',()=>document.body.classList.remove('modal-open'));lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeViewer()});

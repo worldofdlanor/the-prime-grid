@@ -24,13 +24,13 @@
       <span class="brand-words">THE PRIME <span>GRID</span><small>PHOTOGRAPHY & VISUAL STORIES</small></span>
     </a>
     <nav class="desktop-nav" aria-label="Main navigation">
-      <a href="#work">Work</a><a href="#about">About</a><a href="#services">Services</a><a href="#magazine">The Prime Mag</a><a href="#clients" hidden>Client access</a>
+      <a href="#work">Work</a><a href="#about">About</a><a href="#video">Video</a><a href="#services">Services</a><a href="#magazine">The Prime Mag</a><a href="#clients" hidden>Client access</a>
     </nav>
     <a class="nav-book" href="#booking">BOOK A SESSION <span aria-hidden="true">↗</span></a>
     <button id="menu-button" class="menu-button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-navigation"><span></span><span></span></button>
   </header>
   <nav id="mobile-navigation" class="mobile-nav" aria-label="Mobile navigation" hidden>
-    <a href="#work">The work</a><a href="#about">About</a><a href="#services">Services</a><a href="#magazine">The Prime Mag</a><a href="#clients" hidden>Client access</a><a href="#booking">Book a session ↗</a>
+    <a href="#work">The work</a><a href="#about">About</a><a href="#video">Video</a><a href="#services">Services</a><a href="#magazine">The Prime Mag</a><a href="#clients" hidden>Client access</a><a href="#booking">Book a session ↗</a>
   </nav>
   <main id="main">
     <section class="hero" id="home" aria-labelledby="hero-title">
@@ -52,17 +52,31 @@
       <div class="section-head section-pad"><div><p class="eyebrow">01 / SELECTED PORTFOLIO</p><h2 id="work-heading">The <em>Work.</em></h2></div></div>
       <div class="portfolio-toolbar section-pad">
         <div class="filter-set" id="category-filters" aria-label="Filter portfolio by category"></div>
-        <label class="session-picker">SESSION <select id="session-filter"><option value="">All sessions</option></select></label>
       </div>
       <div id="album-heading" class="album-heading section-pad" hidden>
         <button id="album-back" type="button">← All albums</button>
         <h3 id="album-title" tabindex="-1"></h3>
       </div>
-      <div id="gallery-grid" class="gallery-grid"></div>
+      <div id="gallery-grid" class="gallery-grid section-pad"></div>
+      <div id="gallery-pages" class="gallery-pages section-pad" aria-label="Portfolio pages" hidden>
+        <button id="gallery-prev" type="button">← Previous</button>
+        <span id="gallery-page"></span>
+        <button id="gallery-next" type="button">Next →</button>
+      </div>
       <div class="portfolio-foot section-pad"><span id="gallery-count" role="status"></span><a href="#booking" class="under-link under-light">HAVE A PROJECT IN MIND? <span>↗</span></a></div>
     </section>
 
     <section class="about-section" id="about" aria-labelledby="about-heading"><div class="about-photo art-street"><div class="about-art-symbol">PG<span>®</span></div></div><div class="about-copy"><p class="eyebrow black-eyebrow">02 / BEHIND THE LENS</p><h2 id="about-heading">Hi, I’m <em>Ronald.</em></h2><p>I'm the photographer and videographer behind <strong>The Prime Grid</strong>, based in West Texas.</p><p>I shoot portraits, editorial concepts, and the moments people want to remember together. I like working with expressive light and giving people room to be themselves in front of the camera.</p><a class="button button-dark" href="#booking">LET'S CREATE SOMETHING <span aria-hidden="true">↗</span></a><p class="about-note">BASED IN WEST TEXAS</p></div></section>
+
+    <section class="video-section section-pad dark-section" id="video" aria-labelledby="video-heading">
+      <div class="section-head"><h2 id="video-heading">In <em>motion.</em></h2></div>
+      <div class="reel-grid">
+        <a class="reel-link" href="https://www.instagram.com/theprimegrid/reel/DfBlJHNB7Ve/" target="_blank" rel="noopener noreferrer"><strong>Breaking Character</strong><span>Watch on Instagram ↗</span></a>
+        <a class="reel-link" href="https://www.instagram.com/theprimegrid/reel/DD_46j0ot7-/" target="_blank" rel="noopener noreferrer"><strong>Tailored by Kay</strong><span>Watch on Instagram ↗</span></a>
+        <a class="reel-link" href="https://www.instagram.com/theprimegrid/reel/C9cpox3Oo-D/" target="_blank" rel="noopener noreferrer"><strong>This Is Midland, TX</strong><span>Watch on Instagram ↗</span></a>
+        <a class="reel-link" href="https://www.instagram.com/theprimegrid/reel/C8_O4YCuc5o/" target="_blank" rel="noopener noreferrer"><strong>Demola the Violinist</strong><span>Watch on Instagram ↗</span></a>
+      </div>
+    </section>
 
     <section class="services-section section-pad dark-section" id="services" aria-labelledby="services-heading"><div class="section-head"><div><p class="eyebrow">03 / WHAT I OFFER</p><h2 id="services-heading">Made for <em>your moment.</em></h2></div><p class="head-side">Photography and video for individuals, families, and creative teams.</p></div>
       <div class="service-list" id="service-list"></div>
@@ -78,8 +92,8 @@
         <aside class="booking-aside"><div id="calendar-container" class="calendar-panel" hidden></div><div class="booking-contact"><div><small>AVAILABILITY</small><strong>By appointment</strong></div><div><small>TRAVEL</small><strong>Texas and worldwide by quote</strong></div><div id="contact-container" hidden><small>CONTACT</small><a id="contact-display"></a></div><div id="phone-container" hidden><small>PHONE</small><strong id="phone-display"></strong></div></div></aside></div>
     </section>
   </main>
-  <footer class="site-footer"><div class="footer-top"><div><div class="footer-brand">THE PRIME <em>GRID.</em></div><p>Stories worth framing.<br>Moments worth remembering.</p></div><div class="footer-nav"><div><span>EXPLORE</span><a href="#work">Portfolio</a><a href="#about">About</a><a href="#services">Services</a><a href="#magazine">The Prime Mag</a></div><div><span>CONNECT</span><a href="#booking">Booking</a><a id="social-instagram" href="https://www.instagram.com/theprimegrid/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a id="social-facebook" hidden target="_blank" rel="noopener noreferrer">Facebook ↗</a><a id="social-tiktok" hidden target="_blank" rel="noopener noreferrer">TikTok ↗</a><a id="social-youtube" hidden target="_blank" rel="noopener noreferrer">YouTube ↗</a><a id="social-pinterest" hidden target="_blank" rel="noopener noreferrer">Pinterest ↗</a></div></div></div><div class="footer-bottom"><span>© <span id="copyright-year"></span> THE PRIME GRID. ALL RIGHTS RESERVED.</span><span>TEXAS / EVERYWHERE THE STORY TAKES US</span><a href="#top">BACK TO TOP ↑</a></div></footer>
-  <dialog id="lightbox" class="lightbox" aria-label="Portfolio image viewer"><div class="lightbox-head"><span id="lightbox-index">01 / 12</span><span id="lightbox-category">THE PRIME GRID</span><button id="lightbox-close" autofocus aria-label="Close image viewer">✕</button></div><div id="lightbox-image" class="lightbox-image" aria-label="Selected portfolio photo"></div><div class="lightbox-bottom"><div><strong id="lightbox-title">SESSION</strong><span id="lightbox-session"></span></div><div class="lightbox-buttons"><a id="lightbox-download" hidden download aria-label="Download original photo">↓ DOWNLOAD</a><button id="lightbox-prev" aria-label="Previous photo">←</button><button id="lightbox-next" aria-label="Next photo">→</button></div></div></dialog>
+  <footer class="site-footer"><div class="footer-top"><div><div class="footer-brand">THE PRIME <em>GRID.</em></div><p>Stories worth framing.<br>Moments worth remembering.</p></div><div class="footer-nav"><div><span>EXPLORE</span><a href="#work">Portfolio</a><a href="#about">About</a><a href="#video">Video</a><a href="#services">Services</a><a href="#magazine">The Prime Mag</a></div><div><span>CONNECT</span><a href="#booking">Booking</a><a id="social-instagram" href="https://www.instagram.com/theprimegrid/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a id="social-facebook" hidden target="_blank" rel="noopener noreferrer">Facebook ↗</a><a id="social-tiktok" hidden target="_blank" rel="noopener noreferrer">TikTok ↗</a><a id="social-youtube" hidden target="_blank" rel="noopener noreferrer">YouTube ↗</a><a id="social-pinterest" hidden target="_blank" rel="noopener noreferrer">Pinterest ↗</a></div></div></div><div class="footer-bottom"><span>© <span id="copyright-year"></span> THE PRIME GRID. ALL RIGHTS RESERVED.</span><span>TEXAS / EVERYWHERE THE STORY TAKES US</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+  <dialog id="lightbox" class="lightbox" aria-label="Portfolio image viewer"><div class="lightbox-head"><span id="lightbox-index">01 / 12</span><strong id="lightbox-session"></strong><button id="lightbox-close" autofocus aria-label="Close image viewer">✕</button></div><div id="lightbox-image" class="lightbox-image" aria-label="Selected portfolio photo"></div><div class="lightbox-bottom"><div class="lightbox-buttons"><a id="lightbox-download" hidden download aria-label="Download original photo">↓ DOWNLOAD</a><button id="lightbox-prev" aria-label="Previous photo">←</button><button id="lightbox-next" aria-label="Next photo">→</button></div></div></dialog>
   <dialog id="article-modal" class="article-modal" aria-label="The Prime Mag article"><button id="article-close" class="article-close" aria-label="Close article">✕ CLOSE</button><div class="article-modal-body" id="article-body"></div></dialog>
   <div id="toast" class="toast" aria-live="polite" hidden></div>
 </body>
