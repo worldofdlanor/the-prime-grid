@@ -176,23 +176,26 @@
 .session-terms {font-size:14px;line-height:1.7;color:#b6b4af;max-width:850px;margin-top:24px}
 @media(min-width:761px) and (max-width:1050px) {.session-catalog .package-grid {grid-template-columns:1fr}.session-package {min-height:0}}
 
-/* Mixed-size album covers, without decorative frames. */
-#gallery-grid:not(.session-photos) {grid-template-columns:repeat(12,minmax(0,1fr));gap:12px;padding-inline:12px;align-items:start}
-#gallery-grid:not(.session-photos) .photo-tile {grid-column:span 4;aspect-ratio:4/5}
-#gallery-grid:not(.session-photos) .photo-tile:nth-child(6n + 1) {grid-column:span 7;aspect-ratio:4/3}
-#gallery-grid:not(.session-photos) .photo-tile:nth-child(6n + 2) {grid-column:span 5;aspect-ratio:6/5}
-#gallery-grid:not(.session-photos) .photo-tile:nth-child(6n + 6) {grid-column:span 12;aspect-ratio:2.4}
-#gallery-grid .photo-tile,#gallery-grid .tile-art,.about-photo,.mag-art,.hero-art,.lightbox-image,.lightbox-image .tile-art {border:0;box-shadow:none;background-color:transparent}
+
+/* Original portfolio proportions, restored from preview 66d75d0. */
+#gallery-grid {grid-template-columns:repeat(12,minmax(0,1fr));grid-auto-flow:row dense;gap:9px;padding:0 10px;min-height:250px;align-items:stretch}
+#gallery-grid .photo-tile {grid-column:span 4;height:clamp(240px,27vw,430px);aspect-ratio:auto;background:transparent;border:0;box-shadow:none}
+#gallery-grid .photo-tile.wide {grid-column:span 6;height:clamp(260px,36vw,560px)}
+#gallery-grid .photo-tile.tall {height:clamp(360px,40vw,620px)}
+#gallery-grid .tile-meta {left:25px;right:25px;bottom:24px}
+#gallery-grid .tile-meta strong {font-size:clamp(24px,3vw,45px);overflow-wrap:normal;word-break:normal;max-width:100%}
+#gallery-grid .tile-meta small {margin:0 0 10px}
+#gallery-grid .tile-art,.about-photo,.mag-art,.hero-art,.lightbox-image,.lightbox-image .tile-art {border:0;box-shadow:none;background-color:transparent}
 .tile-art::before,.tile-art::after,.about-photo::before,.about-photo::after,.mag-art::before,.mag-art::after {content:none!important;border:0!important}
 .photo-placeholder-label {border:0;background:transparent}
-#gallery-grid .tile-meta strong {overflow-wrap:normal;word-break:normal;max-width:100%}
-#gallery-grid .tile-meta {left:24px;right:24px;bottom:24px}
-#gallery-grid.session-photos .photo-tile {background:transparent}
 #gallery-grid.session-photos .tile-art {background:none}
+.session-picker select {max-width:260px}
 @media(max-width:760px){
- #gallery-grid:not(.session-photos){grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding-inline:8px}
- #gallery-grid:not(.session-photos) .photo-tile {grid-column:span 1!important;aspect-ratio:3/4!important}
- #gallery-grid:not(.session-photos) .photo-tile:nth-child(6n + 1),#gallery-grid:not(.session-photos) .photo-tile:nth-child(6n + 6) {grid-column:span 2!important;aspect-ratio:4/3!important}
- #gallery-grid .tile-meta {left:12px;right:12px;bottom:14px}
- #gallery-grid .tile-meta strong {font-size:clamp(22px,5vw,34px)}
+ #gallery-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;padding:0 6px}
+ #gallery-grid .photo-tile,#gallery-grid .photo-tile.wide,#gallery-grid .photo-tile.tall {grid-column:span 1;height:auto;aspect-ratio:.75}
+ #gallery-grid .photo-tile.wide {grid-column:span 2;aspect-ratio:1.45}
+ #gallery-grid .tile-meta {left:12px;right:12px;bottom:12px}
+ #gallery-grid .tile-meta strong {font-size:clamp(21px,5vw,33px)}
+ .session-picker {width:100%;min-width:0}
+ .session-picker select {max-width:100%}
 }

@@ -54,6 +54,11 @@ const filterSet = $('#category-filters');
 const albumTitle = $('#album-title');
 const grid = $('#gallery-grid');
 const pageSize = 6;
+const sessionSelect = $('#session-filter');
+sessionSelect.addEventListener('change', () => {
+  if (sessionSelect.value) openAlbum(sessionSelect.value);
+  else { sessionFilter = ''; renderGallery(); }
+});
 let pageIndex = 0;
 const categoryLabels = {
   'Commercial / product': 'Commercial',
@@ -96,7 +101,8 @@ $('#album-back').addEventListener('click', () => {
 function galleryTile(photo, label, onClick) {
   const tile = document.createElement('button');
   tile.type = 'button';
-  tile.className = 'photo-tile';
+  const index = grid.children.length;
+  tile.className = 'photo-tile ' + (index % 7 === 0 ? 'wide' : index % 7 === 4 ? 'tall' : '');
   tile.setAttribute('aria-label', label);
   tile.appendChild(photoNode(photo, 'tile-art'));
   tile.addEventListener('click', onClick);
@@ -112,7 +118,7 @@ function albumCover(album) {
   tile.querySelector('img').style.objectPosition = photo.position || '50% 25%';
   const info = document.createElement('span');
   info.className = 'tile-meta';
-  info.innerHTML = `<strong>${safe(album.title)}</strong><small>${count}</small>`;
+  info.innerHTML = `<small>${safe(categoryLabels[album.category] || album.category)} / ${count}</small><strong>${safe(album.title)}</strong>`;
   tile.appendChild(info);
   return tile;
 }
@@ -130,6 +136,9 @@ function renderGallery() {
   const selected = albums.get(sessionFilter);
   const available = [...albums.values()].filter(album => !categoryFilter || album.category === categoryFilter);
   const pageCount = Math.ceil(available.length / pageSize);
+  sessionSelect.replaceChildren(new Option('All sessions', ''));
+  available.forEach(album => sessionSelect.add(new Option(album.title, album.key)));
+  sessionSelect.value = sessionFilter;
   filterSet.hidden = !!selected;
   filterSet.parentElement.hidden = !!selected;
   $('#album-heading').hidden = !selected;
