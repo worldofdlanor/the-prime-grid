@@ -160,3 +160,18 @@
 .booking-alternative {display:flex;flex-wrap:wrap;gap:16px;align-items:center;border-top:1px solid #454541;margin-top:28px;padding-top:24px;font-size:14px;color:#c3c1bc}
 .booking-copy {background:transparent;color:var(--white);border:1px solid #777;min-height:44px;padding:12px 18px;font-size:14px}
 .booking-contact a {overflow-wrap:anywhere;min-width:0}
+
+/* Session menu and transparent package details */
+.session-catalog {margin-top:48px}
+.session-catalog>label {display:block;font-size:16px;margin-bottom:12px}
+.session-catalog>select {width:100%;max-width:560px;min-height:56px;padding:14px;color:var(--white);background:#20201e;border:1px solid #777;font-size:18px;border-radius:0}
+.session-description {font-size:17px;line-height:1.7;max-width:750px;color:#c3c1bc;margin:24px 0 32px}
+.session-package {display:flex;flex-direction:column;min-width:0}
+.session-package h4 {font-size:30px;margin:0 0 20px}
+.session-price {font:normal 42px var(--serif)}
+.session-price small {font:14px var(--sans);color:#bbb}
+.session-package p,.session-package li {font-size:15px;line-height:1.7}
+.session-package ul {padding-left:20px;margin:4px 0 28px;color:#d1cec7}
+.session-package button {position:static!important;margin-top:auto;min-height:48px;width:100%;font-size:14px}
+.session-terms {font-size:14px;line-height:1.7;color:#b6b4af;max-width:850px;margin-top:24px}
+@media(min-width:761px) and (max-width:1050px) {.session-catalog .package-grid {grid-template-columns:1fr}.session-package {min-height:0}}

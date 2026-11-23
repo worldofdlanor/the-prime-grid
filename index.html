@@ -79,8 +79,13 @@
     </section>
 
     <section class="services-section section-pad dark-section" id="services" aria-labelledby="services-heading"><div class="section-head"><div><p class="eyebrow">03 / WHAT I OFFER</p><h2 id="services-heading">Made for <em>your moment.</em></h2></div><p class="head-side">Photography and video for individuals, families, and creative teams.</p></div>
-      <div class="service-list" id="service-list"></div>
-      <div class="packages"><div class="package-head"><div><p class="eyebrow">A STARTING POINT</p><h3>Choose your <em>experience.</em></h3></div><p>Every project is quoted based on the coverage, editing, and travel involved.</p></div><div class="package-grid" id="package-grid"></div></div>
+      <div class="session-catalog">
+        <label for="session-category">What are we celebrating?</label>
+        <select id="session-category" aria-controls="session-description package-grid"></select>
+        <p id="session-description" class="session-description"></p>
+        <div class="package-grid" id="package-grid"></div>
+        <p class="session-terms">Prices in USD. Studio rental, special sets, permits, and travel outside the local area are quoted separately when needed. Final availability and total are confirmed before booking.</p>
+      </div>
     </section>
 
     <section class="magazine-section section-pad" id="magazine" aria-labelledby="mag-heading"><div class="section-head"><div><p class="eyebrow black-eyebrow">04 / The Prime Mag</p><h2 id="mag-heading">Stories <em>between frames.</em></h2></div><div class="head-side">A place for ideas, process, inspiration, and the small details that deserve a closer look.</div></div><div id="magazine-grid" class="magazine-grid"></div></section>
@@ -93,7 +98,8 @@
           <h3 class="booking-form-title">Request a session</h3>
           <p class="booking-note" id="booking-note">Choose your session and share your plans. I’ll confirm availability, pricing, and the details with you by email.</p>
           <label for="inquiry-type">Session type</label><select id="inquiry-type" name="Session type" required><option value="">Choose your session</option><option>Other</option></select>
-          <label for="inquiry-package">Collection (optional)</label><select id="inquiry-package" name="Collection"><option value="">Help me choose</option><option>The Essential</option><option>The Story</option><option>The Commission</option></select>
+          <label for="inquiry-package">Session option</label><select id="inquiry-package" name="Session option" required disabled><option value="">Choose a session type first</option></select>
+          <p id="booking-package-summary" class="booking-note" aria-live="polite"></p>
           <div class="two-fields"><div><label for="inquiry-name">Your name</label><input type="text" id="inquiry-name" name="Name" required maxlength="100" autocomplete="name"></div><div><label for="inquiry-email">Email address</label><input type="email" id="inquiry-email" name="Email" required maxlength="200" autocomplete="email"></div></div>
           <div class="two-fields"><div><label for="inquiry-date">Preferred date (optional)</label><input type="date" id="inquiry-date" name="Preferred date"></div><div><label for="inquiry-phone">Phone (optional)</label><input type="tel" id="inquiry-phone" name="Phone" maxlength="40" autocomplete="tel"></div></div>
           <label for="inquiry-location">Location</label><input id="inquiry-location" name="Location" required maxlength="200" placeholder="City or venue">
