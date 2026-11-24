@@ -32,7 +32,17 @@
     "session": "Breaking Character",
     "placement": "Portfolio",
     "src": "/images/uploads/breaking-character-04.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      86,
+      36,
+      547,
+      819
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Breaking Character",
@@ -40,7 +50,17 @@
     "session": "Breaking Character",
     "placement": "Portfolio",
     "src": "/images/uploads/breaking-character-05.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      14,
+      18,
+      310,
+      414
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Breaking Character",
@@ -48,7 +68,17 @@
     "session": "Breaking Character",
     "placement": "Portfolio",
     "src": "/images/uploads/breaking-character-06.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      22,
+      27,
+      677,
+      846
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Breaking Character",
@@ -56,7 +86,17 @@
     "session": "Breaking Character",
     "placement": "Portfolio",
     "src": "/images/uploads/breaking-character-07.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      317,
+      18,
+      396,
+      864
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Breaking Character",
@@ -72,7 +112,17 @@
     "session": "Breaking Character",
     "placement": "Portfolio",
     "src": "/images/uploads/breaking-character-09.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      14,
+      18,
+      324,
+      405
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Breaking Character",
@@ -88,7 +138,17 @@
     "session": "Breaking Character",
     "placement": "Portfolio",
     "src": "/images/uploads/breaking-character-11.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      36,
+      27,
+      648,
+      396
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Presence",
@@ -174,7 +234,17 @@
     "src": "/images/uploads/yuletide-family-affair-01.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 10%"
+    "position": "50% 10%",
+    "crop": [
+      17,
+      22,
+      1045,
+      1306
+    ],
+    "dimensions": [
+      1080,
+      1349
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -182,7 +252,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-02.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      17,
+      22,
+      1045,
+      1306
+    ],
+    "dimensions": [
+      1080,
+      1349
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -190,7 +270,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-03.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      7,
+      4,
+      706,
+      397
+    ],
+    "dimensions": [
+      720,
+      405
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -198,7 +288,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-04.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      13,
+      700,
+      875
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -206,7 +306,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-05.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      13,
+      700,
+      875
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -214,7 +324,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-06.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      13,
+      700,
+      875
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -222,7 +342,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-07.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      13,
+      700,
+      875
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -230,7 +360,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-08.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      20,
+      29,
+      1400,
+      1741
+    ],
+    "dimensions": [
+      1440,
+      1799
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -238,7 +378,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-09.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      14,
+      700,
+      871
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -246,7 +396,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-10.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      14,
+      700,
+      871
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -254,7 +414,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-11.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      14,
+      700,
+      871
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -262,7 +432,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-12.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      14,
+      700,
+      871
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -270,7 +450,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-13.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      20,
+      11,
+      1400,
+      787
+    ],
+    "dimensions": [
+      1440,
+      810
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -278,7 +468,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-14.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      6,
+      700,
+      394
+    ],
+    "dimensions": [
+      720,
+      405
+    ]
   },
   {
     "title": "Yuletide Family Affair",
@@ -286,7 +486,17 @@
     "session": "Yuletide Family Affair",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-family-affair-15.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      14,
+      700,
+      871
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -312,7 +522,17 @@
     "session": "The Weight of the Calm, Vol. I",
     "placement": "Portfolio",
     "src": "/images/uploads/the-weight-of-the-calm-03.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      0,
+      38,
+      690,
+      824
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -328,7 +548,17 @@
     "session": "The Weight of the Calm, Vol. I",
     "placement": "Portfolio",
     "src": "/images/uploads/the-weight-of-the-calm-05.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      75,
+      23,
+      571,
+      854
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -370,7 +600,17 @@
     "src": "/images/uploads/all-focus-no-mercy-02.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 25%"
+    "position": "50% 25%",
+    "crop": [
+      11,
+      22,
+      698,
+      855
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "All Focus, No Mercy!",
@@ -378,7 +618,17 @@
     "session": "All Focus, No Mercy!",
     "placement": "Portfolio",
     "src": "/images/uploads/all-focus-no-mercy-03.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      18,
+      21,
+      684,
+      858
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "All Focus, No Mercy!",
@@ -386,7 +636,17 @@
     "session": "All Focus, No Mercy!",
     "placement": "Portfolio",
     "src": "/images/uploads/all-focus-no-mercy-04.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      27,
+      34,
+      666,
+      832
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "All Focus, No Mercy!",
@@ -394,7 +654,17 @@
     "session": "All Focus, No Mercy!",
     "placement": "Portfolio",
     "src": "/images/uploads/all-focus-no-mercy-05.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      66,
+      9,
+      589,
+      882
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "All Focus, No Mercy!",
@@ -402,7 +672,17 @@
     "session": "All Focus, No Mercy!",
     "placement": "Portfolio",
     "src": "/images/uploads/all-focus-no-mercy-06.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      43,
+      243,
+      310,
+      369
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "All Focus, No Mercy!",
@@ -410,7 +690,17 @@
     "session": "All Focus, No Mercy!",
     "placement": "Portfolio",
     "src": "/images/uploads/all-focus-no-mercy-07.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      92,
+      31,
+      628,
+      838
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "All Focus, No Mercy!",
@@ -418,7 +708,17 @@
     "session": "All Focus, No Mercy!",
     "placement": "Portfolio",
     "src": "/images/uploads/all-focus-no-mercy-08.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      0,
+      31,
+      628,
+      838
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "All Focus, No Mercy!",
@@ -426,7 +726,17 @@
     "session": "All Focus, No Mercy!",
     "placement": "Portfolio",
     "src": "/images/uploads/all-focus-no-mercy-09.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      58,
+      54,
+      374,
+      468
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Ronald Olufemi",
@@ -434,7 +744,17 @@
     "session": "Behind the Lens",
     "placement": "About",
     "src": "/images/uploads/ronald-olufemi.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      37,
+      46,
+      1006,
+      1251
+    ],
+    "dimensions": [
+      1080,
+      1350
+    ]
   },
   {
     "title": "Frost in the Marrow",
@@ -478,7 +798,17 @@
     "session": "The Crown Fits",
     "placement": "Portfolio",
     "src": "/images/uploads/the-crown-fits-02.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      23,
+      58,
+      697,
+      784
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "The Crown Fits",
@@ -486,7 +816,17 @@
     "session": "The Crown Fits",
     "placement": "Portfolio",
     "src": "/images/uploads/the-crown-fits-03.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      0,
+      58,
+      697,
+      784
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Classified, but Make It Fashion",
@@ -514,7 +854,17 @@
     "src": "/images/uploads/the-art-of-colour-grading-01.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 25%"
+    "position": "50% 25%",
+    "crop": [
+      16,
+      20,
+      1048,
+      1314
+    ],
+    "dimensions": [
+      1080,
+      1350
+    ]
   },
   {
     "title": "The Art of Colour Grading",
@@ -522,7 +872,17 @@
     "session": "The Art of Colour Grading",
     "placement": "Portfolio",
     "src": "/images/uploads/the-art-of-colour-grading-02.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      13,
+      700,
+      874
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "The Art of Colour Grading",
@@ -530,7 +890,17 @@
     "session": "The Art of Colour Grading",
     "placement": "Portfolio",
     "src": "/images/uploads/the-art-of-colour-grading-03.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      13,
+      700,
+      880
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "The Art of Colour Grading",
@@ -538,7 +908,17 @@
     "session": "The Art of Colour Grading",
     "placement": "Portfolio",
     "src": "/images/uploads/the-art-of-colour-grading-04.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      10,
+      13,
+      700,
+      880
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Distorted Reality",
@@ -606,7 +986,17 @@
     "session": "February Portrait Session",
     "placement": "Portfolio",
     "src": "/images/uploads/february-portrait-session-02.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      150,
+      129,
+      570,
+      642
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "February Portrait Session",
@@ -614,7 +1004,17 @@
     "session": "February Portrait Session",
     "placement": "Portfolio",
     "src": "/images/uploads/february-portrait-session-03.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      0,
+      129,
+      570,
+      642
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "February Portrait Session",
@@ -654,7 +1054,17 @@
     "session": "Cradled by the Stars",
     "placement": "Portfolio",
     "src": "/images/uploads/cradled-by-the-stars-02.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      66,
+      9,
+      588,
+      882
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Cradled by the Stars",
@@ -698,7 +1108,17 @@
     "session": "Take Notes",
     "placement": "Portfolio",
     "src": "/images/uploads/take-notes-04.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      81,
+      24,
+      558,
+      835
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Take Notes",
@@ -706,7 +1126,17 @@
     "session": "Take Notes",
     "placement": "Portfolio",
     "src": "/images/uploads/take-notes-05.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      76,
+      24,
+      568,
+      852
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Take Notes",
@@ -714,7 +1144,17 @@
     "session": "Take Notes",
     "placement": "Portfolio",
     "src": "/images/uploads/take-notes-06.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      29,
+      18,
+      605,
+      864
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Take Notes",
@@ -730,7 +1170,17 @@
     "session": "Take Notes",
     "placement": "Portfolio",
     "src": "/images/uploads/take-notes-08.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      79,
+      27,
+      562,
+      846
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Ishola Ekun",
@@ -790,7 +1240,17 @@
     "session": "Strength Without Compromise",
     "placement": "Portfolio",
     "src": "/images/uploads/strength-without-compromise-02.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      300,
+      0,
+      482,
+      720
+    ],
+    "dimensions": [
+      1080,
+      720
+    ]
   },
   {
     "title": "Leave It All on the Court",
@@ -808,7 +1268,17 @@
     "session": "Leave It All on the Court",
     "placement": "Portfolio",
     "src": "/images/uploads/leave-it-all-on-the-court-02.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      117,
+      21,
+      841,
+      561
+    ],
+    "dimensions": [
+      1080,
+      607
+    ]
   },
   {
     "title": "Leave It All on the Court",
@@ -816,7 +1286,17 @@
     "session": "Leave It All on the Court",
     "placement": "Portfolio",
     "src": "/images/uploads/leave-it-all-on-the-court-03.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      616,
+      24,
+      367,
+      558
+    ],
+    "dimensions": [
+      1080,
+      607
+    ]
   },
   {
     "title": "Urban Grit",
@@ -826,7 +1306,17 @@
     "src": "/images/uploads/urban-grit-01.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 25%"
+    "position": "50% 25%",
+    "crop": [
+      132,
+      65,
+      816,
+      1223
+    ],
+    "dimensions": [
+      1080,
+      1350
+    ]
   },
   {
     "title": "Urban Grit",
@@ -834,7 +1324,17 @@
     "session": "Urban Grit",
     "placement": "Portfolio",
     "src": "/images/uploads/urban-grit-02.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      0,
+      0,
+      676,
+      900
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Urban Grit",
@@ -842,7 +1342,17 @@
     "session": "Urban Grit",
     "placement": "Portfolio",
     "src": "/images/uploads/urban-grit-03.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      54,
+      126,
+      446,
+      648
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Urban Grit",
@@ -850,7 +1360,17 @@
     "session": "Urban Grit",
     "placement": "Portfolio",
     "src": "/images/uploads/urban-grit-04.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      7,
+      0,
+      518,
+      900
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Urban Grit",
@@ -884,7 +1404,17 @@
     "src": "/images/uploads/space-cowboy-02.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 28%"
+    "position": "50% 28%",
+    "crop": [
+      0,
+      0,
+      677,
+      900
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Space Cowboy",
@@ -892,7 +1422,17 @@
     "session": "Space Cowboy",
     "placement": "Portfolio",
     "src": "/images/uploads/space-cowboy-03.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      0,
+      19,
+      720,
+      857
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Space Cowboy",
@@ -900,7 +1440,17 @@
     "session": "Space Cowboy",
     "placement": "Portfolio",
     "src": "/images/uploads/space-cowboy-04.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      166,
+      18,
+      540,
+      864
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Space Cowboy",
@@ -908,7 +1458,17 @@
     "session": "Space Cowboy",
     "placement": "Portfolio",
     "src": "/images/uploads/space-cowboy-05.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      79,
+      0,
+      641,
+      900
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Space Cowboy",
@@ -924,7 +1484,17 @@
     "session": "Built to Conquer",
     "placement": "Portfolio",
     "src": "/images/uploads/built-to-conquer-01.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      86,
+      40,
+      907,
+      1269
+    ],
+    "dimensions": [
+      1080,
+      1350
+    ]
   },
   {
     "title": "Built to Conquer",
@@ -942,7 +1512,17 @@
     "session": "Built to Conquer",
     "placement": "Portfolio",
     "src": "/images/uploads/built-to-conquer-03.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      22,
+      36,
+      677,
+      828
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Built to Conquer",
@@ -950,7 +1530,17 @@
     "session": "Built to Conquer",
     "placement": "Portfolio",
     "src": "/images/uploads/built-to-conquer-04.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      0,
+      0,
+      720,
+      846
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Built to Conquer",
@@ -966,7 +1556,17 @@
     "session": "Built to Conquer",
     "placement": "Portfolio",
     "src": "/images/uploads/built-to-conquer-06.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      29,
+      32,
+      662,
+      837
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Built to Conquer",
@@ -974,7 +1574,17 @@
     "session": "Built to Conquer",
     "placement": "Portfolio",
     "src": "/images/uploads/built-to-conquer-07.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      22,
+      18,
+      677,
+      864
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "The Grind",
@@ -1008,7 +1618,17 @@
     "session": "The Grind",
     "placement": "Portfolio",
     "src": "/images/uploads/the-grind-04.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      50,
+      36,
+      626,
+      819
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
   },
   {
     "title": "Beauty Is a Light",
@@ -1018,7 +1638,17 @@
     "src": "/images/uploads/beauty-is-a-light-01.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 25%"
+    "position": "50% 25%",
+    "crop": [
+      134,
+      65,
+      812,
+      1219
+    ],
+    "dimensions": [
+      1080,
+      1350
+    ]
   },
   {
     "title": "Beauty Is a Light",
@@ -1026,6 +1656,116 @@
     "session": "Beauty Is a Light",
     "placement": "Portfolio",
     "src": "/images/uploads/beauty-is-a-light-02.webp",
-    "sample": false
+    "sample": false,
+    "crop": [
+      89,
+      36,
+      543,
+      814
+    ],
+    "dimensions": [
+      720,
+      900
+    ]
+  },
+  {
+    "title": "Chapter Ten: In Blue",
+    "category": "Portraits",
+    "session": "Chapter Ten: In Blue",
+    "placement": "Portfolio",
+    "src": "/images/uploads/DSC01435.jpg",
+    "sample": false,
+    "cover": true,
+    "position": "50% 25%"
+  },
+  {
+    "title": "Chapter Ten: In Blue",
+    "category": "Portraits",
+    "session": "Chapter Ten: In Blue",
+    "placement": "Portfolio",
+    "src": "/images/uploads/DSC01422.jpg",
+    "sample": false,
+    "cover": false,
+    "position": "50% 25%"
+  },
+  {
+    "title": "Chapter Ten: In Blue",
+    "category": "Portraits",
+    "session": "Chapter Ten: In Blue",
+    "placement": "Portfolio",
+    "src": "/images/uploads/DSC01439.jpg",
+    "sample": false,
+    "cover": false,
+    "position": "50% 25%"
+  },
+  {
+    "title": "Chapter Ten: In Blue",
+    "category": "Portraits",
+    "session": "Chapter Ten: In Blue",
+    "placement": "Portfolio",
+    "src": "/images/uploads/DSC01425.jpg",
+    "sample": false,
+    "cover": false,
+    "position": "50% 25%"
+  },
+  {
+    "title": "Chapter Ten: In Blue",
+    "category": "Portraits",
+    "session": "Chapter Ten: In Blue",
+    "placement": "Portfolio",
+    "src": "/images/uploads/DSC01428.jpg",
+    "sample": false,
+    "cover": false,
+    "position": "50% 25%"
+  },
+  {
+    "title": "Chapter Ten: In Blue",
+    "category": "Portraits",
+    "session": "Chapter Ten: In Blue",
+    "placement": "Portfolio",
+    "src": "/images/uploads/DSC01433.jpg",
+    "sample": false,
+    "cover": false,
+    "position": "50% 25%"
+  },
+  {
+    "title": "Chapter Ten: In Blue",
+    "category": "Portraits",
+    "session": "Chapter Ten: In Blue",
+    "placement": "Portfolio",
+    "src": "/images/uploads/DSC01434.jpg",
+    "sample": false,
+    "cover": false,
+    "position": "50% 25%"
+  },
+  {
+    "title": "Chapter Ten: In Blue",
+    "category": "Portraits",
+    "session": "Chapter Ten: In Blue",
+    "placement": "Portfolio",
+    "src": "/images/uploads/DSC01438.jpg",
+    "sample": false,
+    "cover": false,
+    "position": "50% 25%"
+  },
+  {
+    "title": "Chapter Ten: In Blue",
+    "category": "Portraits",
+    "session": "Chapter Ten: In Blue",
+    "placement": "Portfolio",
+    "src": "/images/uploads/DSC01429.jpg",
+    "sample": false,
+    "cover": false,
+    "position": "50% 25%"
+  },
+  {
+    "title": "Chapter Ten: In Blue",
+    "category": "Portraits",
+    "session": "Chapter Ten: In Blue",
+    "placement": "Portfolio",
+    "src": "/images/uploads/DSC01427.jpg",
+    "sample": false,
+    "cover": false,
+    "position": "50% 25%"
   }
 ]

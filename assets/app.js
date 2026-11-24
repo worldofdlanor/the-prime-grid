@@ -12,6 +12,8 @@ const allImages=fromManifest.map(x=>({
  src:String(x.src||''),
  placement:String(x.placement||'Portfolio'),
  cover:x.cover===true,
+ crop:Array.isArray(x.crop)&&x.crop.length===4?x.crop:null,
+ dimensions:x.dimensions,
  position:/^\d{1,3}% \d{1,3}%$/.test(x.position)?x.position:'50% 25%',
  sample:!!x.sample
 })).filter(p=>p.src);
@@ -23,7 +25,24 @@ const heroPhotos=customHero.length?customHero:selectedHero.length?selectedHero:p
 let filtered=[],categoryFilter='',sessionFilter='',viewerIndex=0,heroIndex=0;
 const toast=message=>{const el=$('#toast');el.textContent=message;el.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.hidden=true,4500)};
 const styleClass=cat=>classes[cat]||'art-personal';
-const photoNode=(p,scope)=>{const holder=document.createElement('div');holder.className=`${scope} ${styleClass(p.category)}`;if(p.src){const img=document.createElement('img');img.src=p.src;img.alt=p.title;img.loading=scope==='tile-art'?'lazy':'eager';img.decoding='async';holder.appendChild(img)}return holder};
+const photoNode=(p,scope)=>{
+ const holder=document.createElement('div');holder.className=`${scope} ${styleClass(p.category)}`;
+ if(!p.src)return holder;
+ if(p.crop&&p.dimensions){
+  const ns='http://www.w3.org/2000/svg';
+  const svg=document.createElementNS(ns,'svg');
+  svg.setAttribute('viewBox',p.crop.join(' '));
+  svg.setAttribute('preserveAspectRatio','xMidYMid meet');
+  svg.setAttribute('role','img');svg.setAttribute('aria-label',p.title);
+  svg.classList.add('cropped-photo');
+  const image=document.createElementNS(ns,'image');
+  image.setAttribute('href',p.src);image.setAttribute('width',p.dimensions[0]);image.setAttribute('height',p.dimensions[1]);
+  svg.appendChild(image);holder.appendChild(svg);
+ }else{
+  const img=document.createElement('img');img.src=p.src;img.alt=p.title;img.loading=scope==='tile-art'?'lazy':'eager';img.decoding='async';img.style.objectPosition=p.position||'50% 20%';holder.appendChild(img);
+ }
+ return holder;
+};
 // Hero carousel, manual controls only.
 function updateHero(){const chosen=heroPhotos[heroIndex%heroPhotos.length],hero=$('#hero-art');if(!chosen)return;hero.className=`hero-art ${styleClass(chosen.category)}${chosen.src?' has-photo':''}`;hero.style.backgroundImage=chosen.src?`url(${JSON.stringify(chosen.src)})`:'';hero.style.backgroundPosition=chosen.position;hero.innerHTML=chosen.src?'':'<div class="art-pattern" aria-hidden="true"><i></i><i></i><i></i><i></i></div>';const label=document.createElement('span');label.className='photo-placeholder-label';label.textContent=chosen.session.toUpperCase();hero.appendChild(label);$('#slide-number').textContent=`${String(heroIndex%Math.min(3,heroPhotos.length)+1).padStart(2,'0')} / ${String(Math.min(3,heroPhotos.length)).padStart(2,'0')}`}
 const shiftHero=d=>{if(heroPhotos.length<2)return;heroIndex=(heroIndex+d+Math.min(3,heroPhotos.length))%Math.min(3,heroPhotos.length);updateHero()};$('#hero-prev').addEventListener('click',()=>shiftHero(-1));$('#hero-next').addEventListener('click',()=>shiftHero(1));updateHero();
@@ -55,7 +74,7 @@ const albumTitle = $('#album-title');
 const grid = $('#gallery-grid');
 const pageSize = 6;
 let showAllWork = false;
-const featuredSessions = ['Breaking Character', 'Presence', 'Yuletide Family Affair', 'Leave It All on the Court'];
+const featuredSessions = ['Breaking Character', 'Chapter Ten: In Blue', 'Presence', 'Yuletide Family Affair'];
 const workToggle = $('#work-toggle');
 workToggle.addEventListener('click', () => {
   showAllWork = !showAllWork;
@@ -126,7 +145,9 @@ function albumCover(album) {
   const count = `${album.photos.length} ${album.photos.length === 1 ? 'photo' : 'photos'}`;
   const tile = galleryTile(photo, `Open ${album.title}, ${count}`, () => openAlbum(album.key));
   tile.dataset.album = album.key;
-  tile.querySelector('img').style.objectPosition = photo.position || '50% 25%';
+  const image=tile.querySelector('img');
+  if(image)image.style.objectPosition=photo.position||'50% 20%';
+  tile.querySelector('svg')?.setAttribute('preserveAspectRatio','xMidYMin slice');
   const info = document.createElement('span');
   info.className = 'tile-meta';
   info.innerHTML = `<small>${safe(categoryLabels[album.category] || album.category)} / ${count}</small><strong>${safe(album.title)}</strong>`;
@@ -200,12 +221,7 @@ const aboutChoices=allImages.filter(p=>p.placement==='About');
 const aboutPhoto=aboutChoices.filter(p=>!p.sample).at(-1)||aboutChoices.at(-1);
 if(aboutPhoto){
   const panel=$('.about-photo');
-  const image = document.createElement('img');
-  image.className = 'about-portrait';
-  image.src = aboutPhoto.src;
-  image.alt = aboutPhoto.title;
-  image.loading = 'lazy';
-  panel.appendChild(image);
+  panel.appendChild(photoNode(aboutPhoto,'about-portrait'));
   panel.classList.add('about-has-photo');
 }
 // Proposed session menu for the preview. Confirm pricing before production.
