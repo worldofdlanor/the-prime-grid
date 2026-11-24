@@ -25,6 +25,7 @@ const heroPhotos=customHero.length?customHero:selectedHero.length?selectedHero:p
 let filtered=[],categoryFilter='',sessionFilter='',viewerIndex=0,heroIndex=0;
 const toast=message=>{const el=$('#toast');el.textContent=message;el.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.hidden=true,4500)};
 const styleClass=cat=>classes[cat]||'art-personal';
+let photoClipId=0;
 const photoNode=(p,scope)=>{
  const holder=document.createElement('div');holder.className=`${scope} ${styleClass(p.category)}`;
  if(!p.src)return holder;
@@ -37,6 +38,11 @@ const photoNode=(p,scope)=>{
   svg.classList.add('cropped-photo');
   const image=document.createElementNS(ns,'image');
   image.setAttribute('href',p.src);image.setAttribute('width',p.dimensions[0]);image.setAttribute('height',p.dimensions[1]);
+  const clip=document.createElementNS(ns,'clipPath');
+  const clipId='photo-crop-'+(++photoClipId);clip.id=clipId;
+  const rect=document.createElementNS(ns,'rect');
+  ['x','y','width','height'].forEach((key,index)=>rect.setAttribute(key,p.crop[index]));
+  clip.appendChild(rect);svg.appendChild(clip);image.setAttribute('clip-path',`url(#${clipId})`);
   svg.appendChild(image);holder.appendChild(svg);
  }else{
   const img=document.createElement('img');img.src=p.src;img.alt=p.title;img.loading=scope==='tile-art'?'lazy':'eager';img.decoding='async';img.style.objectPosition=p.position||'50% 20%';holder.appendChild(img);
