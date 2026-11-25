@@ -2,7 +2,7 @@
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const cfg=window.PRIME_CONFIG||{};
 const safe=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const classes={'Graduation':'art-portrait','Senior photos':'art-portrait','Portraits':'art-portrait','Automotive':'art-auto','Sports':'art-sports','Couples / weddings':'art-couple','Travel / street':'art-street','Commercial / product':'art-commercial','Personal projects':'art-personal','Other':'art-travel'};
+const classes={'Graduation':'art-portrait','Birthdays':'art-portrait','Weddings & Events':'art-couple','Portraits':'art-portrait','Automotive':'art-auto','Sports':'art-sports','Couples / weddings':'art-couple','Travel / street':'art-street','Commercial / product':'art-commercial','Personal projects':'art-personal','Other':'art-travel'};
 const cats=Object.keys(classes);
 const fromManifest=Array.isArray(window.PRIME_MEDIA)?window.PRIME_MEDIA:[];
 const allImages=fromManifest.map(x=>({
