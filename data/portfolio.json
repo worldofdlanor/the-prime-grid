@@ -1444,5 +1444,103 @@
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-653.webp",
     "sample": false
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-123.webp",
+    "sample": false,
+    "cover": true,
+    "position": "50% 30%",
+    "dimensions": [
+      1600,
+      2400
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-89.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-90.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-91.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      2400,
+      1350
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-92.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-122.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      2400,
+      1350
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-86.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      1920,
+      2400
+    ]
   }
 ]

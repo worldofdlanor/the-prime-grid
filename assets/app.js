@@ -2,7 +2,7 @@
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const cfg=window.PRIME_CONFIG||{};
 const safe=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const classes={'Senior photos':'art-portrait','Portraits':'art-portrait','Automotive':'art-auto','Sports':'art-sports','Couples / weddings':'art-couple','Travel / street':'art-street','Commercial / product':'art-commercial','Personal projects':'art-personal','Other':'art-travel'};
+const classes={'Graduation':'art-portrait','Senior photos':'art-portrait','Portraits':'art-portrait','Automotive':'art-auto','Sports':'art-sports','Couples / weddings':'art-couple','Travel / street':'art-street','Commercial / product':'art-commercial','Personal projects':'art-personal','Other':'art-travel'};
 const cats=Object.keys(classes);
 const fromManifest=Array.isArray(window.PRIME_MEDIA)?window.PRIME_MEDIA:[];
 const allImages=fromManifest.map(x=>({
@@ -80,7 +80,7 @@ const albumTitle = $('#album-title');
 const grid = $('#gallery-grid');
 const pageSize = 6;
 let showAllWork = false;
-const featuredSessions = ['Breaking Character', 'Presence', 'Yuletide Family Affair'];
+const featuredSessions = ['Breaking Character', 'Presence', 'Yuletide Family Affair', 'Bamidele: The Next Chapter'];
 const workToggle = $('#work-toggle');
 workToggle.addEventListener('click', () => {
   showAllWork = !showAllWork;
@@ -155,7 +155,7 @@ function albumCover(album) {
   if(image){
     const [x,y]=String(photo.position||'50% 15%').split(' ');
     const people=['Senior photos','Portraits','Couples / weddings','Personal projects','Sports'].includes(album.category);
-    const coverFocus={'Beauty Is a Light':'50% 42%','Chapter Ten: In Blue':'50% 40%','Halimat':'50% 42%'};
+    const coverFocus={'Bamidele: The Next Chapter':'50% 30%','Beauty Is a Light':'50% 42%','Chapter Ten: In Blue':'50% 40%','Halimat':'50% 42%'};
     image.style.objectPosition=coverFocus[album.title]||(people?x+' '+Math.max(35,parseFloat(y)||35)+'%':photo.position||'50% 50%');
     // Face-aware framing where the browser supports local face detection.
     if(people&&typeof window.FaceDetector==='function'){
@@ -363,3 +363,4 @@ $('#copyright-year').textContent=new Date().getFullYear();
 const updateScroll=()=>{let max=document.documentElement.scrollHeight-innerHeight;$('#scroll-progress').style.width=(max>0?window.scrollY/max*100:0)+'%'};window.addEventListener('scroll',updateScroll,{passive:true});updateScroll();
 if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.10});$$('.section-head,.service-row,.package-card,.mag-card').forEach(x=>{x.classList.add('reveal');io.observe(x)})}
 })();
+
