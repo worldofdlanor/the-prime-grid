@@ -1130,12 +1130,62 @@
   },
   {
     "title": "Leave It All on the Court",
+    "session": "Leave It All on the Court",
+    "category": "Sports",
+    "placement": "Portfolio",
+    "src": "/images/uploads/court-39.webp",
+    "sample": false,
+    "cover": true,
+    "position": "50% 35%"
+  },
+  {
+    "title": "Leave It All on the Court",
+    "session": "Leave It All on the Court",
+    "category": "Sports",
+    "placement": "Portfolio",
+    "src": "/images/uploads/court-36.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 35%"
+  },
+  {
+    "title": "Leave It All on the Court",
+    "session": "Leave It All on the Court",
+    "category": "Sports",
+    "placement": "Portfolio",
+    "src": "/images/uploads/court-38.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 35%"
+  },
+  {
+    "title": "Leave It All on the Court",
+    "session": "Leave It All on the Court",
+    "category": "Sports",
+    "placement": "Portfolio",
+    "src": "/images/uploads/court-41.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 35%"
+  },
+  {
+    "title": "Leave It All on the Court",
+    "session": "Leave It All on the Court",
+    "category": "Sports",
+    "placement": "Portfolio",
+    "src": "/images/uploads/court-643.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 35%"
+  },
+  {
+    "title": "Leave It All on the Court",
     "category": "Sports",
     "session": "Leave It All on the Court",
     "placement": "Portfolio",
     "src": "/images/uploads/leave-it-all-on-the-court-01.webp",
     "sample": false,
-    "cover": true,
+    "cover": false,
     "position": "50% 25%"
   },
   {
@@ -1154,25 +1204,8 @@
     "dimensions": [
       1080,
       607
-    ]
-  },
-  {
-    "title": "Leave It All on the Court",
-    "category": "Sports",
-    "session": "Leave It All on the Court",
-    "placement": "Portfolio",
-    "src": "/images/uploads/leave-it-all-on-the-court-03.webp",
-    "sample": false,
-    "crop": [
-      621,
-      29,
-      333,
-      548
     ],
-    "dimensions": [
-      1080,
-      607
-    ]
+    "cover": false
   },
   {
     "title": "Urban Grit",
