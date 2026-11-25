@@ -1,5 +1,103 @@
 [
   {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-123.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      1600,
+      2400
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-89.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-90.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-91.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      2400,
+      1350
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-92.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-122.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 30%",
+    "dimensions": [
+      2400,
+      1350
+    ]
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "session": "Bamidele: The Next Chapter",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-86.webp",
+    "sample": false,
+    "cover": true,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
     "title": "Breaking Character",
     "session": "Breaking Character",
     "category": "Personal projects",
@@ -1446,104 +1544,6 @@
     "sample": false
   },
   {
-    "title": "Bamidele: The Next Chapter",
-    "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
-    "placement": "Portfolio",
-    "src": "/images/uploads/bamidele-123.webp",
-    "sample": false,
-    "cover": false,
-    "position": "50% 30%",
-    "dimensions": [
-      1600,
-      2400
-    ]
-  },
-  {
-    "title": "Bamidele: The Next Chapter",
-    "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
-    "placement": "Portfolio",
-    "src": "/images/uploads/bamidele-89.webp",
-    "sample": false,
-    "cover": false,
-    "position": "50% 30%",
-    "dimensions": [
-      1920,
-      2400
-    ]
-  },
-  {
-    "title": "Bamidele: The Next Chapter",
-    "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
-    "placement": "Portfolio",
-    "src": "/images/uploads/bamidele-90.webp",
-    "sample": false,
-    "cover": false,
-    "position": "50% 30%",
-    "dimensions": [
-      1920,
-      2400
-    ]
-  },
-  {
-    "title": "Bamidele: The Next Chapter",
-    "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
-    "placement": "Portfolio",
-    "src": "/images/uploads/bamidele-91.webp",
-    "sample": false,
-    "cover": false,
-    "position": "50% 30%",
-    "dimensions": [
-      2400,
-      1350
-    ]
-  },
-  {
-    "title": "Bamidele: The Next Chapter",
-    "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
-    "placement": "Portfolio",
-    "src": "/images/uploads/bamidele-92.webp",
-    "sample": false,
-    "cover": false,
-    "position": "50% 30%",
-    "dimensions": [
-      1920,
-      2400
-    ]
-  },
-  {
-    "title": "Bamidele: The Next Chapter",
-    "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
-    "placement": "Portfolio",
-    "src": "/images/uploads/bamidele-122.webp",
-    "sample": false,
-    "cover": false,
-    "position": "50% 30%",
-    "dimensions": [
-      2400,
-      1350
-    ]
-  },
-  {
-    "title": "Bamidele: The Next Chapter",
-    "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
-    "placement": "Portfolio",
-    "src": "/images/uploads/bamidele-86.webp",
-    "sample": false,
-    "cover": true,
-    "position": "50% 25%",
-    "dimensions": [
-      1920,
-      2400
-    ]
-  },
-  {
     "title": "Keeks: Earned in Full",
     "session": "Keeks: Earned in Full",
     "category": "Graduation",
@@ -1635,6 +1635,76 @@
     "src": "/images/uploads/keeks-758.webp",
     "cover": false,
     "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "A New Chapter",
+    "session": "A New Chapter",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/new-chapter-286.webp",
+    "cover": true,
+    "position": "50% 20%",
+    "sample": false,
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "A New Chapter",
+    "session": "A New Chapter",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/new-chapter-281.webp",
+    "cover": false,
+    "position": "50% 20%",
+    "sample": false,
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "A New Chapter",
+    "session": "A New Chapter",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/new-chapter-282.webp",
+    "cover": false,
+    "position": "50% 20%",
+    "sample": false,
+    "dimensions": [
+      2400,
+      1350
+    ]
+  },
+  {
+    "title": "A New Chapter",
+    "session": "A New Chapter",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/new-chapter-283.webp",
+    "cover": false,
+    "position": "50% 20%",
+    "sample": false,
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "A New Chapter",
+    "session": "A New Chapter",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/new-chapter-284.webp",
+    "cover": false,
+    "position": "50% 20%",
     "sample": false,
     "dimensions": [
       1920,
