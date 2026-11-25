@@ -1,154 +1,143 @@
 [
   {
     "title": "Breaking Character",
-    "category": "Personal projects",
     "session": "Breaking Character",
+    "category": "Personal projects",
     "placement": "Homepage & Portfolio",
-    "src": "/images/uploads/breaking-character-01.webp",
+    "src": "/images/uploads/breaking-original-693.webp",
     "sample": false,
     "cover": true,
     "position": "50% 34%"
   },
   {
     "title": "Breaking Character",
-    "category": "Personal projects",
     "session": "Breaking Character",
-    "placement": "Portfolio",
-    "src": "/images/uploads/breaking-character-02.webp",
-    "sample": false
-  },
-  {
-    "title": "Breaking Character",
     "category": "Personal projects",
-    "session": "Breaking Character",
     "placement": "Portfolio",
-    "src": "/images/uploads/breaking-character-03.webp",
+    "src": "/images/uploads/breaking-original-686.webp",
     "sample": false,
+    "cover": false,
     "position": "50% 34%"
   },
   {
     "title": "Breaking Character",
-    "category": "Personal projects",
     "session": "Breaking Character",
+    "category": "Personal projects",
     "placement": "Portfolio",
-    "src": "/images/uploads/breaking-character-04.webp",
+    "src": "/images/uploads/breaking-original-690.webp",
     "sample": false,
-    "crop": [
-      88,
-      38,
-      543,
-      815
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
+    "cover": false,
+    "position": "50% 34%"
   },
   {
     "title": "Breaking Character",
-    "category": "Personal projects",
     "session": "Breaking Character",
+    "category": "Personal projects",
     "placement": "Portfolio",
-    "src": "/images/uploads/breaking-character-05.webp",
+    "src": "/images/uploads/breaking-original-694.webp",
     "sample": false,
-    "crop": [
-      19,
-      23,
-      300,
-      404
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
+    "cover": false,
+    "position": "50% 34%"
   },
   {
     "title": "Breaking Character",
-    "category": "Personal projects",
     "session": "Breaking Character",
+    "category": "Personal projects",
     "placement": "Portfolio",
-    "src": "/images/uploads/breaking-character-06.webp",
+    "src": "/images/uploads/breaking-original-695.webp",
     "sample": false,
-    "crop": [
-      24,
-      29,
-      673,
-      842
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
+    "cover": false,
+    "position": "50% 34%"
   },
   {
     "title": "Breaking Character",
-    "category": "Personal projects",
     "session": "Breaking Character",
+    "category": "Personal projects",
     "placement": "Portfolio",
-    "src": "/images/uploads/breaking-character-07.webp",
+    "src": "/images/uploads/breaking-original-697.webp",
     "sample": false,
-    "crop": [
-      319,
-      20,
-      392,
-      860
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
+    "cover": false,
+    "position": "50% 34%"
   },
   {
     "title": "Breaking Character",
-    "category": "Personal projects",
     "session": "Breaking Character",
-    "placement": "Portfolio",
-    "src": "/images/uploads/breaking-character-08.webp",
-    "sample": false
-  },
-  {
-    "title": "Breaking Character",
     "category": "Personal projects",
-    "session": "Breaking Character",
     "placement": "Portfolio",
-    "src": "/images/uploads/breaking-character-09.webp",
+    "src": "/images/uploads/breaking-original-699.webp",
     "sample": false,
-    "crop": [
-      16,
-      20,
-      320,
-      401
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
+    "cover": false,
+    "position": "50% 34%"
   },
   {
     "title": "Breaking Character",
-    "category": "Personal projects",
     "session": "Breaking Character",
-    "placement": "Portfolio",
-    "src": "/images/uploads/breaking-character-10.webp",
-    "sample": false
-  },
-  {
-    "title": "Breaking Character",
     "category": "Personal projects",
-    "session": "Breaking Character",
     "placement": "Portfolio",
-    "src": "/images/uploads/breaking-character-11.webp",
+    "src": "/images/uploads/breaking-original-701.webp",
     "sample": false,
-    "crop": [
-      41,
-      32,
-      638,
-      386
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
+    "cover": false,
+    "position": "50% 34%"
+  },
+  {
+    "title": "Breaking Character",
+    "session": "Breaking Character",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-original-703.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 34%"
+  },
+  {
+    "title": "Breaking Character",
+    "session": "Breaking Character",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-original-303.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 34%"
+  },
+  {
+    "title": "Breaking Character",
+    "session": "Breaking Character",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-original-689.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 34%"
+  },
+  {
+    "title": "Breaking Character",
+    "session": "Breaking Character",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-original-688.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 34%"
+  },
+  {
+    "title": "Breaking Character",
+    "session": "Breaking Character",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-original-696.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 34%"
+  },
+  {
+    "title": "Breaking Character",
+    "session": "Breaking Character",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/breaking-original-684.webp",
+    "sample": false,
+    "cover": false,
+    "position": "50% 34%"
   },
   {
     "title": "Presence",
