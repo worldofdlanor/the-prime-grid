@@ -1797,5 +1797,77 @@
     "sample": false,
     "cover": false,
     "position": "50% 25%"
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-646.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-644.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-645.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-647.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-649.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-650.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-651.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-652.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-653.webp",
+    "sample": false
   }
 ]
