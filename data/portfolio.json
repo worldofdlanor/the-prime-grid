@@ -1452,7 +1452,7 @@
     "placement": "Portfolio",
     "src": "/images/uploads/bamidele-123.webp",
     "sample": false,
-    "cover": true,
+    "cover": false,
     "position": "50% 30%",
     "dimensions": [
       1600,
@@ -1536,8 +1536,106 @@
     "placement": "Portfolio",
     "src": "/images/uploads/bamidele-86.webp",
     "sample": false,
+    "cover": true,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Keeks: Earned in Full",
+    "session": "Keeks: Earned in Full",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/keeks-272.webp",
+    "cover": true,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Keeks: Earned in Full",
+    "session": "Keeks: Earned in Full",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/keeks-271.webp",
     "cover": false,
-    "position": "50% 30%",
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Keeks: Earned in Full",
+    "session": "Keeks: Earned in Full",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/keeks-273.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Keeks: Earned in Full",
+    "session": "Keeks: Earned in Full",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/keeks-274.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Keeks: Earned in Full",
+    "session": "Keeks: Earned in Full",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/keeks-275.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Keeks: Earned in Full",
+    "session": "Keeks: Earned in Full",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/keeks-279.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      1920,
+      2400
+    ]
+  },
+  {
+    "title": "Keeks: Earned in Full",
+    "session": "Keeks: Earned in Full",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/keeks-758.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
     "dimensions": [
       1920,
       2400
