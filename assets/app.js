@@ -152,7 +152,28 @@ function albumCover(album) {
   const tile = galleryTile(photo, `Open ${album.title}, ${count}`, () => openAlbum(album.key));
   tile.dataset.album = album.key;
   const image=tile.querySelector('img');
-  if(image)image.style.objectPosition=photo.position||'50% 20%';
+  if(image){
+    const [x,y]=String(photo.position||'50% 15%').split(' ');
+    const people=['Portraits','Couples / weddings','Personal projects','Sports'].includes(album.category);
+    image.style.objectPosition=people?x+' '+Math.min(parseFloat(y)||0,15)+'%':photo.position||'50% 50%';
+    // Face-aware framing where the browser supports local face detection.
+    if(people&&typeof window.FaceDetector==='function'){
+      const focusFaces=async()=>{
+        try{
+          const faces=await new window.FaceDetector({fastMode:true,maxDetectedFaces:8}).detect(image);
+          if(!faces.length||!image.naturalWidth||!image.naturalHeight)return;
+          const left=Math.min(...faces.map(f=>f.boundingBox.x)),right=Math.max(...faces.map(f=>f.boundingBox.x+f.boundingBox.width));
+          const top=Math.min(...faces.map(f=>f.boundingBox.y)),bottom=Math.max(...faces.map(f=>f.boundingBox.y+f.boundingBox.height));
+          const w=image.clientWidth,h=image.clientHeight,iw=image.naturalWidth,ih=image.naturalHeight;
+          if(!w||!h)return;
+          const scale=Math.max(w/iw,h/ih);
+          const pos=(center,view,full)=>full>view?Math.max(0,Math.min(100,(center-view/2)/(full-view)*100)):50;
+          image.style.objectPosition=pos((left+right)/2*scale,w,iw*scale)+'% '+pos((top+bottom)/2*scale,h,ih*scale)+'%';
+        }catch{}
+      };
+      if(image.complete&&image.naturalWidth)focusFaces();else image.addEventListener('load',focusFaces,{once:true});
+    }
+  }
   tile.querySelector('svg')?.setAttribute('preserveAspectRatio','xMidYMin slice');
   const info = document.createElement('span');
   info.className = 'tile-meta';
