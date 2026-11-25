@@ -595,160 +595,6 @@
     ]
   },
   {
-    "title": "All Focus, No Mercy!",
-    "category": "Personal projects",
-    "session": "All Focus, No Mercy!",
-    "placement": "Portfolio",
-    "src": "/images/uploads/all-focus-no-mercy-01.webp",
-    "sample": false
-  },
-  {
-    "title": "All Focus, No Mercy!",
-    "category": "Personal projects",
-    "session": "All Focus, No Mercy!",
-    "placement": "Portfolio",
-    "src": "/images/uploads/all-focus-no-mercy-02.webp",
-    "sample": false,
-    "cover": true,
-    "position": "50% 25%",
-    "crop": [
-      23,
-      28,
-      678,
-      849
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
-  },
-  {
-    "title": "All Focus, No Mercy!",
-    "category": "Personal projects",
-    "session": "All Focus, No Mercy!",
-    "placement": "Portfolio",
-    "src": "/images/uploads/all-focus-no-mercy-03.webp",
-    "sample": false,
-    "crop": [
-      20,
-      23,
-      680,
-      854
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
-  },
-  {
-    "title": "All Focus, No Mercy!",
-    "category": "Personal projects",
-    "session": "All Focus, No Mercy!",
-    "placement": "Portfolio",
-    "src": "/images/uploads/all-focus-no-mercy-04.webp",
-    "sample": false,
-    "crop": [
-      29,
-      36,
-      662,
-      828
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
-  },
-  {
-    "title": "All Focus, No Mercy!",
-    "category": "Personal projects",
-    "session": "All Focus, No Mercy!",
-    "placement": "Portfolio",
-    "src": "/images/uploads/all-focus-no-mercy-05.webp",
-    "sample": false,
-    "crop": [
-      68,
-      11,
-      585,
-      878
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
-  },
-  {
-    "title": "All Focus, No Mercy!",
-    "category": "Personal projects",
-    "session": "All Focus, No Mercy!",
-    "placement": "Portfolio",
-    "src": "/images/uploads/all-focus-no-mercy-06.webp",
-    "sample": false,
-    "crop": [
-      51,
-      250,
-      298,
-      373
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
-  },
-  {
-    "title": "All Focus, No Mercy!",
-    "category": "Personal projects",
-    "session": "All Focus, No Mercy!",
-    "placement": "Portfolio",
-    "src": "/images/uploads/all-focus-no-mercy-07.webp",
-    "sample": false,
-    "crop": [
-      94,
-      33,
-      624,
-      834
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
-  },
-  {
-    "title": "All Focus, No Mercy!",
-    "category": "Personal projects",
-    "session": "All Focus, No Mercy!",
-    "placement": "Portfolio",
-    "src": "/images/uploads/all-focus-no-mercy-08.webp",
-    "sample": false,
-    "crop": [
-      2,
-      33,
-      624,
-      834
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
-  },
-  {
-    "title": "All Focus, No Mercy!",
-    "category": "Personal projects",
-    "session": "All Focus, No Mercy!",
-    "placement": "Portfolio",
-    "src": "/images/uploads/all-focus-no-mercy-09.webp",
-    "sample": false,
-    "crop": [
-      296,
-      382,
-      372,
-      466
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
-  },
-  {
     "title": "Ronald Olufemi",
     "category": "Portraits",
     "session": "Behind the Lens",
@@ -1797,5 +1643,77 @@
     "sample": false,
     "cover": false,
     "position": "50% 25%"
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-646.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-644.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-645.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-647.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-649.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-650.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-651.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-652.webp",
+    "sample": false
+  },
+  {
+    "title": "Halimat",
+    "session": "Halimat",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "src": "/images/uploads/halimat-653.webp",
+    "sample": false
   }
 ]
