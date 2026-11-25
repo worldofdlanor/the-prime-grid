@@ -2,7 +2,7 @@
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const cfg=window.PRIME_CONFIG||{};
 const safe=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const classes={'Portraits':'art-portrait','Automotive':'art-auto','Sports':'art-sports','Couples / weddings':'art-couple','Travel / street':'art-street','Commercial / product':'art-commercial','Personal projects':'art-personal','Other':'art-travel'};
+const classes={'Senior photos':'art-portrait','Portraits':'art-portrait','Automotive':'art-auto','Sports':'art-sports','Couples / weddings':'art-couple','Travel / street':'art-street','Commercial / product':'art-commercial','Personal projects':'art-personal','Other':'art-travel'};
 const cats=Object.keys(classes);
 const fromManifest=Array.isArray(window.PRIME_MEDIA)?window.PRIME_MEDIA:[];
 const allImages=fromManifest.map(x=>({
@@ -154,7 +154,7 @@ function albumCover(album) {
   const image=tile.querySelector('img');
   if(image){
     const [x,y]=String(photo.position||'50% 15%').split(' ');
-    const people=['Portraits','Couples / weddings','Personal projects','Sports'].includes(album.category);
+    const people=['Senior photos','Portraits','Couples / weddings','Personal projects','Sports'].includes(album.category);
     const coverFocus={'Beauty Is a Light':'50% 42%','Chapter Ten: In Blue':'50% 40%','Halimat':'50% 42%'};
     image.style.objectPosition=coverFocus[album.title]||(people?x+' '+Math.max(35,parseFloat(y)||35)+'%':photo.position||'50% 50%');
     // Face-aware framing where the browser supports local face detection.

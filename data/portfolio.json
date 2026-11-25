@@ -1266,93 +1266,66 @@
   },
   {
     "title": "Space Cowboy",
-    "category": "Personal projects",
+    "category": "Senior photos",
     "session": "Space Cowboy",
     "placement": "Portfolio",
     "src": "/images/uploads/space-cowboy-01.webp",
-    "sample": false
-  },
-  {
-    "title": "Space Cowboy",
-    "category": "Personal projects",
-    "session": "Space Cowboy",
-    "placement": "Portfolio",
-    "src": "/images/uploads/space-cowboy-02.webp",
     "sample": false,
-    "cover": true,
-    "position": "50% 28%",
-    "crop": [
-      5,
-      5,
-      667,
-      890
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
+    "cover": true
   },
   {
     "title": "Space Cowboy",
-    "category": "Personal projects",
     "session": "Space Cowboy",
+    "category": "Senior photos",
     "placement": "Portfolio",
-    "src": "/images/uploads/space-cowboy-03.webp",
+    "src": "/images/uploads/logan-senior-63.webp",
     "sample": false,
-    "crop": [
-      5,
-      44,
-      710,
-      827
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
+    "position": "50% 35%"
   },
   {
     "title": "Space Cowboy",
-    "category": "Personal projects",
     "session": "Space Cowboy",
+    "category": "Senior photos",
     "placement": "Portfolio",
-    "src": "/images/uploads/space-cowboy-04.webp",
+    "src": "/images/uploads/logan-senior-64.webp",
     "sample": false,
-    "crop": [
-      171,
-      63,
-      530,
-      755
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
+    "position": "50% 35%"
   },
   {
     "title": "Space Cowboy",
-    "category": "Personal projects",
     "session": "Space Cowboy",
+    "category": "Senior photos",
     "placement": "Portfolio",
-    "src": "/images/uploads/space-cowboy-05.webp",
+    "src": "/images/uploads/logan-senior-65.webp",
     "sample": false,
-    "crop": [
-      103,
-      5,
-      612,
-      890
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
+    "position": "50% 35%"
   },
   {
     "title": "Space Cowboy",
-    "category": "Personal projects",
     "session": "Space Cowboy",
+    "category": "Senior photos",
     "placement": "Portfolio",
-    "src": "/images/uploads/space-cowboy-06.webp",
-    "sample": false
+    "src": "/images/uploads/logan-senior-66.webp",
+    "sample": false,
+    "position": "50% 35%"
+  },
+  {
+    "title": "Space Cowboy",
+    "session": "Space Cowboy",
+    "category": "Senior photos",
+    "placement": "Portfolio",
+    "src": "/images/uploads/logan-senior-71.webp",
+    "sample": false,
+    "position": "50% 35%"
+  },
+  {
+    "title": "Space Cowboy",
+    "session": "Space Cowboy",
+    "category": "Senior photos",
+    "placement": "Portfolio",
+    "src": "/images/uploads/logan-senior-75.webp",
+    "sample": false,
+    "position": "50% 35%"
   },
   {
     "title": "Built to Conquer",
