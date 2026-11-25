@@ -1710,5 +1710,75 @@
       1920,
       2400
     ]
+  },
+  {
+    "title": "The Day We Made It",
+    "session": "The Day We Made It",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/commencement-765.webp",
+    "cover": true,
+    "position": "50% 25%",
+    "sample": false
+  },
+  {
+    "title": "The Day We Made It",
+    "session": "The Day We Made It",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/commencement-760.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false
+  },
+  {
+    "title": "The Day We Made It",
+    "session": "The Day We Made It",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/commencement-761.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false
+  },
+  {
+    "title": "The Day We Made It",
+    "session": "The Day We Made It",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/commencement-764.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false
+  },
+  {
+    "title": "The Day We Made It",
+    "session": "The Day We Made It",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/commencement-766.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false
+  },
+  {
+    "title": "The Day We Made It",
+    "session": "The Day We Made It",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/commencement-763.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false
+  },
+  {
+    "title": "The Day We Made It",
+    "session": "The Day We Made It",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/commencement-759.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false
   }
 ]
