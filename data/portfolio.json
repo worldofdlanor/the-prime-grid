@@ -326,16 +326,6 @@
     "sample": false
   },
   {
-    "title": "The Day We Made It",
-    "session": "The Day We Made It",
-    "category": "Graduation",
-    "placement": "Portfolio",
-    "src": "/images/uploads/commencement-759.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "sample": false
-  },
-  {
     "title": "Beyond the Degree",
     "session": "Beyond the Degree",
     "category": "Graduation",
@@ -467,7 +457,7 @@
     "category": "Graduation",
     "placement": "Portfolio",
     "src": "/images/uploads/a-new-chapter-285.webp",
-    "cover": true,
+    "cover": false,
     "position": "50% 25%",
     "dimensions": [
       1920,
