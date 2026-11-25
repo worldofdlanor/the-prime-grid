@@ -1780,5 +1780,173 @@
     "cover": false,
     "position": "50% 25%",
     "sample": false
+  },
+  {
+    "title": "Beyond the Degree",
+    "session": "Beyond the Degree",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/beyond-the-degree-309.webp",
+    "cover": true,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
+  },
+  {
+    "title": "Beyond the Degree",
+    "session": "Beyond the Degree",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/beyond-the-degree-305.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "sample": false
+  },
+  {
+    "title": "Beyond the Degree",
+    "session": "Beyond the Degree",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/beyond-the-degree-306.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
+  },
+  {
+    "title": "Beyond the Degree",
+    "session": "Beyond the Degree",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/beyond-the-degree-307.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
+  },
+  {
+    "title": "Beyond the Degree",
+    "session": "Beyond the Degree",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/beyond-the-degree-308.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
+  },
+  {
+    "title": "Beyond the Degree",
+    "session": "Beyond the Degree",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/beyond-the-degree-310.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
+  },
+  {
+    "title": "Beyond the Degree",
+    "session": "Beyond the Degree",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/beyond-the-degree-311.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
+  },
+  {
+    "title": "Beyond the Degree",
+    "session": "Beyond the Degree",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/beyond-the-degree-312.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
+  },
+  {
+    "title": "Beyond the Degree",
+    "session": "Beyond the Degree",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/beyond-the-degree-320.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
+  },
+  {
+    "title": "A New Chapter",
+    "session": "A New Chapter",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/a-new-chapter-285.webp",
+    "cover": true,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "session": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-the-next-chapter-87.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "sample": false
+  },
+  {
+    "title": "Bamidele: The Next Chapter",
+    "session": "Bamidele: The Next Chapter",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-the-next-chapter-124.webp",
+    "cover": true,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
   }
 ]
