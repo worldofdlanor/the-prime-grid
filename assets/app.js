@@ -155,7 +155,8 @@ function albumCover(album) {
   if(image){
     const [x,y]=String(photo.position||'50% 15%').split(' ');
     const people=['Portraits','Couples / weddings','Personal projects','Sports'].includes(album.category);
-    image.style.objectPosition=people?x+' '+Math.min(parseFloat(y)||0,15)+'%':photo.position||'50% 50%';
+    const coverFocus={'Beauty Is a Light':'50% 42%','Chapter Ten: In Blue':'50% 40%','Halimat':'50% 42%'};
+    image.style.objectPosition=coverFocus[album.title]||(people?x+' '+Math.max(35,parseFloat(y)||35)+'%':photo.position||'50% 50%');
     // Face-aware framing where the browser supports local face detection.
     if(people&&typeof window.FaceDetector==='function'){
       const focusFaces=async()=>{
