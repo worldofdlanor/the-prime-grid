@@ -1029,12 +1029,6 @@
     "sample": false,
     "cover": true,
     "position": "50% 25%",
-    "crop": [
-      19,
-      22,
-      1042,
-      1305
-    ],
     "dimensions": [
       2560,
       3200
@@ -1047,12 +1041,6 @@
     "placement": "Portfolio",
     "src": "/images/uploads/classified-but-make-it-fashion-hq-158.webp",
     "sample": false,
-    "crop": [
-      13,
-      16,
-      694,
-      869
-    ],
     "dimensions": [
       2560,
       3200
@@ -1096,12 +1084,6 @@
     "sample": false,
     "cover": true,
     "position": "50% 25%",
-    "crop": [
-      18,
-      22,
-      1044,
-      1310
-    ],
     "dimensions": [
       2561,
       3200
@@ -1114,12 +1096,6 @@
     "placement": "Portfolio",
     "src": "/images/uploads/the-art-of-colour-grading-hq-149.webp",
     "sample": false,
-    "crop": [
-      12,
-      15,
-      696,
-      870
-    ],
     "dimensions": [
       2560,
       3200
@@ -1133,12 +1109,6 @@
     "placement": "Portfolio",
     "src": "/images/uploads/the-art-of-colour-grading-hq-148.webp",
     "sample": false,
-    "crop": [
-      12,
-      15,
-      696,
-      876
-    ],
     "dimensions": [
       2560,
       3200
@@ -1152,12 +1122,6 @@
     "placement": "Portfolio",
     "src": "/images/uploads/the-art-of-colour-grading-hq-150.webp",
     "sample": false,
-    "crop": [
-      12,
-      15,
-      696,
-      876
-    ],
     "dimensions": [
       2560,
       3200
@@ -1444,12 +1408,6 @@
     "placement": "Portfolio",
     "src": "/images/uploads/cradled-by-the-stars-hq-83.webp",
     "sample": false,
-    "crop": [
-      68,
-      11,
-      584,
-      878
-    ],
     "dimensions": [
       2160,
       2700
@@ -1977,12 +1935,6 @@
     "placement": "Portfolio",
     "src": "/images/uploads/the-grind-hq-67.webp",
     "sample": false,
-    "crop": [
-      65,
-      47,
-      606,
-      768
-    ],
     "dimensions": [
       1200,
       1500
@@ -2852,250 +2804,12 @@
     "sample": false
   },
   {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-173.webp",
-    "cover": true,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-174.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-175.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-178.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-180.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-182.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-184.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2560,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-186.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-189.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-193.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-196.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-206.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-207.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-celebration-204.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-ceremony-226.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2133,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-ceremony-228.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2133,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "A Celebration of Heritage",
-    "session": "A Celebration of Heritage",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-ceremony-227.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
     "title": "A Birthday in Style",
     "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-20.webp",
-    "cover": true,
+    "cover": false,
     "position": "50% 25%",
     "dimensions": [
       2133,
@@ -3123,7 +2837,7 @@
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-26.webp",
-    "cover": false,
+    "cover": true,
     "position": "50% 25%",
     "dimensions": [
       2560,
