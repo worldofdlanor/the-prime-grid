@@ -964,10 +964,42 @@
     "category": "Personal projects",
     "session": "The Crown Fits",
     "placement": "Portfolio",
-    "src": "/images/uploads/the-crown-fits-01.webp",
+    "src": "/images/uploads/the-crown-fits-hq-162.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 25%"
+    "position": "50% 25%",
+    "dimensions": [
+      2160,
+      2700
+    ]
+  },
+  {
+    "src": "/images/uploads/the-crown-fits-hq-163.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2560,
+      3200
+    ],
+    "session": "The Crown Fits",
+    "title": "The Crown Fits"
+  },
+  {
+    "src": "/images/uploads/the-crown-fits-hq-179.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      3200,
+      1800
+    ],
+    "session": "The Crown Fits",
+    "title": "The Crown Fits"
   },
   {
     "title": "Classified, but Make It Fashion",
