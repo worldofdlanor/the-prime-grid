@@ -16,6 +16,6 @@
     readList('data/albums.json', [])
   ]);
   const script = document.createElement('script');
-  script.src = 'assets/app.js';
+  script.src = 'assets/app.js?v=20261125b';
   document.body.appendChild(script);
 })();

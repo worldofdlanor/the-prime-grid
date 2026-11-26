@@ -1,0 +1,4 @@
+/assets/*
+  Cache-Control: no-cache, must-revalidate
+/data/*
+  Cache-Control: no-cache, must-revalidate
