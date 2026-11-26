@@ -1880,17 +1880,21 @@
     "category": "Sports",
     "session": "The Grind",
     "placement": "Portfolio",
-    "src": "/images/uploads/the-grind-01.webp",
+    "src": "/images/uploads/the-grind-hq-68.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 25%"
+    "position": "50% 25%",
+    "dimensions": [
+      2286,
+      3200
+    ]
   },
   {
     "title": "The Grind",
     "category": "Sports",
     "session": "The Grind",
     "placement": "Portfolio",
-    "src": "/images/uploads/the-grind-04.webp",
+    "src": "/images/uploads/the-grind-hq-67.webp",
     "sample": false,
     "crop": [
       65,
@@ -1899,10 +1903,38 @@
       768
     ],
     "dimensions": [
-      720,
-      900
+      1200,
+      1500
     ],
     "cover": false
+  },
+  {
+    "src": "/images/uploads/the-grind-hq-70.webp",
+    "category": "Sports",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      3200,
+      1800
+    ],
+    "session": "The Grind",
+    "title": "The Grind"
+  },
+  {
+    "src": "/images/uploads/the-grind-hq-69.webp",
+    "category": "Sports",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2286,
+      3200
+    ],
+    "session": "The Grind",
+    "title": "The Grind"
   },
   {
     "title": "Beauty Is a Light",
