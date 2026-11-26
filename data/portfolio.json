@@ -666,28 +666,40 @@
     "category": "Portraits",
     "session": "Winter with a Pulse",
     "placement": "Homepage & Portfolio",
-    "src": "/images/uploads/winter-with-a-pulse-01.webp",
+    "src": "/images/uploads/winter-with-a-pulse-hq-258.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 24%"
+    "position": "50% 24%",
+    "dimensions": [
+      2560,
+      3200
+    ]
   },
   {
     "title": "Winter with a Pulse",
     "category": "Portraits",
     "session": "Winter with a Pulse",
     "placement": "Portfolio",
-    "src": "/images/uploads/winter-with-a-pulse-02.webp",
+    "src": "/images/uploads/winter-with-a-pulse-hq-259.webp",
     "sample": false,
-    "cover": true
+    "cover": true,
+    "dimensions": [
+      2560,
+      3200
+    ]
   },
   {
     "title": "Winter with a Pulse",
     "category": "Portraits",
     "session": "Winter with a Pulse",
     "placement": "Portfolio",
-    "src": "/images/uploads/winter-with-a-pulse-03.webp",
+    "src": "/images/uploads/winter-with-a-pulse-hq-260.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2560,
+      3200
+    ]
   },
   {
     "title": "Winter with a Pulse",
