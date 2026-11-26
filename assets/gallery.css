@@ -11,7 +11,7 @@
 .wall-shuffle span{font-size:16px;margin-left:8px}
 .wall-shuffle:hover{background:var(--white);color:var(--ink)}
 .wall-status{margin:0 0 15px;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#aaa8a2}
-.photo-wall-grid{columns:4;column-gap:12px;max-width:1900px;margin:auto}
+.photo-wall-grid{--wall-columns:4;--wall-gap:12px;max-width:1900px;margin:auto}.wall-palette{columns:var(--wall-columns);column-gap:var(--wall-gap);margin:0 0 12px;column-fill:balance}.wall-frame[hidden]{display:none!important}
 .wall-frame{display:block;width:100%;padding:0;margin:0 0 12px;border:0;background:#1b1b19;break-inside:avoid;overflow:hidden;text-align:left;cursor:zoom-in}
 .wall-frame img{display:block;width:100%;height:auto;aspect-ratio:auto 4/5;object-fit:contain;transition:filter .2s}
 .wall-frame:hover img{filter:brightness(.88)}
@@ -25,7 +25,7 @@
 .wall-viewer-stage{min-height:0;display:flex;align-items:center;justify-content:center}
 .wall-viewer-stage img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
 .wall-viewer-footer #wall-caption{overflow-wrap:anywhere}
-@media(min-width:1700px){.photo-wall-grid{columns:5}}
-@media(max-width:1050px){.photo-wall-grid{columns:3}}
-@media(max-width:680px){.photo-wall-grid{columns:2;column-gap:7px}.wall-frame{margin-bottom:7px}.wall-intro-bottom{align-items:flex-start;flex-direction:column}.wall-viewer-inner{padding:10px}.wall-intro{margin-bottom:25px}}
+@media(min-width:1700px){.photo-wall-grid{--wall-columns:5}}
+@media(max-width:1050px){.photo-wall-grid{--wall-columns:3}}
+@media(max-width:680px){.photo-wall-grid{--wall-columns:2;--wall-gap:7px}.wall-palette{margin-bottom:7px}.wall-frame{margin-bottom:7px}.wall-intro-bottom{align-items:flex-start;flex-direction:column}.wall-viewer-inner{padding:10px}.wall-intro{margin-bottom:25px}}
 @media(prefers-reduced-motion:reduce){.wall-frame img{transition:none}}
