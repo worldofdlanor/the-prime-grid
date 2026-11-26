@@ -1429,16 +1429,20 @@
     "category": "Personal projects",
     "session": "Cradled by the Stars",
     "placement": "Portfolio",
-    "src": "/images/uploads/cradled-by-the-stars-01.webp",
+    "src": "/images/uploads/cradled-by-the-stars-hq-85.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2160,
+      2700
+    ]
   },
   {
     "title": "Cradled by the Stars",
     "category": "Personal projects",
     "session": "Cradled by the Stars",
     "placement": "Portfolio",
-    "src": "/images/uploads/cradled-by-the-stars-02.webp",
+    "src": "/images/uploads/cradled-by-the-stars-hq-83.webp",
     "sample": false,
     "crop": [
       68,
@@ -1447,8 +1451,8 @@
       878
     ],
     "dimensions": [
-      720,
-      900
+      2160,
+      2700
     ],
     "cover": false
   },
@@ -1457,10 +1461,42 @@
     "category": "Personal projects",
     "session": "Cradled by the Stars",
     "placement": "Portfolio",
-    "src": "/images/uploads/cradled-by-the-stars-03.webp",
+    "src": "/images/uploads/cradled-by-the-stars-hq-82.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 33%"
+    "position": "50% 33%",
+    "dimensions": [
+      2160,
+      2700
+    ]
+  },
+  {
+    "src": "/images/uploads/cradled-by-the-stars-hq-81.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2160,
+      2700
+    ],
+    "session": "Cradled by the Stars",
+    "title": "Cradled by the Stars"
+  },
+  {
+    "src": "/images/uploads/cradled-by-the-stars-hq-84.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2160,
+      2700
+    ],
+    "session": "Cradled by the Stars",
+    "title": "Cradled by the Stars"
   },
   {
     "title": "Take Notes",
