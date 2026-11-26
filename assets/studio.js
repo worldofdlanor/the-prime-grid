@@ -1,0 +1,1 @@
+(()=>{const b=document.getElementById('menu-button'),n=document.getElementById('mobile-navigation');b.addEventListener('click',()=>{n.hidden=!n.hidden;b.setAttribute('aria-expanded',String(!n.hidden))});document.addEventListener('keydown',e=>{if(e.key==='Escape'){n.hidden=true;b.setAttribute('aria-expanded','false')}})})();

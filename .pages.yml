@@ -22,6 +22,7 @@ content:
         required: true
         options:
           values:
+            - { name: 'Graduation', label: 'Graduation' }
             - { name: 'Portraits', label: 'Portraits' }
             - { name: 'Automotive', label: 'Automotive' }
             - { name: 'Sports', label: 'Sports' }
@@ -70,6 +71,7 @@ content:
         required: true
         options:
           values:
+            - { name: 'Graduation', label: 'Graduation' }
             - { name: 'Portraits', label: 'Portraits' }
             - { name: 'Automotive', label: 'Automotive' }
             - { name: 'Sports', label: 'Sports' }
@@ -89,3 +91,4 @@ content:
           unique: true
           rename: random
           extensions: [jpg, jpeg, png, webp]
+
