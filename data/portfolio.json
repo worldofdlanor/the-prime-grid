@@ -986,28 +986,54 @@
     "category": "Portraits",
     "session": "Frost in the Marrow",
     "placement": "Portfolio",
-    "src": "/images/uploads/frost-in-the-marrow-01.webp",
+    "src": "/images/uploads/frost-in-the-marrow-hq-262.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 25%"
+    "position": "50% 25%",
+    "dimensions": [
+      2560,
+      3200
+    ]
   },
   {
     "title": "Frost in the Marrow",
     "category": "Portraits",
     "session": "Frost in the Marrow",
     "placement": "Portfolio",
-    "src": "/images/uploads/frost-in-the-marrow-02.webp",
+    "src": "/images/uploads/frost-in-the-marrow-hq-266.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2560,
+      3200
+    ]
   },
   {
     "title": "Frost in the Marrow",
     "category": "Portraits",
     "session": "Frost in the Marrow",
     "placement": "Portfolio",
-    "src": "/images/uploads/frost-in-the-marrow-03.webp",
+    "src": "/images/uploads/frost-in-the-marrow-hq-267.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2560,
+      3200
+    ]
+  },
+  {
+    "src": "/images/uploads/frost-in-the-marrow-hq-261.webp",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2144,
+      3200
+    ],
+    "session": "Frost in the Marrow",
+    "title": "Frost in the Marrow"
   },
   {
     "title": "The Crown Fits",
