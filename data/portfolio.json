@@ -906,12 +906,6 @@
     "placement": "Portfolio",
     "src": "/images/uploads/the-weight-of-the-calm-05.webp",
     "sample": false,
-    "crop": [
-      77,
-      25,
-      567,
-      850
-    ],
     "dimensions": [
       720,
       900
@@ -1407,7 +1401,7 @@
     "placement": "Portfolio",
     "src": "/images/uploads/cradled-by-the-stars-hq-85.webp",
     "sample": false,
-    "cover": false,
+    "cover": true,
     "dimensions": [
       2160,
       2700
@@ -1425,20 +1419,6 @@
       2700
     ],
     "cover": false
-  },
-  {
-    "title": "Cradled by the Stars",
-    "category": "Personal projects",
-    "session": "Cradled by the Stars",
-    "placement": "Portfolio",
-    "src": "/images/uploads/cradled-by-the-stars-hq-82.webp",
-    "sample": false,
-    "cover": true,
-    "position": "50% 33%",
-    "dimensions": [
-      2160,
-      2700
-    ]
   },
   {
     "src": "/images/uploads/cradled-by-the-stars-hq-81.webp",
@@ -1485,63 +1465,6 @@
     "placement": "Portfolio",
     "src": "/images/uploads/take-notes-02.webp",
     "sample": false,
-    "cover": false
-  },
-  {
-    "title": "Take Notes",
-    "category": "Personal projects",
-    "session": "Take Notes",
-    "placement": "Portfolio",
-    "src": "/images/uploads/take-notes-05.webp",
-    "sample": false,
-    "crop": [
-      78,
-      26,
-      564,
-      848
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
-    "title": "Take Notes",
-    "category": "Personal projects",
-    "session": "Take Notes",
-    "placement": "Portfolio",
-    "src": "/images/uploads/take-notes-06.webp",
-    "sample": false,
-    "crop": [
-      74,
-      23,
-      555,
-      854
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
-    "title": "Take Notes",
-    "category": "Personal projects",
-    "session": "Take Notes",
-    "placement": "Portfolio",
-    "src": "/images/uploads/take-notes-08.webp",
-    "sample": false,
-    "crop": [
-      81,
-      29,
-      558,
-      842
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
     "cover": false
   },
   {
@@ -1764,25 +1687,6 @@
     "position": "50% 25%"
   },
   {
-    "title": "Strength Without Compromise",
-    "category": "Sports",
-    "session": "Strength Without Compromise",
-    "placement": "Portfolio",
-    "src": "/images/uploads/strength-without-compromise-02.webp",
-    "sample": false,
-    "crop": [
-      302,
-      2,
-      478,
-      716
-    ],
-    "dimensions": [
-      1080,
-      720
-    ],
-    "cover": false
-  },
-  {
     "title": "Leave It All on the Court",
     "session": "Leave It All on the Court",
     "category": "Sports",
@@ -1855,25 +1759,6 @@
     "position": "50% 25%"
   },
   {
-    "title": "Leave It All on the Court",
-    "category": "Sports",
-    "session": "Leave It All on the Court",
-    "placement": "Portfolio",
-    "src": "/images/uploads/leave-it-all-on-the-court-02.webp",
-    "sample": false,
-    "crop": [
-      119,
-      23,
-      837,
-      557
-    ],
-    "dimensions": [
-      1080,
-      607
-    ],
-    "cover": false
-  },
-  {
     "src": "/images/uploads/leave-it-all-on-the-court-hq-40.webp",
     "category": "Sports",
     "placement": "Portfolio",
@@ -1886,45 +1771,6 @@
     ],
     "session": "Leave It All on the Court",
     "title": "Leave It All on the Court"
-  },
-  {
-    "title": "Urban Grit",
-    "category": "Personal projects",
-    "session": "Urban Grit",
-    "placement": "Portfolio",
-    "src": "/images/uploads/urban-grit-01.webp",
-    "sample": false,
-    "cover": true,
-    "position": "50% 25%",
-    "crop": [
-      134,
-      67,
-      812,
-      1219
-    ],
-    "dimensions": [
-      1080,
-      1350
-    ]
-  },
-  {
-    "title": "Urban Grit",
-    "category": "Personal projects",
-    "session": "Urban Grit",
-    "placement": "Portfolio",
-    "src": "/images/uploads/urban-grit-02.webp",
-    "sample": false,
-    "crop": [
-      2,
-      2,
-      672,
-      896
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
   },
   {
     "title": "The Grind",
@@ -1980,45 +1826,6 @@
     ],
     "session": "The Grind",
     "title": "The Grind"
-  },
-  {
-    "title": "Beauty Is a Light",
-    "category": "Portraits",
-    "session": "Beauty Is a Light",
-    "placement": "Portfolio",
-    "src": "/images/uploads/beauty-is-a-light-01.webp",
-    "sample": false,
-    "cover": true,
-    "position": "50% 25%",
-    "crop": [
-      136,
-      67,
-      808,
-      1215
-    ],
-    "dimensions": [
-      1080,
-      1350
-    ]
-  },
-  {
-    "title": "Beauty Is a Light",
-    "category": "Portraits",
-    "session": "Beauty Is a Light",
-    "placement": "Portfolio",
-    "src": "/images/uploads/beauty-is-a-light-02.webp",
-    "sample": false,
-    "crop": [
-      91,
-      38,
-      539,
-      810
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
   },
   {
     "title": "Grace in Stillness",
