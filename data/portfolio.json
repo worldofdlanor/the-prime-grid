@@ -839,70 +839,13 @@
     "category": "Personal projects",
     "session": "The Weight of the Calm, Vol. I",
     "placement": "Portfolio",
-    "src": "/images/uploads/the-weight-of-the-calm-01.webp",
-    "sample": false,
-    "cover": true,
-    "position": "50% 25%"
-  },
-  {
-    "title": "The Weight of the Calm, Vol. I",
-    "category": "Personal projects",
-    "session": "The Weight of the Calm, Vol. I",
-    "placement": "Portfolio",
-    "src": "/images/uploads/the-weight-of-the-calm-02.webp",
-    "sample": false,
-    "cover": false
-  },
-  {
-    "title": "The Weight of the Calm, Vol. I",
-    "category": "Personal projects",
-    "session": "The Weight of the Calm, Vol. I",
-    "placement": "Portfolio",
-    "src": "/images/uploads/the-weight-of-the-calm-03.webp",
-    "sample": false,
-    "crop": [
-      35,
-      43,
-      650,
-      814
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
-    "title": "The Weight of the Calm, Vol. I",
-    "category": "Personal projects",
-    "session": "The Weight of the Calm, Vol. I",
-    "placement": "Portfolio",
     "src": "/images/uploads/the-weight-of-the-calm-vol-i-hq-239.webp",
     "sample": false,
-    "cover": false,
+    "cover": true,
     "dimensions": [
       2560,
       3200
     ]
-  },
-  {
-    "title": "The Weight of the Calm, Vol. I",
-    "category": "Personal projects",
-    "session": "The Weight of the Calm, Vol. I",
-    "placement": "Portfolio",
-    "src": "/images/uploads/the-weight-of-the-calm-05.webp",
-    "sample": false,
-    "crop": [
-      77,
-      25,
-      567,
-      850
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -929,25 +872,6 @@
       2133,
       3200
     ]
-  },
-  {
-    "title": "The Weight of the Calm, Vol. I",
-    "category": "Personal projects",
-    "session": "The Weight of the Calm, Vol. I",
-    "placement": "Portfolio",
-    "src": "/images/uploads/the-weight-of-the-calm-08.webp",
-    "sample": false,
-    "crop": [
-      3,
-      3,
-      649,
-      890
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
   },
   {
     "src": "/images/uploads/the-weight-of-the-calm-vol-i-hq-240.webp",
