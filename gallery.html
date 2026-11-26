@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#121211">
+<meta name="description" content="Explore the photographs of The Prime Grid, from portraits and editorial work to graduation, sports and celebrations.">
+<title>The Gallery | The Prime Grid</title>
+<link rel="icon" href="assets/favicon.svg">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/gallery.css">
+<script defer src="assets/gallery.js"></script>
+</head>
+<body class="photo-wall-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+    <a href="index.html#home" class="brand" aria-label="The Prime Grid home">
+      <svg class="brand-mark" viewBox="0 0 46 46" fill="none" aria-hidden="true"><rect x="1" y="1" width="44" height="44" stroke="currentColor" stroke-width="1.1"/><path d="M15.6 1V45M30.4 1V45M1 15.6H45M1 30.4H45" stroke="currentColor" stroke-width=".65" opacity=".8"/><circle cx="23" cy="23" r="6.5" fill="currentColor"/><circle cx="23" cy="23" r="2.5" fill="#171716"/></svg>
+      <span class="brand-words">THE PRIME <span>GRID</span><small>PHOTOGRAPHY & VISUAL STORIES</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="index.html#work">Work</a><a href="index.html#about">About</a><a href="index.html#video">Video</a><a href="index.html#services">Services</a><a href="pricing.html">Pricing</a><a href="gallery.html" aria-current="page">Gallery</a><a href="index.html#clients" hidden>Client access</a>
+    </nav>
+    <a class="nav-book" href="index.html#booking">BOOK A SESSION <span aria-hidden="true">↗</span></a>
+    <button id="menu-button" class="menu-button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-navigation"><span></span><span></span></button>
+  </header>
+  <nav id="mobile-navigation" class="mobile-nav" aria-label="Mobile navigation" hidden>
+    <a href="index.html#work">The work</a><a href="index.html#about">About</a><a href="index.html#video">Video</a><a href="index.html#services">Services</a><a href="pricing.html">Pricing</a><a href="gallery.html" aria-current="page">Gallery</a><a href="index.html#clients" hidden>Client access</a><a href="index.html#booking">Book a session ↗</a>
+  </nav>
+
+<main id="main" class="photo-wall">
+<section class="wall-intro" aria-labelledby="wall-title">
+<p class="eyebrow">THE PRIME GRID / THE COLLECTION</p>
+<h1 id="wall-title">Every <em>frame.</em></h1>
+<div class="wall-intro-bottom"><p>A collection of faces, moments and stories. Explore the photographs in no particular order.</p><button type="button" id="wall-shuffle" class="wall-shuffle">SHUFFLE <span aria-hidden="true">↻</span></button></div>
+</section>
+<p id="wall-status" class="wall-status" role="status">Loading photographs…</p>
+<div id="photo-wall-grid" class="photo-wall-grid" aria-label="Photography gallery"></div>
+<div class="wall-end"><p class="eyebrow">THE NEXT FRAME IS YOURS.</p><a class="button button-light" href="index.html#booking">BOOK A SESSION ↗</a><a class="wall-back" href="#top">BACK TO TOP ↑</a></div>
+</main>
+<dialog id="wall-viewer" class="wall-viewer" aria-label="Enlarged photograph">
+<div class="wall-viewer-inner">
+<div class="wall-viewer-header"><span id="wall-index"></span><button id="wall-close" type="button" autofocus aria-label="Close photograph">✕</button></div>
+<div class="wall-viewer-stage"><img id="wall-large" alt=""></div>
+<div class="wall-viewer-footer"><span id="wall-caption"></span><div><button id="wall-prev" type="button" aria-label="Previous photograph">←</button><button id="wall-next" type="button" aria-label="Next photograph">→</button></div></div>
+</div>
+</dialog>
+<footer class="site-footer"><div class="footer-top"><div><div class="footer-brand">THE PRIME <em>GRID.</em></div><p>Stories worth framing.<br>Moments worth remembering.</p></div><div class="footer-nav"><div><span>EXPLORE</span><a href="index.html#work">Portfolio</a><a href="pricing.html">Pricing</a><a href="gallery.html">Gallery</a></div><div><span>CONNECT</span><a href="index.html#booking">Booking</a><a href="https://www.instagram.com/theprimegrid/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></div></div><div class="footer-bottom"><span>© <span id="copyright-year"></span> THE PRIME GRID. ALL RIGHTS RESERVED.</span><span>TEXAS / EVERYWHERE THE STORY TAKES US</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+</body>
+</html>
