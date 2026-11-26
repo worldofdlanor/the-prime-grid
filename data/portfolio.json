@@ -877,9 +877,13 @@
     "category": "Personal projects",
     "session": "The Weight of the Calm, Vol. I",
     "placement": "Portfolio",
-    "src": "/images/uploads/the-weight-of-the-calm-04.webp",
+    "src": "/images/uploads/the-weight-of-the-calm-vol-i-hq-239.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2560,
+      3200
+    ]
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -905,18 +909,26 @@
     "category": "Personal projects",
     "session": "The Weight of the Calm, Vol. I",
     "placement": "Portfolio",
-    "src": "/images/uploads/the-weight-of-the-calm-06.webp",
+    "src": "/images/uploads/the-weight-of-the-calm-vol-i-hq-848.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2133,
+      3200
+    ]
   },
   {
     "title": "The Weight of the Calm, Vol. I",
     "category": "Personal projects",
     "session": "The Weight of the Calm, Vol. I",
     "placement": "Portfolio",
-    "src": "/images/uploads/the-weight-of-the-calm-07.webp",
+    "src": "/images/uploads/the-weight-of-the-calm-vol-i-hq-847.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2133,
+      3200
+    ]
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -936,6 +948,20 @@
       900
     ],
     "cover": false
+  },
+  {
+    "src": "/images/uploads/the-weight-of-the-calm-vol-i-hq-240.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2133,
+      3200
+    ],
+    "session": "The Weight of the Calm, Vol. I",
+    "title": "The Weight of the Calm, Vol. I"
   },
   {
     "title": "Behind the Lens",
