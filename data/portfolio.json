@@ -888,6 +888,25 @@
     "title": "The Weight of the Calm, Vol. I"
   },
   {
+    "title": "The Weight of the Calm, Vol. I",
+    "category": "Personal projects",
+    "session": "The Weight of the Calm, Vol. I",
+    "placement": "Portfolio",
+    "src": "/images/uploads/the-weight-of-the-calm-05.webp",
+    "sample": false,
+    "crop": [
+      77,
+      25,
+      567,
+      850
+    ],
+    "dimensions": [
+      720,
+      900
+    ],
+    "cover": false
+  },
+  {
     "title": "Behind the Lens",
     "category": "Portraits",
     "session": "Behind the Lens",
