@@ -1,0 +1,31 @@
+/* Full-frame photo wall, separate from the existing album pages. */
+.photo-wall-page .desktop-nav{gap:clamp(13px,1.9vw,30px)}
+.desktop-nav a[aria-current=page]{color:var(--white)}
+.photo-wall{padding:clamp(120px,11vw,190px) clamp(12px,3vw,58px) 0}
+.wall-intro{max-width:1500px;margin:0 auto 35px;padding-inline:clamp(0px,3vw,48px)}
+.wall-intro h1{font:400 clamp(65px,11vw,175px)/.95 var(--serif);letter-spacing:-.045em;margin:25px 0 28px}
+.wall-intro h1 em{font-weight:400}
+.wall-intro-bottom{display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
+.wall-intro-bottom p{font-size:clamp(14px,1.3vw,18px);line-height:1.65;color:#b6b4af;max-width:490px;margin:0}
+.wall-shuffle{background:transparent;color:var(--white);border:1px solid #64625c;padding:12px 17px;font-size:10px;letter-spacing:.15em;white-space:nowrap}
+.wall-shuffle span{font-size:16px;margin-left:8px}
+.wall-shuffle:hover{background:var(--white);color:var(--ink)}
+.wall-status{margin:0 0 15px;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#aaa8a2}
+.photo-wall-grid{columns:4;column-gap:12px;max-width:1900px;margin:auto}
+.wall-frame{display:block;width:100%;padding:0;margin:0 0 12px;border:0;background:#1b1b19;break-inside:avoid;overflow:hidden;text-align:left;cursor:zoom-in}
+.wall-frame img{display:block;width:100%;height:auto;aspect-ratio:auto 4/5;object-fit:contain;transition:filter .2s}
+.wall-frame:hover img{filter:brightness(.88)}
+.wall-end{text-align:center;padding:75px 0 90px;display:flex;flex-direction:column;align-items:center;gap:18px}
+.wall-back{font-size:10px;letter-spacing:.15em;color:#b6b4af}
+.wall-viewer{background:#10100f;color:var(--white);width:min(96vw,1500px);height:min(94dvh,1100px);max-width:none;max-height:none;padding:0;border:1px solid #353532}
+.wall-viewer::backdrop{background:rgba(0,0,0,.91)}
+.wall-viewer-inner{display:grid;grid-template-rows:auto minmax(0,1fr) auto;height:100%;padding:14px 20px;gap:10px}
+.wall-viewer-header,.wall-viewer-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:11px;letter-spacing:.08em}
+.wall-viewer button{min-width:43px;min-height:43px;background:transparent;border:1px solid #66635c;color:white;font-size:21px;margin-left:6px}
+.wall-viewer-stage{min-height:0;display:flex;align-items:center;justify-content:center}
+.wall-viewer-stage img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+.wall-viewer-footer #wall-caption{overflow-wrap:anywhere}
+@media(min-width:1700px){.photo-wall-grid{columns:5}}
+@media(max-width:1050px){.photo-wall-grid{columns:3}}
+@media(max-width:680px){.photo-wall-grid{columns:2;column-gap:7px}.wall-frame{margin-bottom:7px}.wall-intro-bottom{align-items:flex-start;flex-direction:column}.wall-viewer-inner{padding:10px}.wall-intro{margin-bottom:25px}}
+@media(prefers-reduced-motion:reduce){.wall-frame img{transition:none}}
