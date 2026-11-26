@@ -1287,37 +1287,123 @@
     "category": "Portraits",
     "session": "The Art of Softness",
     "placement": "Portfolio",
-    "src": "/images/uploads/february-portrait-session-01.webp",
+    "src": "/images/uploads/the-art-of-softness-hq-127.webp",
     "sample": false,
     "cover": true,
-    "position": "50% 25%"
+    "position": "50% 25%",
+    "dimensions": [
+      2473,
+      3200
+    ]
   },
   {
     "title": "The Art of Softness",
     "category": "Portraits",
     "session": "The Art of Softness",
     "placement": "Portfolio",
-    "src": "/images/uploads/february-portrait-session-04.webp",
+    "src": "/images/uploads/the-art-of-softness-hq-131.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2473,
+      3200
+    ]
   },
   {
     "title": "The Art of Softness",
     "category": "Portraits",
     "session": "The Art of Softness",
     "placement": "Portfolio",
-    "src": "/images/uploads/february-portrait-session-05.webp",
+    "src": "/images/uploads/the-art-of-softness-hq-129.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2473,
+      3200
+    ]
   },
   {
     "title": "The Art of Softness",
     "category": "Portraits",
     "session": "The Art of Softness",
     "placement": "Portfolio",
-    "src": "/images/uploads/february-portrait-session-06.webp",
+    "src": "/images/uploads/the-art-of-softness-hq-130.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2473,
+      3200
+    ]
+  },
+  {
+    "src": "/images/uploads/the-art-of-softness-hq-134.webp",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      3200,
+      2000
+    ],
+    "session": "The Art of Softness",
+    "title": "The Art of Softness"
+  },
+  {
+    "src": "/images/uploads/the-art-of-softness-hq-128.webp",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2473,
+      3200
+    ],
+    "session": "The Art of Softness",
+    "title": "The Art of Softness"
+  },
+  {
+    "src": "/images/uploads/the-art-of-softness-hq-132.webp",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2473,
+      3200
+    ],
+    "session": "The Art of Softness",
+    "title": "The Art of Softness"
+  },
+  {
+    "src": "/images/uploads/the-art-of-softness-hq-137.webp",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2133,
+      3200
+    ],
+    "session": "The Art of Softness",
+    "title": "The Art of Softness"
+  },
+  {
+    "src": "/images/uploads/the-art-of-softness-hq-135.webp",
+    "category": "Portraits",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2133,
+      3200
+    ],
+    "session": "The Art of Softness",
+    "title": "The Art of Softness"
   },
   {
     "title": "Cradled by the Stars",
