@@ -974,7 +974,7 @@
     "category": "Personal projects",
     "session": "Classified, but Make It Fashion",
     "placement": "Portfolio",
-    "src": "/images/uploads/classified-but-make-it-fashion-01.webp",
+    "src": "/images/uploads/classified-but-make-it-fashion-hq-750.webp",
     "sample": false,
     "cover": true,
     "position": "50% 25%",
@@ -985,8 +985,8 @@
       1305
     ],
     "dimensions": [
-      1080,
-      1350
+      2560,
+      3200
     ]
   },
   {
@@ -994,7 +994,7 @@
     "category": "Personal projects",
     "session": "Classified, but Make It Fashion",
     "placement": "Portfolio",
-    "src": "/images/uploads/classified-but-make-it-fashion-02.webp",
+    "src": "/images/uploads/classified-but-make-it-fashion-hq-158.webp",
     "sample": false,
     "crop": [
       13,
@@ -1003,10 +1003,38 @@
       869
     ],
     "dimensions": [
-      720,
-      900
+      2560,
+      3200
     ],
     "cover": false
+  },
+  {
+    "src": "/images/uploads/classified-but-make-it-fashion-hq-157.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2560,
+      3200
+    ],
+    "session": "Classified, but Make It Fashion",
+    "title": "Classified, but Make It Fashion"
+  },
+  {
+    "src": "/images/uploads/classified-but-make-it-fashion-hq-159.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2560,
+      3200
+    ],
+    "session": "Classified, but Make It Fashion",
+    "title": "Classified, but Make It Fashion"
   },
   {
     "title": "The Art of Colour Grading",
