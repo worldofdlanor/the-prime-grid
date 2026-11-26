@@ -1013,7 +1013,7 @@
     "category": "Personal projects",
     "session": "The Art of Colour Grading",
     "placement": "Portfolio",
-    "src": "/images/uploads/the-art-of-colour-grading-01.webp",
+    "src": "/images/uploads/the-art-of-colour-grading-hq-749.webp",
     "sample": false,
     "cover": true,
     "position": "50% 25%",
@@ -1024,8 +1024,8 @@
       1310
     ],
     "dimensions": [
-      1080,
-      1350
+      2561,
+      3200
     ]
   },
   {
@@ -1033,7 +1033,7 @@
     "category": "Personal projects",
     "session": "The Art of Colour Grading",
     "placement": "Portfolio",
-    "src": "/images/uploads/the-art-of-colour-grading-02.webp",
+    "src": "/images/uploads/the-art-of-colour-grading-hq-149.webp",
     "sample": false,
     "crop": [
       12,
@@ -1042,8 +1042,8 @@
       870
     ],
     "dimensions": [
-      720,
-      900
+      2560,
+      3200
     ],
     "cover": false
   },
@@ -1052,7 +1052,7 @@
     "category": "Personal projects",
     "session": "The Art of Colour Grading",
     "placement": "Portfolio",
-    "src": "/images/uploads/the-art-of-colour-grading-03.webp",
+    "src": "/images/uploads/the-art-of-colour-grading-hq-148.webp",
     "sample": false,
     "crop": [
       12,
@@ -1061,8 +1061,8 @@
       876
     ],
     "dimensions": [
-      720,
-      900
+      2560,
+      3200
     ],
     "cover": false
   },
@@ -1071,7 +1071,7 @@
     "category": "Personal projects",
     "session": "The Art of Colour Grading",
     "placement": "Portfolio",
-    "src": "/images/uploads/the-art-of-colour-grading-04.webp",
+    "src": "/images/uploads/the-art-of-colour-grading-hq-150.webp",
     "sample": false,
     "crop": [
       12,
@@ -1080,10 +1080,38 @@
       876
     ],
     "dimensions": [
-      720,
-      900
+      2560,
+      3200
     ],
     "cover": false
+  },
+  {
+    "src": "/images/uploads/the-art-of-colour-grading-hq-147.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2560,
+      3200
+    ],
+    "session": "The Art of Colour Grading",
+    "title": "The Art of Colour Grading"
+  },
+  {
+    "src": "/images/uploads/the-art-of-colour-grading-hq-156.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2560,
+      3200
+    ],
+    "session": "The Art of Colour Grading",
+    "title": "The Art of Colour Grading"
   },
   {
     "title": "Distorted Reality",
