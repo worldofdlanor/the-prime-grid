@@ -1,7 +1,7 @@
 /* SITE CONFIGURATION: Replace empty entries only with your verified information. */
 window.PRIME_CONFIG = {
   contactEmail: "theprimegrid@gmail.com",
-  phone: "",        // No phone provided. Never invent one.
+  phone: "432-258-8787",
   instagram: "https://www.instagram.com/theprimegrid/",
   facebook: "",
   tiktok: "",

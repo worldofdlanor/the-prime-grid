@@ -14,7 +14,7 @@ function render(){
  });
 }
 window.PRIME_SESSIONS.forEach(session=>select.add(new Option(session.name,session.name)));
-select.addEventListener('change',render);render();
+const requested=new URLSearchParams(location.search).get('session');if(window.PRIME_SESSIONS.some(s=>s.name===requested))select.value=requested;select.addEventListener('change',render);render();
 const menu=document.querySelector('#menu-button'),nav=document.querySelector('#mobile-navigation');
 menu.addEventListener('click',()=>{nav.hidden=!nav.hidden;menu.setAttribute('aria-expanded',String(!nav.hidden))});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){nav.hidden=true;menu.setAttribute('aria-expanded','false')}});
