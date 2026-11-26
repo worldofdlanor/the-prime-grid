@@ -1146,9 +1146,13 @@
     "category": "Personal projects",
     "session": "Distorted Reality",
     "placement": "Portfolio",
-    "src": "/images/uploads/distorted-reality-01.webp",
+    "src": "/images/uploads/distorted-reality-hq-140.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2560,
+      3200
+    ]
   },
   {
     "title": "Distorted Reality",
@@ -1165,18 +1169,26 @@
     "category": "Personal projects",
     "session": "Distorted Reality",
     "placement": "Portfolio",
-    "src": "/images/uploads/distorted-reality-03.webp",
+    "src": "/images/uploads/distorted-reality-hq-77.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2560,
+      3200
+    ]
   },
   {
     "title": "Distorted Reality",
     "category": "Personal projects",
     "session": "Distorted Reality",
     "placement": "Portfolio",
-    "src": "/images/uploads/distorted-reality-04.webp",
+    "src": "/images/uploads/distorted-reality-hq-160.webp",
     "sample": false,
-    "cover": false
+    "cover": false,
+    "dimensions": [
+      2560,
+      3200
+    ]
   },
   {
     "title": "Distorted Reality",
@@ -1195,6 +1207,48 @@
     "src": "/images/uploads/distorted-reality-06.webp",
     "sample": false,
     "cover": false
+  },
+  {
+    "src": "/images/uploads/distorted-reality-hq-143.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2560,
+      3200
+    ],
+    "session": "Distorted Reality",
+    "title": "Distorted Reality"
+  },
+  {
+    "src": "/images/uploads/distorted-reality-hq-139.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2560,
+      3200
+    ],
+    "session": "Distorted Reality",
+    "title": "Distorted Reality"
+  },
+  {
+    "src": "/images/uploads/distorted-reality-hq-141.webp",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2560,
+      3200
+    ],
+    "session": "Distorted Reality",
+    "title": "Distorted Reality"
   },
   {
     "title": "The Art of Softness",
