@@ -1,8 +1,8 @@
 [
   {
-    "title": "Bamidele: The Next Chapter",
+    "title": "The Next Chapter",
     "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
+    "session": "The Next Chapter",
     "placement": "Portfolio",
     "src": "/images/uploads/bamidele-123.webp",
     "sample": false,
@@ -14,9 +14,9 @@
     ]
   },
   {
-    "title": "Bamidele: The Next Chapter",
+    "title": "The Next Chapter",
     "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
+    "session": "The Next Chapter",
     "placement": "Portfolio",
     "src": "/images/uploads/bamidele-89.webp",
     "sample": false,
@@ -28,9 +28,9 @@
     ]
   },
   {
-    "title": "Bamidele: The Next Chapter",
+    "title": "The Next Chapter",
     "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
+    "session": "The Next Chapter",
     "placement": "Portfolio",
     "src": "/images/uploads/bamidele-90.webp",
     "sample": false,
@@ -42,9 +42,9 @@
     ]
   },
   {
-    "title": "Bamidele: The Next Chapter",
+    "title": "The Next Chapter",
     "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
+    "session": "The Next Chapter",
     "placement": "Portfolio",
     "src": "/images/uploads/bamidele-91.webp",
     "sample": false,
@@ -56,9 +56,9 @@
     ]
   },
   {
-    "title": "Bamidele: The Next Chapter",
+    "title": "The Next Chapter",
     "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
+    "session": "The Next Chapter",
     "placement": "Portfolio",
     "src": "/images/uploads/bamidele-92.webp",
     "sample": false,
@@ -70,9 +70,9 @@
     ]
   },
   {
-    "title": "Bamidele: The Next Chapter",
+    "title": "The Next Chapter",
     "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
+    "session": "The Next Chapter",
     "placement": "Portfolio",
     "src": "/images/uploads/bamidele-122.webp",
     "sample": false,
@@ -84,9 +84,9 @@
     ]
   },
   {
-    "title": "Bamidele: The Next Chapter",
+    "title": "The Next Chapter",
     "category": "Graduation",
-    "session": "Bamidele: The Next Chapter",
+    "session": "The Next Chapter",
     "placement": "Portfolio",
     "src": "/images/uploads/bamidele-86.webp",
     "sample": false,
@@ -98,8 +98,36 @@
     ]
   },
   {
-    "title": "Keeks: Earned in Full",
-    "session": "Keeks: Earned in Full",
+    "title": "The Next Chapter",
+    "session": "The Next Chapter",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-the-next-chapter-87.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      2400,
+      1350
+    ],
+    "sample": false
+  },
+  {
+    "title": "The Next Chapter",
+    "session": "The Next Chapter",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/bamidele-the-next-chapter-124.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
+  },
+  {
+    "title": "Earned in Full",
+    "session": "Earned in Full",
     "category": "Graduation",
     "placement": "Portfolio",
     "src": "/images/uploads/keeks-272.webp",
@@ -112,8 +140,8 @@
     ]
   },
   {
-    "title": "Keeks: Earned in Full",
-    "session": "Keeks: Earned in Full",
+    "title": "Earned in Full",
+    "session": "Earned in Full",
     "category": "Graduation",
     "placement": "Portfolio",
     "src": "/images/uploads/keeks-271.webp",
@@ -126,8 +154,8 @@
     ]
   },
   {
-    "title": "Keeks: Earned in Full",
-    "session": "Keeks: Earned in Full",
+    "title": "Earned in Full",
+    "session": "Earned in Full",
     "category": "Graduation",
     "placement": "Portfolio",
     "src": "/images/uploads/keeks-273.webp",
@@ -140,8 +168,8 @@
     ]
   },
   {
-    "title": "Keeks: Earned in Full",
-    "session": "Keeks: Earned in Full",
+    "title": "Earned in Full",
+    "session": "Earned in Full",
     "category": "Graduation",
     "placement": "Portfolio",
     "src": "/images/uploads/keeks-274.webp",
@@ -154,8 +182,8 @@
     ]
   },
   {
-    "title": "Keeks: Earned in Full",
-    "session": "Keeks: Earned in Full",
+    "title": "Earned in Full",
+    "session": "Earned in Full",
     "category": "Graduation",
     "placement": "Portfolio",
     "src": "/images/uploads/keeks-275.webp",
@@ -168,8 +196,8 @@
     ]
   },
   {
-    "title": "Keeks: Earned in Full",
-    "session": "Keeks: Earned in Full",
+    "title": "Earned in Full",
+    "session": "Earned in Full",
     "category": "Graduation",
     "placement": "Portfolio",
     "src": "/images/uploads/keeks-279.webp",
@@ -182,8 +210,8 @@
     ]
   },
   {
-    "title": "Keeks: Earned in Full",
-    "session": "Keeks: Earned in Full",
+    "title": "Earned in Full",
+    "session": "Earned in Full",
     "category": "Graduation",
     "placement": "Portfolio",
     "src": "/images/uploads/keeks-758.webp",
@@ -264,6 +292,20 @@
       1920,
       2400
     ]
+  },
+  {
+    "title": "A New Chapter",
+    "session": "A New Chapter",
+    "category": "Graduation",
+    "placement": "Portfolio",
+    "src": "/images/uploads/a-new-chapter-285.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      1920,
+      2400
+    ],
+    "sample": false
   },
   {
     "title": "The Day We Made It",
@@ -443,48 +485,6 @@
     "category": "Graduation",
     "placement": "Portfolio",
     "src": "/images/uploads/beyond-the-degree-320.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      1920,
-      2400
-    ],
-    "sample": false
-  },
-  {
-    "title": "A New Chapter",
-    "session": "A New Chapter",
-    "category": "Graduation",
-    "placement": "Portfolio",
-    "src": "/images/uploads/a-new-chapter-285.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      1920,
-      2400
-    ],
-    "sample": false
-  },
-  {
-    "title": "Bamidele: The Next Chapter",
-    "session": "Bamidele: The Next Chapter",
-    "category": "Graduation",
-    "placement": "Portfolio",
-    "src": "/images/uploads/bamidele-the-next-chapter-87.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2400,
-      1350
-    ],
-    "sample": false
-  },
-  {
-    "title": "Bamidele: The Next Chapter",
-    "session": "Bamidele: The Next Chapter",
-    "category": "Graduation",
-    "placement": "Portfolio",
-    "src": "/images/uploads/bamidele-the-next-chapter-124.webp",
     "cover": false,
     "position": "50% 25%",
     "dimensions": [
@@ -994,44 +994,6 @@
     "position": "50% 25%"
   },
   {
-    "title": "The Crown Fits",
-    "category": "Personal projects",
-    "session": "The Crown Fits",
-    "placement": "Portfolio",
-    "src": "/images/uploads/the-crown-fits-02.webp",
-    "sample": false,
-    "crop": [
-      25,
-      60,
-      693,
-      780
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
-    "title": "The Crown Fits",
-    "category": "Personal projects",
-    "session": "The Crown Fits",
-    "placement": "Portfolio",
-    "src": "/images/uploads/the-crown-fits-03.webp",
-    "sample": false,
-    "crop": [
-      2,
-      60,
-      693,
-      780
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
     "title": "Classified, but Make It Fashion",
     "category": "Personal projects",
     "session": "Classified, but Make It Fashion",
@@ -1217,44 +1179,6 @@
     "category": "Portraits",
     "session": "The Art of Softness",
     "placement": "Portfolio",
-    "src": "/images/uploads/february-portrait-session-02.webp",
-    "sample": false,
-    "crop": [
-      152,
-      131,
-      566,
-      638
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
-    "title": "The Art of Softness",
-    "category": "Portraits",
-    "session": "The Art of Softness",
-    "placement": "Portfolio",
-    "src": "/images/uploads/february-portrait-session-03.webp",
-    "sample": false,
-    "crop": [
-      2,
-      131,
-      566,
-      638
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
-    "title": "The Art of Softness",
-    "category": "Portraits",
-    "session": "The Art of Softness",
-    "placement": "Portfolio",
     "src": "/images/uploads/february-portrait-session-04.webp",
     "sample": false,
     "cover": false
@@ -1339,15 +1263,6 @@
     "category": "Personal projects",
     "session": "Take Notes",
     "placement": "Portfolio",
-    "src": "/images/uploads/take-notes-03.webp",
-    "sample": false,
-    "cover": false
-  },
-  {
-    "title": "Take Notes",
-    "category": "Personal projects",
-    "session": "Take Notes",
-    "placement": "Portfolio",
     "src": "/images/uploads/take-notes-05.webp",
     "sample": false,
     "crop": [
@@ -1386,15 +1301,6 @@
     "category": "Personal projects",
     "session": "Take Notes",
     "placement": "Portfolio",
-    "src": "/images/uploads/take-notes-07.webp",
-    "sample": false,
-    "cover": false
-  },
-  {
-    "title": "Take Notes",
-    "category": "Personal projects",
-    "session": "Take Notes",
-    "placement": "Portfolio",
     "src": "/images/uploads/take-notes-08.webp",
     "sample": false,
     "crop": [
@@ -1408,6 +1314,146 @@
       900
     ],
     "cover": false
+  },
+  {
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/mone-104.webp",
+    "cover": true,
+    "position": "50% 25%",
+    "dimensions": [
+      2133,
+      3200
+    ],
+    "sample": false
+  },
+  {
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/mone-108.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      2133,
+      3200
+    ],
+    "sample": false
+  },
+  {
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/mone-747.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      2133,
+      3200
+    ],
+    "sample": false
+  },
+  {
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/mone-95.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      3200,
+      2133
+    ],
+    "sample": false
+  },
+  {
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/mone-96.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      3200,
+      2133
+    ],
+    "sample": false
+  },
+  {
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/mone-98.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      2133,
+      3200
+    ],
+    "sample": false
+  },
+  {
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/mone-100.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      2133,
+      3200
+    ],
+    "sample": false
+  },
+  {
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/mone-102.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      2133,
+      3200
+    ],
+    "sample": false
+  },
+  {
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/mone-106.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      2133,
+      3200
+    ],
+    "sample": false
+  },
+  {
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
+    "placement": "Portfolio",
+    "src": "/images/uploads/mone-107.webp",
+    "cover": false,
+    "position": "50% 25%",
+    "dimensions": [
+      3200,
+      2133
+    ],
+    "sample": false
   },
   {
     "title": "Ishola Ekun",
@@ -1424,34 +1470,7 @@
     "category": "Personal projects",
     "session": "Ishola Ekun",
     "placement": "Portfolio",
-    "src": "/images/uploads/ishola-ekun-02.webp",
-    "sample": false,
-    "cover": false
-  },
-  {
-    "title": "Ishola Ekun",
-    "category": "Personal projects",
-    "session": "Ishola Ekun",
-    "placement": "Portfolio",
-    "src": "/images/uploads/ishola-ekun-03.webp",
-    "sample": false,
-    "cover": false
-  },
-  {
-    "title": "Ishola Ekun",
-    "category": "Personal projects",
-    "session": "Ishola Ekun",
-    "placement": "Portfolio",
     "src": "/images/uploads/ishola-ekun-04.webp",
-    "sample": false,
-    "cover": false
-  },
-  {
-    "title": "Ishola Ekun",
-    "category": "Personal projects",
-    "session": "Ishola Ekun",
-    "placement": "Portfolio",
-    "src": "/images/uploads/ishola-ekun-05.webp",
     "sample": false,
     "cover": false
   },
@@ -1603,62 +1622,6 @@
     "cover": false
   },
   {
-    "title": "Urban Grit",
-    "category": "Personal projects",
-    "session": "Urban Grit",
-    "placement": "Portfolio",
-    "src": "/images/uploads/urban-grit-03.webp",
-    "sample": false,
-    "crop": [
-      56,
-      128,
-      442,
-      644
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
-    "title": "Urban Grit",
-    "category": "Personal projects",
-    "session": "Urban Grit",
-    "placement": "Portfolio",
-    "src": "/images/uploads/urban-grit-04.webp",
-    "sample": false,
-    "crop": [
-      9,
-      2,
-      514,
-      896
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
-    "title": "Urban Grit",
-    "category": "Personal projects",
-    "session": "Urban Grit",
-    "placement": "Portfolio",
-    "src": "/images/uploads/urban-grit-05.webp",
-    "sample": false,
-    "cover": false
-  },
-  {
-    "title": "Urban Grit",
-    "category": "Personal projects",
-    "session": "Urban Grit",
-    "placement": "Portfolio",
-    "src": "/images/uploads/urban-grit-06.webp",
-    "sample": false,
-    "cover": false
-  },
-  {
     "title": "The Grind",
     "category": "Sports",
     "session": "The Grind",
@@ -1667,24 +1630,6 @@
     "sample": false,
     "cover": true,
     "position": "50% 25%"
-  },
-  {
-    "title": "The Grind",
-    "category": "Sports",
-    "session": "The Grind",
-    "placement": "Portfolio",
-    "src": "/images/uploads/the-grind-02.webp",
-    "sample": false,
-    "cover": false
-  },
-  {
-    "title": "The Grind",
-    "category": "Sports",
-    "session": "The Grind",
-    "placement": "Portfolio",
-    "src": "/images/uploads/the-grind-03.webp",
-    "sample": false,
-    "cover": false
   },
   {
     "title": "The Grind",
@@ -1745,8 +1690,8 @@
     "cover": false
   },
   {
-    "title": "Halimat",
-    "session": "Halimat",
+    "title": "Grace in Stillness",
+    "session": "Grace in Stillness",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-646.webp",
@@ -1754,8 +1699,8 @@
     "cover": true
   },
   {
-    "title": "Halimat",
-    "session": "Halimat",
+    "title": "Grace in Stillness",
+    "session": "Grace in Stillness",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-644.webp",
@@ -1763,8 +1708,8 @@
     "cover": false
   },
   {
-    "title": "Halimat",
-    "session": "Halimat",
+    "title": "Grace in Stillness",
+    "session": "Grace in Stillness",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-645.webp",
@@ -1772,8 +1717,8 @@
     "cover": false
   },
   {
-    "title": "Halimat",
-    "session": "Halimat",
+    "title": "Grace in Stillness",
+    "session": "Grace in Stillness",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-647.webp",
@@ -1781,8 +1726,8 @@
     "cover": false
   },
   {
-    "title": "Halimat",
-    "session": "Halimat",
+    "title": "Grace in Stillness",
+    "session": "Grace in Stillness",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-649.webp",
@@ -1790,8 +1735,8 @@
     "cover": false
   },
   {
-    "title": "Halimat",
-    "session": "Halimat",
+    "title": "Grace in Stillness",
+    "session": "Grace in Stillness",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-650.webp",
@@ -1799,8 +1744,8 @@
     "cover": false
   },
   {
-    "title": "Halimat",
-    "session": "Halimat",
+    "title": "Grace in Stillness",
+    "session": "Grace in Stillness",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-651.webp",
@@ -1808,8 +1753,8 @@
     "cover": false
   },
   {
-    "title": "Halimat",
-    "session": "Halimat",
+    "title": "Grace in Stillness",
+    "session": "Grace in Stillness",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-652.webp",
@@ -1817,181 +1762,13 @@
     "cover": false
   },
   {
-    "title": "Halimat",
-    "session": "Halimat",
+    "title": "Grace in Stillness",
+    "session": "Grace in Stillness",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-653.webp",
     "sample": false,
     "cover": false
-  },
-  {
-    "title": "Take Notes",
-    "session": "Take Notes",
-    "category": "Personal projects",
-    "placement": "Portfolio",
-    "src": "/images/uploads/mone-104.webp",
-    "cover": true,
-    "position": "50% 25%",
-    "dimensions": [
-      2133,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "Take Notes",
-    "session": "Take Notes",
-    "category": "Personal projects",
-    "placement": "Portfolio",
-    "src": "/images/uploads/mone-108.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2133,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "Take Notes",
-    "session": "Take Notes",
-    "category": "Personal projects",
-    "placement": "Portfolio",
-    "src": "/images/uploads/mone-747.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2133,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "Take Notes",
-    "session": "Take Notes",
-    "category": "Personal projects",
-    "placement": "Portfolio",
-    "src": "/images/uploads/mone-95.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "Take Notes",
-    "session": "Take Notes",
-    "category": "Personal projects",
-    "placement": "Portfolio",
-    "src": "/images/uploads/mone-96.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "Take Notes",
-    "session": "Take Notes",
-    "category": "Personal projects",
-    "placement": "Portfolio",
-    "src": "/images/uploads/mone-98.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2133,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "Take Notes",
-    "session": "Take Notes",
-    "category": "Personal projects",
-    "placement": "Portfolio",
-    "src": "/images/uploads/mone-100.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2133,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "Take Notes",
-    "session": "Take Notes",
-    "category": "Personal projects",
-    "placement": "Portfolio",
-    "src": "/images/uploads/mone-102.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2133,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "Take Notes",
-    "session": "Take Notes",
-    "category": "Personal projects",
-    "placement": "Portfolio",
-    "src": "/images/uploads/mone-106.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2133,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "Take Notes",
-    "session": "Take Notes",
-    "category": "Personal projects",
-    "placement": "Portfolio",
-    "src": "/images/uploads/mone-107.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      2133
-    ],
-    "sample": false
-  },
-  {
-    "title": "Crimson Reverie",
-    "session": "Crimson Reverie",
-    "category": "Portraits",
-    "placement": "Portfolio",
-    "src": "/images/uploads/deborah-199.webp",
-    "cover": true,
-    "position": "50% 25%",
-    "dimensions": [
-      2133,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "Crimson Reverie",
-    "session": "Crimson Reverie",
-    "category": "Portraits",
-    "placement": "Portfolio",
-    "src": "/images/uploads/deborah-838.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2133,
-      3200
-    ],
-    "sample": false
   },
   {
     "title": "Crimson Reverie",
@@ -2004,20 +1781,6 @@
     "dimensions": [
       2133,
       3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "Crimson Reverie",
-    "session": "Crimson Reverie",
-    "category": "Portraits",
-    "placement": "Portfolio",
-    "src": "/images/uploads/deborah-840.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      3200,
-      1800
     ],
     "sample": false
   },
@@ -2054,20 +1817,6 @@
     "session": "Crimson Reverie",
     "category": "Portraits",
     "placement": "Portfolio",
-    "src": "/images/uploads/deborah-200.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      2560,
-      3200
-    ],
-    "sample": false
-  },
-  {
-    "title": "Crimson Reverie",
-    "session": "Crimson Reverie",
-    "category": "Portraits",
-    "placement": "Portfolio",
     "src": "/images/uploads/deborah-841.webp",
     "cover": false,
     "position": "50% 25%",
@@ -2083,7 +1832,7 @@
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/deborah-842.webp",
-    "cover": false,
+    "cover": true,
     "position": "50% 25%",
     "dimensions": [
       2133,
@@ -2974,8 +2723,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-20.webp",
@@ -2988,8 +2737,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-21.webp",
@@ -3002,8 +2751,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-26.webp",
@@ -3016,8 +2765,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-665.webp",
@@ -3030,8 +2779,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-666.webp",
@@ -3044,8 +2793,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-35.webp",
@@ -3058,8 +2807,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-27.webp",
@@ -3072,8 +2821,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-22.webp",
@@ -3086,8 +2835,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-25.webp",
@@ -3100,8 +2849,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-28.webp",
@@ -3114,8 +2863,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-33.webp",
@@ -3128,8 +2877,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-34.webp",
@@ -3142,8 +2891,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-831.webp",
@@ -3156,8 +2905,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-30.webp",
@@ -3170,8 +2919,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-29.webp",
@@ -3184,8 +2933,8 @@
     "sample": false
   },
   {
-    "title": "Gideon's Birthday",
-    "session": "Gideon's Birthday",
+    "title": "A Birthday in Style",
+    "session": "A Birthday in Style",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-32.webp",
