@@ -1791,10 +1791,14 @@
     "session": "Leave It All on the Court",
     "category": "Sports",
     "placement": "Portfolio",
-    "src": "/images/uploads/court-36.webp",
+    "src": "/images/uploads/leave-it-all-on-the-court-hq-36.webp",
     "sample": false,
     "cover": false,
-    "position": "50% 35%"
+    "position": "50% 35%",
+    "dimensions": [
+      2286,
+      3200
+    ]
   },
   {
     "title": "Leave It All on the Court",
@@ -1811,20 +1815,28 @@
     "session": "Leave It All on the Court",
     "category": "Sports",
     "placement": "Portfolio",
-    "src": "/images/uploads/court-41.webp",
+    "src": "/images/uploads/leave-it-all-on-the-court-hq-41.webp",
     "sample": false,
     "cover": false,
-    "position": "50% 35%"
+    "position": "50% 35%",
+    "dimensions": [
+      2133,
+      3200
+    ]
   },
   {
     "title": "Leave It All on the Court",
     "session": "Leave It All on the Court",
     "category": "Sports",
     "placement": "Portfolio",
-    "src": "/images/uploads/court-643.webp",
+    "src": "/images/uploads/leave-it-all-on-the-court-hq-643.webp",
     "sample": false,
     "cover": false,
-    "position": "50% 35%"
+    "position": "50% 35%",
+    "dimensions": [
+      3200,
+      1800
+    ]
   },
   {
     "title": "Leave It All on the Court",
@@ -1854,6 +1866,20 @@
       607
     ],
     "cover": false
+  },
+  {
+    "src": "/images/uploads/leave-it-all-on-the-court-hq-40.webp",
+    "category": "Sports",
+    "placement": "Portfolio",
+    "cover": false,
+    "position": "50% 25%",
+    "sample": false,
+    "dimensions": [
+      2286,
+      3200
+    ],
+    "session": "Leave It All on the Court",
+    "title": "Leave It All on the Court"
   },
   {
     "title": "Urban Grit",
