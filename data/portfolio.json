@@ -485,7 +485,7 @@
     "category": "Graduation",
     "placement": "Portfolio",
     "src": "/images/uploads/bamidele-the-next-chapter-124.webp",
-    "cover": true,
+    "cover": false,
     "position": "50% 25%",
     "dimensions": [
       1920,
@@ -510,7 +510,7 @@
     "placement": "Portfolio",
     "src": "/images/uploads/breaking-original-686.webp",
     "sample": false,
-    "cover": false,
+    "cover": true,
     "position": "50% 34%"
   },
   {
@@ -649,7 +649,8 @@
     "session": "Presence",
     "placement": "Portfolio",
     "src": "/images/uploads/presence-3200-0753.jpg",
-    "sample": false
+    "sample": false,
+    "cover": true
   },
   {
     "title": "Presence",
@@ -657,7 +658,8 @@
     "session": "Presence",
     "placement": "Portfolio",
     "src": "/images/uploads/presence-3200-0256.jpg",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Winter with a Pulse",
@@ -675,7 +677,8 @@
     "session": "Winter with a Pulse",
     "placement": "Portfolio",
     "src": "/images/uploads/winter-with-a-pulse-02.webp",
-    "sample": false
+    "sample": false,
+    "cover": true
   },
   {
     "title": "Winter with a Pulse",
@@ -683,7 +686,8 @@
     "session": "Winter with a Pulse",
     "placement": "Portfolio",
     "src": "/images/uploads/winter-with-a-pulse-03.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Winter with a Pulse",
@@ -691,7 +695,8 @@
     "session": "Winter with a Pulse",
     "placement": "Portfolio",
     "src": "/images/uploads/winter-with-a-pulse-04.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Winter with a Pulse",
@@ -699,7 +704,8 @@
     "session": "Winter with a Pulse",
     "placement": "Portfolio",
     "src": "/images/uploads/winter-with-a-pulse-05.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Winter with a Pulse",
@@ -707,7 +713,8 @@
     "session": "Winter with a Pulse",
     "placement": "Portfolio",
     "src": "/images/uploads/winter-with-a-pulse-06.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -725,7 +732,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-243.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -733,7 +741,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-245.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -741,7 +750,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-250.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -749,7 +759,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-252.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -757,7 +768,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-246.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -765,7 +777,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-244.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -773,7 +786,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-248.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -781,7 +795,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-253.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -789,7 +804,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-247.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -797,7 +813,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-249.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -805,7 +822,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-251.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Yuletide Family Affair",
@@ -813,7 +831,8 @@
     "category": "Couples / weddings",
     "placement": "Portfolio",
     "src": "/images/uploads/yuletide-hq-254.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -831,7 +850,8 @@
     "session": "The Weight of the Calm, Vol. I",
     "placement": "Portfolio",
     "src": "/images/uploads/the-weight-of-the-calm-02.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -849,7 +869,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -857,7 +878,8 @@
     "session": "The Weight of the Calm, Vol. I",
     "placement": "Portfolio",
     "src": "/images/uploads/the-weight-of-the-calm-04.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -875,7 +897,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -883,7 +906,8 @@
     "session": "The Weight of the Calm, Vol. I",
     "placement": "Portfolio",
     "src": "/images/uploads/the-weight-of-the-calm-06.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -891,7 +915,8 @@
     "session": "The Weight of the Calm, Vol. I",
     "placement": "Portfolio",
     "src": "/images/uploads/the-weight-of-the-calm-07.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "The Weight of the Calm, Vol. I",
@@ -909,10 +934,11 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
-    "title": "Ronald Olufemi",
+    "title": "Behind the Lens",
     "category": "Portraits",
     "session": "Behind the Lens",
     "placement": "About",
@@ -945,7 +971,8 @@
     "session": "Frost in the Marrow",
     "placement": "Portfolio",
     "src": "/images/uploads/frost-in-the-marrow-02.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Frost in the Marrow",
@@ -953,7 +980,8 @@
     "session": "Frost in the Marrow",
     "placement": "Portfolio",
     "src": "/images/uploads/frost-in-the-marrow-03.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "The Crown Fits",
@@ -981,7 +1009,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "The Crown Fits",
@@ -999,7 +1028,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Classified, but Make It Fashion",
@@ -1037,7 +1067,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "The Art of Colour Grading",
@@ -1075,7 +1106,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "The Art of Colour Grading",
@@ -1093,7 +1125,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "The Art of Colour Grading",
@@ -1111,7 +1144,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Distorted Reality",
@@ -1119,7 +1153,8 @@
     "session": "Distorted Reality",
     "placement": "Portfolio",
     "src": "/images/uploads/distorted-reality-01.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Distorted Reality",
@@ -1137,7 +1172,8 @@
     "session": "Distorted Reality",
     "placement": "Portfolio",
     "src": "/images/uploads/distorted-reality-03.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Distorted Reality",
@@ -1145,7 +1181,8 @@
     "session": "Distorted Reality",
     "placement": "Portfolio",
     "src": "/images/uploads/distorted-reality-04.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Distorted Reality",
@@ -1153,7 +1190,8 @@
     "session": "Distorted Reality",
     "placement": "Portfolio",
     "src": "/images/uploads/distorted-reality-05.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Distorted Reality",
@@ -1161,12 +1199,13 @@
     "session": "Distorted Reality",
     "placement": "Portfolio",
     "src": "/images/uploads/distorted-reality-06.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
-    "title": "February Portrait Session",
+    "title": "The Art of Softness",
     "category": "Portraits",
-    "session": "February Portrait Session",
+    "session": "The Art of Softness",
     "placement": "Portfolio",
     "src": "/images/uploads/february-portrait-session-01.webp",
     "sample": false,
@@ -1174,9 +1213,9 @@
     "position": "50% 25%"
   },
   {
-    "title": "February Portrait Session",
+    "title": "The Art of Softness",
     "category": "Portraits",
-    "session": "February Portrait Session",
+    "session": "The Art of Softness",
     "placement": "Portfolio",
     "src": "/images/uploads/february-portrait-session-02.webp",
     "sample": false,
@@ -1189,12 +1228,13 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
-    "title": "February Portrait Session",
+    "title": "The Art of Softness",
     "category": "Portraits",
-    "session": "February Portrait Session",
+    "session": "The Art of Softness",
     "placement": "Portfolio",
     "src": "/images/uploads/february-portrait-session-03.webp",
     "sample": false,
@@ -1207,31 +1247,35 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
-    "title": "February Portrait Session",
+    "title": "The Art of Softness",
     "category": "Portraits",
-    "session": "February Portrait Session",
+    "session": "The Art of Softness",
     "placement": "Portfolio",
     "src": "/images/uploads/february-portrait-session-04.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
-    "title": "February Portrait Session",
+    "title": "The Art of Softness",
     "category": "Portraits",
-    "session": "February Portrait Session",
+    "session": "The Art of Softness",
     "placement": "Portfolio",
     "src": "/images/uploads/february-portrait-session-05.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
-    "title": "February Portrait Session",
+    "title": "The Art of Softness",
     "category": "Portraits",
-    "session": "February Portrait Session",
+    "session": "The Art of Softness",
     "placement": "Portfolio",
     "src": "/images/uploads/february-portrait-session-06.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Cradled by the Stars",
@@ -1239,7 +1283,8 @@
     "session": "Cradled by the Stars",
     "placement": "Portfolio",
     "src": "/images/uploads/cradled-by-the-stars-01.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Cradled by the Stars",
@@ -1257,7 +1302,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Cradled by the Stars",
@@ -1276,7 +1322,7 @@
     "placement": "Portfolio",
     "src": "/images/uploads/take-notes-01.webp",
     "sample": false,
-    "cover": true,
+    "cover": false,
     "position": "50% 28%"
   },
   {
@@ -1285,7 +1331,8 @@
     "session": "Take Notes",
     "placement": "Portfolio",
     "src": "/images/uploads/take-notes-02.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Take Notes",
@@ -1293,25 +1340,8 @@
     "session": "Take Notes",
     "placement": "Portfolio",
     "src": "/images/uploads/take-notes-03.webp",
-    "sample": false
-  },
-  {
-    "title": "Take Notes",
-    "category": "Personal projects",
-    "session": "Take Notes",
-    "placement": "Portfolio",
-    "src": "/images/uploads/take-notes-04.webp",
     "sample": false,
-    "crop": [
-      83,
-      26,
-      554,
-      831
-    ],
-    "dimensions": [
-      720,
-      900
-    ]
+    "cover": false
   },
   {
     "title": "Take Notes",
@@ -1329,7 +1359,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Take Notes",
@@ -1347,7 +1378,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Take Notes",
@@ -1355,7 +1387,8 @@
     "session": "Take Notes",
     "placement": "Portfolio",
     "src": "/images/uploads/take-notes-07.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Take Notes",
@@ -1373,7 +1406,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Ishola Ekun",
@@ -1391,7 +1425,8 @@
     "session": "Ishola Ekun",
     "placement": "Portfolio",
     "src": "/images/uploads/ishola-ekun-02.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Ishola Ekun",
@@ -1399,7 +1434,8 @@
     "session": "Ishola Ekun",
     "placement": "Portfolio",
     "src": "/images/uploads/ishola-ekun-03.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Ishola Ekun",
@@ -1407,7 +1443,8 @@
     "session": "Ishola Ekun",
     "placement": "Portfolio",
     "src": "/images/uploads/ishola-ekun-04.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Ishola Ekun",
@@ -1415,7 +1452,8 @@
     "session": "Ishola Ekun",
     "placement": "Portfolio",
     "src": "/images/uploads/ishola-ekun-05.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Strength Without Compromise",
@@ -1443,7 +1481,8 @@
     "dimensions": [
       1080,
       720
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Leave It All on the Court",
@@ -1560,7 +1599,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Urban Grit",
@@ -1578,7 +1618,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Urban Grit",
@@ -1596,7 +1637,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Urban Grit",
@@ -1604,7 +1646,8 @@
     "session": "Urban Grit",
     "placement": "Portfolio",
     "src": "/images/uploads/urban-grit-05.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Urban Grit",
@@ -1612,7 +1655,8 @@
     "session": "Urban Grit",
     "placement": "Portfolio",
     "src": "/images/uploads/urban-grit-06.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Built to Conquer",
@@ -1630,7 +1674,8 @@
     "dimensions": [
       1080,
       1350
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Built to Conquer",
@@ -1658,7 +1703,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Built to Conquer",
@@ -1676,7 +1722,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Built to Conquer",
@@ -1684,7 +1731,8 @@
     "session": "Built to Conquer",
     "placement": "Portfolio",
     "src": "/images/uploads/built-to-conquer-05.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Built to Conquer",
@@ -1702,7 +1750,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Built to Conquer",
@@ -1720,7 +1769,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "The Grind",
@@ -1738,7 +1788,8 @@
     "session": "The Grind",
     "placement": "Portfolio",
     "src": "/images/uploads/the-grind-02.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "The Grind",
@@ -1746,7 +1797,8 @@
     "session": "The Grind",
     "placement": "Portfolio",
     "src": "/images/uploads/the-grind-03.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "The Grind",
@@ -1764,7 +1816,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Beauty Is a Light",
@@ -1802,7 +1855,8 @@
     "dimensions": [
       720,
       900
-    ]
+    ],
+    "cover": false
   },
   {
     "title": "Halimat",
@@ -1810,7 +1864,8 @@
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-646.webp",
-    "sample": false
+    "sample": false,
+    "cover": true
   },
   {
     "title": "Halimat",
@@ -1818,7 +1873,8 @@
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-644.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Halimat",
@@ -1826,7 +1882,8 @@
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-645.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Halimat",
@@ -1834,7 +1891,8 @@
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-647.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Halimat",
@@ -1842,7 +1900,8 @@
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-649.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Halimat",
@@ -1850,7 +1909,8 @@
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-650.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Halimat",
@@ -1858,7 +1918,8 @@
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-651.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Halimat",
@@ -1866,7 +1927,8 @@
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-652.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
     "title": "Halimat",
@@ -1874,12 +1936,13 @@
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/halimat-653.webp",
-    "sample": false
+    "sample": false,
+    "cover": false
   },
   {
-    "title": "Mone",
-    "session": "Mone",
-    "category": "Portraits",
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mone-104.webp",
     "cover": true,
@@ -1891,9 +1954,9 @@
     "sample": false
   },
   {
-    "title": "Mone",
-    "session": "Mone",
-    "category": "Portraits",
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mone-108.webp",
     "cover": false,
@@ -1905,9 +1968,9 @@
     "sample": false
   },
   {
-    "title": "Mone",
-    "session": "Mone",
-    "category": "Portraits",
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mone-747.webp",
     "cover": false,
@@ -1919,9 +1982,9 @@
     "sample": false
   },
   {
-    "title": "Mone",
-    "session": "Mone",
-    "category": "Portraits",
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mone-95.webp",
     "cover": false,
@@ -1933,9 +1996,9 @@
     "sample": false
   },
   {
-    "title": "Mone",
-    "session": "Mone",
-    "category": "Portraits",
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mone-96.webp",
     "cover": false,
@@ -1947,9 +2010,9 @@
     "sample": false
   },
   {
-    "title": "Mone",
-    "session": "Mone",
-    "category": "Portraits",
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mone-98.webp",
     "cover": false,
@@ -1961,9 +2024,9 @@
     "sample": false
   },
   {
-    "title": "Mone",
-    "session": "Mone",
-    "category": "Portraits",
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mone-100.webp",
     "cover": false,
@@ -1975,9 +2038,9 @@
     "sample": false
   },
   {
-    "title": "Mone",
-    "session": "Mone",
-    "category": "Portraits",
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mone-102.webp",
     "cover": false,
@@ -1989,9 +2052,9 @@
     "sample": false
   },
   {
-    "title": "Mone",
-    "session": "Mone",
-    "category": "Portraits",
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mone-106.webp",
     "cover": false,
@@ -2003,9 +2066,9 @@
     "sample": false
   },
   {
-    "title": "Mone",
-    "session": "Mone",
-    "category": "Portraits",
+    "title": "Take Notes",
+    "session": "Take Notes",
+    "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mone-107.webp",
     "cover": false,
@@ -2017,8 +2080,8 @@
     "sample": false
   },
   {
-    "title": "Deborah",
-    "session": "Deborah",
+    "title": "Crimson Reverie",
+    "session": "Crimson Reverie",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/deborah-199.webp",
@@ -2031,8 +2094,8 @@
     "sample": false
   },
   {
-    "title": "Deborah",
-    "session": "Deborah",
+    "title": "Crimson Reverie",
+    "session": "Crimson Reverie",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/deborah-838.webp",
@@ -2045,8 +2108,8 @@
     "sample": false
   },
   {
-    "title": "Deborah",
-    "session": "Deborah",
+    "title": "Crimson Reverie",
+    "session": "Crimson Reverie",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/deborah-839.webp",
@@ -2059,8 +2122,8 @@
     "sample": false
   },
   {
-    "title": "Deborah",
-    "session": "Deborah",
+    "title": "Crimson Reverie",
+    "session": "Crimson Reverie",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/deborah-840.webp",
@@ -2073,8 +2136,8 @@
     "sample": false
   },
   {
-    "title": "Deborah",
-    "session": "Deborah",
+    "title": "Crimson Reverie",
+    "session": "Crimson Reverie",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/deborah-198.webp",
@@ -2087,8 +2150,8 @@
     "sample": false
   },
   {
-    "title": "Deborah",
-    "session": "Deborah",
+    "title": "Crimson Reverie",
+    "session": "Crimson Reverie",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/deborah-197.webp",
@@ -2101,8 +2164,8 @@
     "sample": false
   },
   {
-    "title": "Deborah",
-    "session": "Deborah",
+    "title": "Crimson Reverie",
+    "session": "Crimson Reverie",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/deborah-200.webp",
@@ -2115,8 +2178,8 @@
     "sample": false
   },
   {
-    "title": "Deborah",
-    "session": "Deborah",
+    "title": "Crimson Reverie",
+    "session": "Crimson Reverie",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/deborah-841.webp",
@@ -2129,8 +2192,8 @@
     "sample": false
   },
   {
-    "title": "Deborah",
-    "session": "Deborah",
+    "title": "Crimson Reverie",
+    "session": "Crimson Reverie",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/deborah-842.webp",
@@ -2143,8 +2206,8 @@
     "sample": false
   },
   {
-    "title": "Khiontae",
-    "session": "Khiontae",
+    "title": "Roses in Red",
+    "session": "Roses in Red",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/khiontae-209.webp",
@@ -2157,8 +2220,8 @@
     "sample": false
   },
   {
-    "title": "Khiontae",
-    "session": "Khiontae",
+    "title": "Roses in Red",
+    "session": "Roses in Red",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/khiontae-210.webp",
@@ -2171,8 +2234,8 @@
     "sample": false
   },
   {
-    "title": "Khiontae",
-    "session": "Khiontae",
+    "title": "Roses in Red",
+    "session": "Roses in Red",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/khiontae-220.webp",
@@ -2185,8 +2248,8 @@
     "sample": false
   },
   {
-    "title": "Khiontae",
-    "session": "Khiontae",
+    "title": "Roses in Red",
+    "session": "Roses in Red",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/khiontae-221.webp",
@@ -2199,8 +2262,8 @@
     "sample": false
   },
   {
-    "title": "Khiontae",
-    "session": "Khiontae",
+    "title": "Roses in Red",
+    "session": "Roses in Red",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/khiontae-222.webp",
@@ -2213,8 +2276,8 @@
     "sample": false
   },
   {
-    "title": "Bisi",
-    "session": "Bisi",
+    "title": "Pattern & Poise",
+    "session": "Pattern & Poise",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/bisi-835.webp",
@@ -2227,8 +2290,8 @@
     "sample": false
   },
   {
-    "title": "Bisi",
-    "session": "Bisi",
+    "title": "Pattern & Poise",
+    "session": "Pattern & Poise",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/bisi-145.webp",
@@ -2241,8 +2304,8 @@
     "sample": false
   },
   {
-    "title": "Bisi",
-    "session": "Bisi",
+    "title": "Pattern & Poise",
+    "session": "Pattern & Poise",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/bisi-146.webp",
@@ -2255,8 +2318,8 @@
     "sample": false
   },
   {
-    "title": "Bisi",
-    "session": "Bisi",
+    "title": "Pattern & Poise",
+    "session": "Pattern & Poise",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/bisi-165.webp",
@@ -2269,8 +2332,8 @@
     "sample": false
   },
   {
-    "title": "Dee",
-    "session": "Dee",
+    "title": "Golden Hour",
+    "session": "Golden Hour",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/dee-849.webp",
@@ -2283,8 +2346,8 @@
     "sample": false
   },
   {
-    "title": "Dee",
-    "session": "Dee",
+    "title": "Golden Hour",
+    "session": "Golden Hour",
     "category": "Portraits",
     "placement": "Portfolio",
     "src": "/images/uploads/dee-850.webp",
@@ -2297,8 +2360,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-675.webp",
@@ -2311,8 +2374,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-672.webp",
@@ -2325,8 +2388,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-673.webp",
@@ -2339,8 +2402,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-674.webp",
@@ -2353,8 +2416,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-676.webp",
@@ -2367,8 +2430,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-678.webp",
@@ -2381,8 +2444,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-680.webp",
@@ -2395,8 +2458,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-782.webp",
@@ -2409,8 +2472,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-783.webp",
@@ -2423,8 +2486,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-669.webp",
@@ -2437,8 +2500,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-670.webp",
@@ -2451,8 +2514,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-671.webp",
@@ -2465,8 +2528,8 @@
     "sample": false
   },
   {
-    "title": "Mof\u00e9 Editorial",
-    "session": "Mof\u00e9 Editorial",
+    "title": "Mofé Editorial",
+    "session": "Mofé Editorial",
     "category": "Personal projects",
     "placement": "Portfolio",
     "src": "/images/uploads/mof-editorial-781.webp",
@@ -2787,8 +2850,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-173.webp",
@@ -2801,8 +2864,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-174.webp",
@@ -2815,8 +2878,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-175.webp",
@@ -2829,8 +2892,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-178.webp",
@@ -2843,8 +2906,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-180.webp",
@@ -2857,8 +2920,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-182.webp",
@@ -2871,8 +2934,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-184.webp",
@@ -2885,8 +2948,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-186.webp",
@@ -2899,8 +2962,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-189.webp",
@@ -2913,8 +2976,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-193.webp",
@@ -2927,8 +2990,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-196.webp",
@@ -2941,8 +3004,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-206.webp",
@@ -2955,8 +3018,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-207.webp",
@@ -2969,8 +3032,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Celebration",
-    "session": "Traditional Celebration",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-celebration-204.webp",
@@ -2983,8 +3046,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Ceremony",
-    "session": "Traditional Ceremony",
+    "title": "Vows in Tradition",
+    "session": "Vows in Tradition",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-ceremony-845.webp",
@@ -2997,8 +3060,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Ceremony",
-    "session": "Traditional Ceremony",
+    "title": "Vows in Tradition",
+    "session": "Vows in Tradition",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-ceremony-226.webp",
@@ -3011,8 +3074,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Ceremony",
-    "session": "Traditional Ceremony",
+    "title": "Vows in Tradition",
+    "session": "Vows in Tradition",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-ceremony-846.webp",
@@ -3025,8 +3088,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Ceremony",
-    "session": "Traditional Ceremony",
+    "title": "Vows in Tradition",
+    "session": "Vows in Tradition",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-ceremony-228.webp",
@@ -3039,8 +3102,8 @@
     "sample": false
   },
   {
-    "title": "Traditional Ceremony",
-    "session": "Traditional Ceremony",
+    "title": "Vows in Tradition",
+    "session": "Vows in Tradition",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-ceremony-227.webp",
@@ -3053,8 +3116,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-20.webp",
@@ -3067,8 +3130,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-21.webp",
@@ -3081,8 +3144,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-26.webp",
@@ -3095,8 +3158,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-665.webp",
@@ -3109,8 +3172,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-666.webp",
@@ -3123,8 +3186,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-35.webp",
@@ -3137,8 +3200,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-27.webp",
@@ -3151,8 +3214,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-22.webp",
@@ -3165,8 +3228,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-25.webp",
@@ -3179,8 +3242,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-28.webp",
@@ -3193,8 +3256,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-33.webp",
@@ -3207,8 +3270,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-34.webp",
@@ -3221,8 +3284,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-831.webp",
@@ -3235,8 +3298,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-30.webp",
@@ -3249,8 +3312,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-29.webp",
@@ -3263,8 +3326,8 @@
     "sample": false
   },
   {
-    "title": "Gideon and Friends",
-    "session": "Gideon and Friends",
+    "title": "Gideon & Friends: Birthday Stories",
+    "session": "Gideon & Friends: Birthday Stories",
     "category": "Birthdays",
     "placement": "Portfolio",
     "src": "/images/uploads/gideon-and-friends-32.webp",
