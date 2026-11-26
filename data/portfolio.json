@@ -1659,120 +1659,6 @@
     "cover": false
   },
   {
-    "title": "Built to Conquer",
-    "category": "Sports",
-    "session": "Built to Conquer",
-    "placement": "Portfolio",
-    "src": "/images/uploads/built-to-conquer-01.webp",
-    "sample": false,
-    "crop": [
-      88,
-      42,
-      903,
-      1265
-    ],
-    "dimensions": [
-      1080,
-      1350
-    ],
-    "cover": false
-  },
-  {
-    "title": "Built to Conquer",
-    "category": "Sports",
-    "session": "Built to Conquer",
-    "placement": "Portfolio",
-    "src": "/images/uploads/built-to-conquer-02.webp",
-    "sample": false,
-    "cover": true,
-    "position": "50% 25%"
-  },
-  {
-    "title": "Built to Conquer",
-    "category": "Sports",
-    "session": "Built to Conquer",
-    "placement": "Portfolio",
-    "src": "/images/uploads/built-to-conquer-03.webp",
-    "sample": false,
-    "crop": [
-      24,
-      38,
-      673,
-      824
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
-    "title": "Built to Conquer",
-    "category": "Sports",
-    "session": "Built to Conquer",
-    "placement": "Portfolio",
-    "src": "/images/uploads/built-to-conquer-04.webp",
-    "sample": false,
-    "crop": [
-      2,
-      2,
-      716,
-      842
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
-    "title": "Built to Conquer",
-    "category": "Sports",
-    "session": "Built to Conquer",
-    "placement": "Portfolio",
-    "src": "/images/uploads/built-to-conquer-05.webp",
-    "sample": false,
-    "cover": false
-  },
-  {
-    "title": "Built to Conquer",
-    "category": "Sports",
-    "session": "Built to Conquer",
-    "placement": "Portfolio",
-    "src": "/images/uploads/built-to-conquer-06.webp",
-    "sample": false,
-    "crop": [
-      44,
-      73,
-      624,
-      781
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
-    "title": "Built to Conquer",
-    "category": "Sports",
-    "session": "Built to Conquer",
-    "placement": "Portfolio",
-    "src": "/images/uploads/built-to-conquer-07.webp",
-    "sample": false,
-    "crop": [
-      24,
-      20,
-      673,
-      860
-    ],
-    "dimensions": [
-      720,
-      900
-    ],
-    "cover": false
-  },
-  {
     "title": "The Grind",
     "category": "Sports",
     "session": "The Grind",
@@ -3046,22 +2932,8 @@
     "sample": false
   },
   {
-    "title": "Vows in Tradition",
-    "session": "Vows in Tradition",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-ceremony-845.webp",
-    "cover": true,
-    "position": "50% 25%",
-    "dimensions": [
-      1170,
-      1603
-    ],
-    "sample": false
-  },
-  {
-    "title": "Vows in Tradition",
-    "session": "Vows in Tradition",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-ceremony-226.webp",
@@ -3074,22 +2946,8 @@
     "sample": false
   },
   {
-    "title": "Vows in Tradition",
-    "session": "Vows in Tradition",
-    "category": "Weddings & Events",
-    "placement": "Portfolio",
-    "src": "/images/uploads/traditional-ceremony-846.webp",
-    "cover": false,
-    "position": "50% 25%",
-    "dimensions": [
-      1170,
-      1530
-    ],
-    "sample": false
-  },
-  {
-    "title": "Vows in Tradition",
-    "session": "Vows in Tradition",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-ceremony-228.webp",
@@ -3102,8 +2960,8 @@
     "sample": false
   },
   {
-    "title": "Vows in Tradition",
-    "session": "Vows in Tradition",
+    "title": "A Celebration of Heritage",
+    "session": "A Celebration of Heritage",
     "category": "Weddings & Events",
     "placement": "Portfolio",
     "src": "/images/uploads/traditional-ceremony-227.webp",
